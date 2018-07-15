@@ -555,37 +555,36 @@
 							</div>
 								<!-- /.col -->
 
-								<div class="col-12 col-lg-4">
-									<div class="press-miniature">
-										<div class="press-miniature__img">
-											<a href="#">
-												<img src="img/press-img.png" alt="Изображение новости" class="img-responsive"
-												srcset="img/press-img.png 1x, img/press-img@2x.png 2x">
-											</a>
-										</div>
-										<div class="press-miniature__content">
-											<h3 class="press-miniature__title">Длинный заголовок</h3>
-											<p class="press-miniature__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-											<div class="press-miniature__info">
-												<div class="row align-items-center justify-content-between">
-													<div class="col-auto">
-															<div class="press-miniature__date">24 июня 2018</div>
-													</div>
-													<div class="col-auto">
-														<div class="press-miniature__link">
-															<a href="#">подробнее</a>
-														</div>
+							<div class="col-12 col-lg-4">
+								<div class="press-miniature">
+									<div class="press-miniature__img">
+										<a href="#">
+											<img src="img/press-img.png" alt="Изображение новости" class="img-responsive"
+											srcset="img/press-img.png 1x, img/press-img@2x.png 2x">
+										</a>
+									</div>
+									<div class="press-miniature__content">
+										<h3 class="press-miniature__title">Длинный заголовок</h3>
+										<p class="press-miniature__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+										<div class="press-miniature__info">
+											<div class="row align-items-center justify-content-between">
+												<div class="col-auto">
+														<div class="press-miniature__date">24 июня 2018</div>
+												</div>
+												<div class="col-auto">
+													<div class="press-miniature__link">
+														<a href="#">подробнее</a>
 													</div>
 												</div>
 											</div>
-											<!-- /.press-miniature__info -->
 										</div>
-										<!-- /.press-miniature__content -->
+										<!-- /.press-miniature__info -->
 									</div>
-									<!-- /.press-miniature -->
+									<!-- /.press-miniature__content -->
 								</div>
-								<!-- /.col -->
-
+								<!-- /.press-miniature -->
+							</div>
+							<!-- /.col -->
 
 						</div>
 						<!-- /.row -->
@@ -596,6 +595,273 @@
 
 			</section>
 			<!-- press end -->
+
+
+
+			<!-- about -->
+			<section class="about">
+				<div class="container">
+
+					<h2 class="page-subtitle">О заводе</h2>
+
+					<div class="about__container">
+
+						<div class="row justify-content-center">
+
+							<div class="col-6 col-xl-4">
+								<div class="about__item">
+									<div class="row align-items-center no-gutters">
+										<div class="col-12 col-md-auto">
+											<div class="about__img">
+												<svg class="about__img-svg">
+													<use xlink:href="#svg-icon-1" />
+												</svg>
+											</div>
+										</div>
+										<div class="col-12 col-md">
+											<p class="about__item-text">Производство любым тиражем <span class="nowrap">(в т.ч. от 1 шт)</span></p>
+										</div>
+									</div>
+									<!-- /.row					 -->
+								</div>
+								<!-- /.about__item -->
+							</div>
+							<!--/ .col -->
+
+							<div class="col-6 col-xl-4">
+								<div class="about__item">
+									<div class="row align-items-center no-gutters">
+										<div class="col-12 col-md-auto">
+											<div class="about__img">
+												<svg class="about__img-svg">
+													<use xlink:href="#svg-icon-2" />
+												</svg>
+											</div>
+										</div>
+										<div class="col-12 col-md">
+											<p class="about__item-text">Сертификация РМРС, РРР, ТРТС, ВП, ГОСТ-Р, ISO 9001</p>
+										</div>
+									</div>
+									<!-- /.row					 -->
+								</div>
+								<!-- /.about__item -->
+							</div>
+							<!--/ .col -->
+
+							<div class="col-6 col-xl-4">
+								<div class="about__item">
+									<div class="row align-items-center no-gutters">
+										<div class="col-12 col-md-auto">
+											<div class="about__img">
+												<svg class="about__img-svg">
+													<use xlink:href="#svg-icon-3" />
+												</svg>
+											</div>
+										</div>
+										<div class="col-12 col-md">
+											<p class="about__item-text">Экспресс-доставка <span class="nowrap">по всей России</span></p>
+										</div>
+									</div>
+									<!-- /.row					 -->
+								</div>
+								<!-- /.about__item -->
+							</div>
+							<!--/ .col -->
+
+							<div class="col-6 col-xl-4">
+								<div class="about__item">
+									<div class="row align-items-center no-gutters">
+										<div class="col-12 col-md-auto">
+											<div class="about__img">
+												<svg class="about__img-svg">
+													<use xlink:href="#svg-icon-4" />
+												</svg>
+											</div>
+										</div>
+										<div class="col-12 col-md">
+											<p class="about__item-text">Работаем быстро и <span class="nowrap">точно в срок</span></p>
+										</div>
+									</div>
+									<!-- /.row					 -->
+								</div>
+								<!-- /.about__item -->
+							</div>
+							<!--/ .col -->
+
+							<div class="col-6 col-xl-4">
+								<div class="about__item">
+									<div class="row align-items-center no-gutters">
+										<div class="col-12 col-md-auto">
+											<div class="about__img">
+												<svg class="about__img-svg">
+													<use xlink:href="#svg-icon-5" />
+												</svg>
+											</div>
+										</div>
+										<div class="col-12 col-md">
+											<p class="about__item-text">Даем гарантию на всю продукцию</p>
+										</div>
+									</div>
+									<!-- /.row					 -->
+								</div>
+								<!-- /.about__item -->
+							</div>
+							<!--/ .col -->
+
+							<div class="col-6 col-xl-4">
+								<div class="about__item">
+									<div class="row align-items-center no-gutters">
+										<div class="col-12 col-md-auto">
+											<div class="about__img">
+												<svg class="about__img-svg">
+													<use xlink:href="#svg-icon-6" />
+												</svg>
+											</div>
+										</div>
+										<div class="col-12 col-md">
+											<p class="about__item-text">Квалифицированные консультанты</p>
+										</div>
+									</div>
+									<!-- /.row					 -->
+								</div>
+								<!-- /.about__item -->
+							</div>
+							<!--/ .col -->
+
+							<div class="col-6 col-xl-4">
+								<div class="about__item">
+									<div class="row align-items-center no-gutters">
+										<div class="col-12 col-md-auto">
+											<div class="about__img">
+												<svg class="about__img-svg">
+													<use xlink:href="#svg-icon-7" />
+												</svg>
+											</div>
+										</div>
+										<div class="col-12 col-md">
+											<p class="about__item-text">Разрабатываем и создаем нестандартные детали</p>
+										</div>
+									</div>
+									<!-- /.row					 -->
+								</div>
+								<!-- /.about__item -->
+							</div>
+							<!--/ .col -->
+
+							<div class="col-6 col-xl-4">
+								<div class="about__item">
+									<div class="row align-items-center no-gutters">
+											<div class="col-12 col-md-auto">
+											<div class="about__img">
+												<svg class="about__img-svg">
+													<use xlink:href="#svg-icon-8" />
+												</svg>
+											</div>
+										</div>
+										<div class="col-12 col-md">
+											<p class="about__item-text">Собственные каталоги продукции</p>
+										</div>
+									</div>
+									<!-- /.row					 -->
+								</div>
+								<!-- /.about__item -->
+							</div>
+							<!--/ .col -->
+
+							<div class="col-6 col-xl-4">
+								<div class="about__item">
+									<div class="row align-items-center no-gutters">
+										<div class="col-12 col-md-auto">
+											<div class="about__img">
+												<div class="about__text-icon">30+</div>
+											</div>
+										</div>
+										<div class="col-12 col-md">
+											<p class="about__item-text">Более 30 постоянных клиентов</p>
+										</div>
+									</div>
+									<!-- /.row					 -->
+								</div>
+								<!-- /.about__item -->
+							</div>
+							<!--/ .col -->
+
+						</div>
+						<!-- /.row -->
+
+					</div>
+					<!-- /.about__container -->
+
+
+				</div>
+				<!-- /.container -->
+			</section>
+			<!-- about end -->
+
+
+
+			<div class="content-block">
+				<div class="container">
+					<p class="content-text">Какой-то большой текст для SEO про компанию с ключевыми словами. Какой-то большой текст для SEO про компанию с ключевыми словами. Какой-то большой текст для SEO про компанию с ключевыми словами. Какой-то большой текст для SEO про компанию с ключевыми словами. Какой-то большой текст для SEO про компанию с ключевыми словами. Какой-то большой текст для SEO про компанию с ключевыми словами. Какой-то большой текст для SEO про компанию с ключевыми словами. Какой-то большой текст для SEO про компанию с ключевыми словами. Какой-то большой текст для SEO про компанию с ключевыми словами. Какой-то большой текст для SEO про компанию с ключевыми словами. Какой-то большой текст для SEO про компанию с ключевыми словами. Какой-то большой текст для SEO про компанию с ключевыми словами. Какой-то большой текст для SEO про компанию с ключевыми словами. Какой-то большой текст для SEO про компанию с ключевыми словами. Какой-то большой текст для SEO про компанию с ключевыми словами. Какой-то большой текст для SEO про компанию с ключевыми словами. Какой-то большой текст для SEO про компанию с ключевыми словами. Какой-то большой текст для SEO про компанию с ключевыми словами.</p>
+				</div>
+			</div>
+
+
+			<!-- clients -->
+			<section class="clients">
+
+				<div class="container">
+
+					<h2 class="page-subtitle">Наши заказчики</h2>
+
+					<div class="clients-slider">
+
+						<div class="clients__slide">
+							<div class="clients__item">
+								<div class="clients__logo">
+										<img src="img/clients/client1.png" alt="Логотип коиента" class="img-responsive"
+										srcset="img/clients/client1.png 1x, img/clients/client1@2x.png 2x">
+								</div>
+							</div>
+						</div>
+
+						<div class="clients__slide">
+							<div class="clients__item">
+								<div class="clients__logo">
+										<img src="img/clients/client2.png" alt="Логотип коиента" class="img-responsive"
+										srcset="img/clients/client2.png 1x, img/clients/client2@2x.png 2x">
+								</div>
+							</div>
+						</div>
+
+						<div class="clients__slide">
+							<div class="clients__item">
+								<div class="clients__logo">
+										<img src="img/clients/client3.png" alt="Логотип коиента" class="img-responsive"
+										srcset="img/clients/client3.png 1x, img/clients/client3@2x.png 2x">
+								</div>
+							</div>
+						</div>
+
+						<div class="clients__slide">
+							<div class="clients__item">
+								<div class="clients__logo">
+										<img src="img/clients/client2.png" alt="Логотип коиента" class="img-responsive"
+										srcset="img/clients/client2.png 1x, img/clients/client2@2x.png 2x">
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<!-- /.js-slider -->
+
+				</div>
+				<!-- /.container -->
+
+			</section>
+			<!-- clients end -->
+
+			
 
 
 
@@ -610,6 +876,9 @@
 
 	</div>
 	<!-- /.page-main -->
+
+	<!-- svg sprite -->
+	<?php include("img/about-icons/about-icons.svg");?>
 
 
 	
