@@ -486,6 +486,119 @@
 
 
 
+			<!-- press -->
+			<section class="press">
+				<div class="container">
+					<h2 class="page-subtitle">Пресс - центр</h2>
+					<div class="press__container">
+						<div class="row">
+
+							<div class="col-12 col-lg-4">
+								<div class="press-miniature">
+									<div class="press-miniature__img">
+										<a href="#">
+											<img src="img/press-img.png" alt="Изображение новости" class="img-responsive"
+											srcset="img/press-img.png 1x, img/press-img@2x.png 2x">
+										</a>
+									</div>
+									<div class="press-miniature__content">
+										<h3 class="press-miniature__title">Длинный заголовок с каким-то уточнением и артикулом</h3>
+										<p class="press-miniature__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+										<div class="press-miniature__info">
+											<div class="row align-items-center justify-content-between">
+												<div class="col-auto">
+														<div class="press-miniature__date">24 июня 2018</div>
+												</div>
+												<div class="col-auto">
+													<div class="press-miniature__link">
+														<a href="#">подробнее</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- /.press-miniature__info -->
+									</div>
+									<!-- /.press-miniature__content -->
+								</div>
+								<!-- /.press-miniature -->
+							</div>
+							<!-- /.col -->
+
+							<div class="col-12 col-lg-4">
+								<div class="press-miniature">
+									<div class="press-miniature__img">
+										<a href="#">
+											<img src="img/press-img.png" alt="Изображение новости" class="img-responsive"
+											srcset="img/press-img.png 1x, img/press-img@2x.png 2x">
+										</a>
+									</div>
+									<div class="press-miniature__content">
+										<h3 class="press-miniature__title">Длинный заголовок с каким-то уточнением</h3>
+										<p class="press-miniature__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+										<div class="press-miniature__info">
+											<div class="row align-items-center justify-content-between">
+												<div class="col-auto">
+														<div class="press-miniature__date">24 июня 2018</div>
+												</div>
+												<div class="col-auto">
+													<div class="press-miniature__link">
+														<a href="#">подробнее</a>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- /.press-miniature__info -->
+									</div>
+									<!-- /.press-miniature__content -->
+								</div>
+								<!-- /.press-miniature -->
+							</div>
+								<!-- /.col -->
+
+								<div class="col-12 col-lg-4">
+									<div class="press-miniature">
+										<div class="press-miniature__img">
+											<a href="#">
+												<img src="img/press-img.png" alt="Изображение новости" class="img-responsive"
+												srcset="img/press-img.png 1x, img/press-img@2x.png 2x">
+											</a>
+										</div>
+										<div class="press-miniature__content">
+											<h3 class="press-miniature__title">Длинный заголовок</h3>
+											<p class="press-miniature__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+											<div class="press-miniature__info">
+												<div class="row align-items-center justify-content-between">
+													<div class="col-auto">
+															<div class="press-miniature__date">24 июня 2018</div>
+													</div>
+													<div class="col-auto">
+														<div class="press-miniature__link">
+															<a href="#">подробнее</a>
+														</div>
+													</div>
+												</div>
+											</div>
+											<!-- /.press-miniature__info -->
+										</div>
+										<!-- /.press-miniature__content -->
+									</div>
+									<!-- /.press-miniature -->
+								</div>
+								<!-- /.col -->
+
+
+						</div>
+						<!-- /.row -->
+					</div>
+					<!-- /.press__container -->
+				</div>
+				<!-- /.container -->
+
+			</section>
+			<!-- press end -->
+
+
+
 
 
 		</main>

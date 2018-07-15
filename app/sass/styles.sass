@@ -196,6 +196,7 @@
 		position: fixed
 		top: 0
 		left: 0
+		z-index: 10
 		.logo
 			display: block
 
@@ -277,7 +278,7 @@
 
 .sitemap
 	padding: 30px 0
-	background-color: rgba(#fff, .9)
+	background-color: rgba(#fff, .95)
 	&__top
 		padding-bottom: 30px
 		border-bottom: 1px solid rgba(#707070, .2)
@@ -401,7 +402,7 @@
 			&::before
 				right: 3px
 				transition: $trs-all
-		a
+		a, span
 			display: inline-block
 			color: #727272
 			border-bottom: 1px dashed #727272
@@ -513,13 +514,6 @@
 		padding-left: 15px
 		margin-top: 0.8rem
 
-
-
-
-
-
-
-
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5),
 only screen and (min--moz-device-pixel-ratio: 1.5),
 only screen and (-o-min-device-pixel-ratio: 3/2),
@@ -527,7 +521,82 @@ only screen and (min-resolution: 1.5dppx),
 only screen and (min-resolution: 144dpi)
 	.form-section__block
 		background-image: url('../img/form-img@2x.png')
-		// background-size: 152px auto
+
+
+
+
+
+/* ------------------------------------- 
+	press
+	------------------------------------- */
+.press
+	padding: $margin1 0 calc(#{$margin1} - 33px)
+	&-miniature
+		margin-bottom: 33px
+		&__content
+			min-height: 200px
+			display: flex
+			flex-wrap: wrap
+			padding: 20px 25px 15px
+			color: #727272
+		&__img
+			display: flex
+			align-items: center
+			justify-content: center
+			overflow: hidden
+		&__title
+			font-size: 20px
+			line-height: 1.25
+			font-weight: 600
+		&__text
+			font-size: 18px
+			line-height: 1.25
+			letter-spacing: .01em
+		&__info
+			width: 100%
+			margin-top: auto
+		&__date, &__link
+			text-transform: uppercase
+		&__link
+			display: inline-block
+			padding-right: 15px
+			position: relative
+			&:hover
+				&::before
+					right: 3px
+					transition: $trs-all
+			a, span
+				display: inline-block
+				color: #727272
+				border-bottom: 1px dashed #727272
+				transition: $trs-all
+				&:hover
+					text-decoration: none
+					border-bottom-color: transparent
+					transition: $trs-all
+			&::before
+				content: ''
+				display: inline-block
+				width: 10px
+				height: 10px
+				margin: 0
+				border-bottom: 2px solid #999
+				border-right: 2px solid #999
+				position: absolute
+				right: 0
+				top: 50%
+				margin-top: -5.5px
+				transform: rotate(-45deg)
+
+
+
+
+
+
+
+
+
+
 
 
 
