@@ -1,0 +1,539 @@
+@import "vars"
+
+/* ------------------------------------- 
+	Font face 
+	------------------------------------- */
+@import "fonts"
+
+/* ------------------------------------- 
+	Reset 
+	------------------------------------- */
+@import "reset"
+
+
+
+/* ------------------------------------- 
+	Common styles 
+	------------------------------------- */
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+.nowrap
+	white-space: nowrap
+
+.text-center
+	text-align: center
+
+.ml-auto
+	margin-left: auto
+.mr-auto
+	margin-right: auto
+
+
+.container .container
+	padding: 0
+
+
+.checkbox 
+	cursor: pointer
+	vertical-align: top
+	font-size: 0
+	display: flex
+	align-items: center
+
+	.checkbox-hidden
+		display: none
+
+	.checkbox-wrap
+		display: inline-block
+		vertical-align: middle
+		width: 20px
+		height: 20px
+		flex: 0 0 20px
+
+	input:not(:checked)
+		+ .checkbox-wrap
+			.checkbox-pseudo
+				box-shadow: 0 1px 2px #ffc0ba
+				border-color: #ed8f8f
+
+	.checkbox-pseudo
+		display: block
+		width: 100%
+		height: 100%
+		border-radius: 50%
+		border: 1px solid #707070
+		box-sizing: border-box
+		position: relative
+		transition: background .2s ease-out,border .2s ease-out
+
+	.checkbox-check 
+		position: absolute
+		top: 1px
+		left: 1px
+		stroke: #fff
+		stroke-dasharray: 19px
+		stroke-dashoffset: 19px
+		transition: .2s ease-out
+
+	.checkbox-text
+		display: inline-block
+		vertical-align: middle
+		color: #707070
+		font-size: 18px
+		line-height: 24px
+		margin-left: 8px
+		a 
+			color: inherit
+			border-bottom: 1px dashed currentColor
+			&:hover
+				text-decoration: none
+				border-bottom-color: transparent
+				transition: $trs-all
+
+.checkbox 
+	input[type=checkbox]
+		&:checked
+			+ .checkbox-wrap
+				.checkbox-pseudo
+					.checkbox-check
+						stroke-dashoffset: 35px
+			
+.checkbox 
+	input[type=checkbox]
+		&:checked
+			+ .checkbox-wrap
+				.checkbox-pseudo
+					background-color: rgba(#fff, .1)
+
+.cd-checkbox
+	&:hover 
+		.checkbox-text
+			color: #199b40
+
+
+
+/* ----- titles ----- */
+.page-title 
+	font-size: 3.125rem
+	margin-bottom: 0
+	line-height: 1.3
+	font-weight: 300
+
+.page-subtitle
+	margin: 0 0 $margin2
+	font-size: 1.875rem
+	line-height: 1.2
+	font-weight: 400
+	color: #707070
+
+	
+.main-page
+	min-height: 3000px
+
+/* ------------------------------------- 
+	header 
+	------------------------------------- */
+.top-line
+	padding: 10px 0
+
+.logo
+	&__text
+		padding-left: 15px
+		line-height: 1.1
+		text-transform: uppercase
+		text-align: center
+	&__up-text
+		font-size: 28px
+		font-weight: 700
+	&__down-text
+		font-size: 27px
+		font-weight: 300
+
+.contacts
+	&__link
+		display: inline-block
+		font-size: 1.25rem
+		line-height: 1.2
+		color: $text-color
+		border-bottom: 1px dashed currentColor
+		transition: $trs-all
+		&:hover
+			color: darken($text-color, 7%)
+			text-decoration: none
+			border-bottom-color: transparent
+			transition: $trs-all
+
+.icon
+	display: inline-block
+	margin-right: 10px
+	background: url('../img/icons-set.png') no-repeat
+	z-index: 0
+	&__mail
+		width: 35px
+		height: 18px
+		background-position: 0 0
+	&__tel
+		width: 31px
+		height: 33px
+		background-position: -44px 0
+
+
+.nav
+	height: 3.75rem
+	position: relative
+	background: #2365D6
+	background-image: linear-gradient(65deg, #2365D6, #22B1F1)
+	.logo
+		display: none
+	.logo__img
+		img
+			max-height: 3.25rem
+	&.fixed
+		width: 100%
+		position: fixed
+		top: 0
+		left: 0
+		.logo
+			display: block
+
+.menu
+	margin: 0
+	padding-left: 0
+	list-style: none
+
+.main-menu
+	display: flex
+	justify-content: flex-end
+	font-size: 1.25rem
+	&__item
+		margin-left: 1.2em // 24px
+		&:first-child
+			margin-left: 0
+		&:hover
+			> .hidden-menu
+				visibility: visible
+				transform: scale(1)
+	&__link
+		display: block
+		padding: .938rem 0
+		font-weight: 600
+		color: #fff
+		position: relative
+		&::before
+			content: ''
+			display: block
+			width: 100%
+			height: .2em
+			position: absolute
+			left: 0
+			bottom: 0
+			background: currentColor
+			z-index: 0
+			transform: scale(0)
+			transition: $trs-all
+		&:hover
+			text-decoration: none
+			color: #fff
+			&::before
+				transform: scale(1)
+				transition: $trs-all
+
+
+.sub-menu
+	display: flex
+	align-items: center
+	font-size: 1.125rem
+	&__item
+		margin-right: 1.44em // 26px
+		padding: 1.032rem 0
+		&:last-child
+			margin-right: 0
+	&__link
+		display: block
+		color: $text-color
+		border-bottom: 1px dashed transparent
+		transition: $trs-all
+		&:hover
+			text-decoration: none
+			color: darken($text-color, 10%)
+			border-bottom-color: currentColor
+			transition: $trs-all
+
+
+.hidden-menu
+	visibility: hidden
+	transform: scale(0)
+	transform-origin: 50% 0
+	width: 100%
+	position: absolute
+	top: 3.75rem
+	left: 0
+	transition: $trs-all
+	&--gray
+		background-color: rgba(#CCCBCB, .2)
+
+.sitemap
+	padding: 30px 0
+	background-color: rgba(#fff, .9)
+	&__top
+		padding-bottom: 30px
+		border-bottom: 1px solid rgba(#707070, .2)
+	&__bottom
+		padding-top: 30px
+	&__links-title, &__link
+		font-size: 1.125rem
+		line-height: 1.66
+		color: $text-color
+	&__links-title
+		font-weight: 600
+	&__link
+		&:hover
+			color: darken($text-color, 10%)
+			text-shadow: -1px -1px 1px rgba(#000,.1)
+
+
+.toggle-btn
+	width: 25px
+	display: flex
+	align-items: center
+	div
+		position: relative
+	div, div::before, div::after
+		width: 100%
+		height: 2px
+		background-color: #fff
+		transition: $trs-all
+		backface-visibility: hidden
+		border-radius: 2px
+	div::before, div::after
+		content: ""
+		position: absolute
+		right: 0px
+	div::before
+		top: -9px
+	div::after
+		top: 9px
+	&:hover
+		cursor: pointer
+		div, div::before, div::after
+			box-shadow: 0 2px 5px rgba(#F9F5F5, .82)
+			
+/* on activation */
+.toggle-btn.on div 
+	background-color: transparent
+	box-shadow: none
+
+.toggle-btn.on div:before 
+	transform: rotate(45deg) translate(5px, 5px)
+
+.toggle-btn.on div:after 
+	transform: rotate(-45deg) translate(7px, -8px)
+
+.header-btn
+	display: none
+
+.sitemap-btn
+	margin-left: 27px
+	&.on
+		+ .sitemap
+			visibility: visible
+			transform: scale(1)
+
+
+
+/* ------------------------------------- 
+	content 
+	------------------------------------- */
+.page-banner
+	padding: 6.25rem 0 7.5rem
+	background-color: #CCCBCB
+	background-position: 100% 100%
+	background-size: cover
+
+.main-page__title
+	padding-right: 50%	
+	text-transform: uppercase
+
+
+/* ------------------------------------- 
+	categories 
+	------------------------------------- */
+.categories
+	padding: $margin1 0 calc(#{$margin1} - 33px)
+	&__item
+		display: flex
+		flex-direction: column
+		align-items: flex-start
+		height: 250px
+		margin-bottom: 33px
+		position: relative
+		padding: $margin2
+		background-color: #C7C7C7
+		background-image: linear-gradient(90deg, #C7C7C7, #EEEAEA, #EDE9E9)
+		border-radius: 3px
+	&__name
+		padding-right: 20%
+		font-size: 1.5625rem
+		line-height: 1.2
+		color: #2A2A2B
+	&__img
+		max-width: 230px
+		display: flex
+		align-items: center
+		justify-content: center
+		padding: 15px
+		position: absolute
+		bottom: 10px
+		right: 15px
+		&.bottom-0
+			bottom: 0
+	&__link
+		margin-top: auto
+		position: relative
+		display: inline-block
+		padding-right: 20px
+		font-size: 1.25rem
+		line-height: 1.2
+		&:hover
+			&::before
+				right: 3px
+				transition: $trs-all
+		a
+			display: inline-block
+			color: #727272
+			border-bottom: 1px dashed #727272
+			transition: $trs-all
+			&:hover
+				text-decoration: none
+				border-bottom-color: transparent
+				transition: $trs-all
+		&::before
+			content: ''
+			display: inline-block
+			width: 10px
+			height: 10px
+			margin: 0
+			border-bottom: 1px solid #22AAF1
+			border-right: 1px solid #22AAF1
+			position: absolute
+			right: 0
+			top: 50%
+			margin-top: -5px
+			transform: rotate(-45deg)
+		
+
+
+/* ------------------------------------- 
+	form-section 
+	------------------------------------- */
+.form-section
+	background-color: #F7F7F7
+	&__block
+		padding: 1.25rem 0
+		position: relative
+		background: url('../img/form-img.png') no-repeat 62px 100%
+		background-size: 152px auto
+	&__title
+		margin-bottom: .25em
+		font-size: 1.875rem
+		line-height: 1.2
+		font-weight: 400
+		color: #2A2A2B
+	&__text
+		margin-bottom: 0
+		font-size: 1.125rem
+		color: #949191
+
+.form
+	margin-top: 0.8rem
+	&__label
+		position: relative
+	&-input
+		width: 100%
+		padding: 13px 37px 
+		font-family: $main-font
+		border: none
+		background-color: #fff
+		transition: $trs-all
+		&:focus
+			outline: none
+			box-shadow: 0 0 10px rgba(#000, .1)
+			transition: $trs-all
+	&-btn
+		padding: .5em 3.5em
+		border-radius: 25px
+		color: #fff
+		font-weight: 600
+		border: none
+		cursor: pointer
+		transition: $trs-all
+		&:hover
+			background-color: darken(#239EEB, 10%)
+			transition: $trs-all
+		&:focus
+			outline: none
+			box-shadow: 0 0 10px #239EEB
+			transition: $trs-all
+		&:active
+			transform: translateX(-2px)
+			transition: $trs-all
+	&-desktop
+		&__input
+			height: 50px
+			padding-right: 240px
+			font-size: 18px
+			border-radius: 25px
+		&__btn
+			min-width: 230px
+			height: 50px
+			font-size: 18px
+			background-color: #239EEB
+			position: absolute
+			top: 0
+			right: 0
+
+	&-mobile
+		display: none
+		&__label
+			margin-bottom: 15px
+		&__input
+			height: 40px
+			font-size: 14px
+			border-radius: 3px
+		&__btn
+			height: 40px
+			margin-top: 10px
+			font-size: 16px
+			background-color: #22AAF1
+
+	.checkbox
+		padding-left: 15px
+		margin-top: 0.8rem
+
+
+
+
+
+
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-resolution: 1.5dppx),
+only screen and (min-resolution: 144dpi)
+	.form-section__block
+		background-image: url('../img/form-img@2x.png')
+		// background-size: 152px auto
+
+
+
+
+
+/* ------------------------------------- 
+	Media styles 
+	------------------------------------- */
+@import "media"
