@@ -1,0 +1,79 @@
+.footer
+	padding: $margin1 0 $margin2
+	background-color: #F7F7F7
+
+	.sitemap
+		padding: 0
+		&__bottom
+			padding-bottom: 30px
+			border-bottom: 1px solid rgba(#707070, .2)
+
+
+	&__info
+		margin: 0
+		padding-top: 30px
+		font-size: 1.125rem
+		line-height: 1.4
+		a
+			color: inherit
+			border-bottom: 1px dashed transparent
+			transition: $trs-all
+			&:hover
+				text-decoration: none
+				border-bottom-color: currentColor
+				transition: $trs-all
+	
+	&__bottom
+		margin-top: 2.5rem
+	
+	&__logo
+		width: 90px
+		height: 90px
+		margin-right: 50px
+		overflow: hidden
+		display: flex
+		align-items: center
+		justify-content: center
+		border-radius: 50%
+		background-color: #fff
+		transition: $trs-all
+		&.mr-0
+			margin-right: 0
+		&:hover
+			box-shadow: 0 0 15px rgba(#000, .25)
+			transition: $trs-all
+
+
+/* ------------------------------------- 
+	footer media styles
+	------------------------------------- */
+@media only screen and (max-width : 1199px)
+
+	.footer
+		&__logo
+			margin-right: 30px
+
+	/**/
+
+@media only screen and (max-width : 991px)
+
+	.footer
+		&__info
+			font-size: 1rem
+
+	/**/
+
+@media only screen and (max-width : 767px)
+
+	.footer
+		&__info
+			font-size: 0.875rem
+		&__bottom
+			margin-top: 30px
+		&__logo
+			width: 60px
+			height: 60px
+			margin-right: 15px
+
+	/**/
+

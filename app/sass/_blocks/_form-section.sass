@@ -1,0 +1,123 @@
+.form-section
+	background-color: #F7F7F7
+	&__block
+		padding: 1.25rem 0
+		position: relative
+		background: url('../img/form-img.png') no-repeat 62px 100%
+		background-size: 152px auto
+	&__title
+		margin-bottom: .25em
+		font-size: 1.875rem
+		line-height: 1.2
+		font-weight: 400
+		color: #2A2A2B
+	&__text
+		margin-bottom: 0
+		font-size: 1.125rem
+		color: #949191
+
+.form
+	margin-top: 0.8rem
+	&__label
+		position: relative
+	&-input
+		width: 100%
+		padding: 13px 37px 
+		font-family: $main-font
+		border: none
+		background-color: #fff
+		transition: $trs-all
+		&:focus
+			outline: none
+			box-shadow: 0 0 10px rgba(#000, .1)
+			transition: $trs-all
+	&-btn
+		padding: .5em 3.5em
+		border-radius: 25px
+		color: #fff
+		font-weight: 600
+		border: none
+		cursor: pointer
+		transition: $trs-all
+		&:hover
+			background-color: darken(#239EEB, 10%)
+			transition: $trs-all
+		&:focus
+			outline: none
+			box-shadow: 0 0 10px #239EEB
+			transition: $trs-all
+		&:active
+			transform: translateX(-2px)
+			transition: $trs-all
+	&-desktop
+		&__input
+			height: 50px
+			padding-right: 240px
+			font-size: 18px
+			border-radius: 25px
+		&__btn
+			min-width: 230px
+			height: 50px
+			font-size: 18px
+			background-color: #239EEB
+			position: absolute
+			top: 0
+			right: 0
+
+	&-mobile
+		display: none
+		&__label
+			margin-bottom: 15px
+		&__input
+			height: 40px
+			font-size: 14px
+			border-radius: 3px
+		&__btn
+			height: 40px
+			margin-top: 10px
+			font-size: 16px
+			background-color: #22AAF1
+
+	.checkbox
+		padding-left: 15px
+		margin-top: 0.8rem
+
+
+/* ------------------------------------- 
+	form-section media styles
+	------------------------------------- */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min-resolution: 1.5dppx),
+only screen and (min-resolution: 144dpi)
+	.form-section__block
+		background-image: url('../img/form-img@2x.png')
+
+
+@media only screen and (max-width : 1199px)
+
+	.form-section 
+		&__block
+			background: none	
+
+/**/
+
+
+
+@media only screen and (max-width : 767px)
+
+	.form-desktop, .form-section__text
+		display: none
+	.form-mobile
+		display: block
+	.form-section 
+		&__title
+			font-size: 1.25rem
+			text-align: center
+	.form .checkbox
+		align-items: flex-start
+		padding-right: 0
+
+	/**/
