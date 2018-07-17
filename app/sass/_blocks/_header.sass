@@ -1,5 +1,10 @@
+.header
+	position: relative
+	z-index: 2
+
 .top-line
 	padding: 10px 0
+	background-color: #fff
 
 .logo
 	&__text
@@ -35,8 +40,23 @@
 	&__link-mobile
 		font-size: 1rem
 		color: #fff
+		position: relative
 		&:hover
 			color: #fff
+
+.arrow-right
+	display: inline-block
+	width: 10px
+	height: 10px
+	margin: 0
+	border-bottom: 2px solid #fff
+	border-right: 2px solid #fff
+	position: absolute
+	right: 15px
+	top: 50%
+	margin-top: -5.5px
+	transform: rotate(-45deg)
+	transition: $trs-all
 
 .icon
 	display: inline-block
@@ -87,7 +107,7 @@
 
 
 .desktop-nav
-	height: 3.75rem
+	height: 3.5rem
 	position: relative
 	background: #2365D6
 	background-image: linear-gradient(65deg, #2365D6, #22B1F1)
@@ -121,7 +141,7 @@
 	&__close
 		position: absolute
 		top: 50%
-		right: 10px
+		right: 15px
 		width: 14px
 		height: 14px
 		margin-top: -7px
@@ -151,7 +171,7 @@
 .main-menu
 	display: flex
 	justify-content: flex-end
-	font-size: 1.25rem
+	font-size: 1.125rem
 	&__item
 		margin-left: 1.2em // 24px
 		&:first-child
@@ -162,7 +182,7 @@
 				transform: scale(1)
 	&__link
 		display: block
-		padding: .938rem 0
+		padding: 0.806em 0
 		font-weight: 600
 		color: #fff
 		position: relative
@@ -189,9 +209,10 @@
 .sub-menu
 	display: flex
 	align-items: center
-	font-size: 1.125rem
+	justify-content: flex-end
+	font-size: 1rem
 	&__item
-		margin-right: 1.44em // 26px
+		margin-left: 1.44em // 26px
 		padding: 1.032rem 0
 		&:last-child
 			margin-right: 0
@@ -213,13 +234,13 @@
 	transform-origin: 50% 0
 	width: 100%
 	position: absolute
-	top: 3.75rem
+	top: 3.5rem
 	left: 0
-	background-color: rgba(#fff, .95)
+	background-color: rgba(#fff, .9)
 	transition: $trs-all
 	z-index: 2
-	&--gray
-		background-color: #CCCBCB
+	// &--gray
+	// 	background-color: #CCCBCB
 
 
 /* ----- sitemap ----- */
@@ -231,7 +252,7 @@
 	&__bottom
 		padding-top: 30px
 	&__links-title, &__link
-		font-size: 1.125rem
+		font-size: 1rem
 		line-height: 1.66
 		color: $text-color
 	&__links-title
@@ -290,6 +311,45 @@
 			transform: scale(1)
 
 
+.form-mobile-popup
+	display: none
+	padding: 10px 20px 20px
+	background-color: #fff	
+
+.form-mobile.form-mobile-popup
+	margin-top: 0
+	.form-section__title
+		margin-bottom: .5em
+	.form-mobile__label
+		position: relative
+		&::before
+			content: ''
+			display: block
+			position: absolute
+			left: 10px
+			top: 50%
+			transform: translateY(-50%)
+			background-repeat:  no-repeat
+			background-image: url('../img/icons-set.png')
+			z-index: 0
+		&-1
+			&::before
+				width: 16px
+				height: 19px
+				background-position: -311px 0
+		&-2
+			&::before
+				width: 16px
+				height: 16px
+				background-position: -334px 0
+	.form-mobile__input
+		border: 1px solid #BEBEBE
+	.checkbox
+		padding-left: 0
+
+
+
+
 /* ------------------------------------- 
 	header media styles
 	------------------------------------- */
@@ -304,7 +364,6 @@
 		&__links
 			margin-bottom: 20px
 		&__links-title, &__link
-			font-size: 1rem
 			line-height: 1.2
 
 	/**/
@@ -314,8 +373,6 @@
 	.desktop-nav
 		display: flex
 		align-items: center
-	.main-menu
-		font-size: 1rem
 
 	/**/
 
@@ -350,10 +407,12 @@
 		.logo__text
 			color: #fff
 
-	.top-line__contacts
-		display: none
-		background: #2365D6
-		background-image: linear-gradient(65deg, #2365D6, #1BC1FF)
+	.top-line
+		background: none
+		&__contacts
+			display: none
+			background: #2365D6
+			background-image: linear-gradient(65deg, #2365D6, #1BC1FF)
 
 	.contacts__hidden-tel
 		position: absolute
@@ -385,7 +444,7 @@
 	.sitemap
 		padding: 15px 20px
 		&__column
-			padding: 7px 0
+			padding: 10px 0
 			border-top: 1px dashed #BEBEBE
 			&:last-child
 				border-top: 1px dashed #BEBEBE
@@ -429,6 +488,7 @@
 	.mobile-sitemap
 		.sitemap__links-title
 			margin-bottom: 10px
+			line-height: 2.2
 		.sitemap__links
 			padding: 0 15px 10px 30px
 			li

@@ -3,11 +3,17 @@
 
 $(function() {
 
+
+	function bodyOverlay(val) {
+		if(val) { $('.page').addClass('modal-active'); }
+		else { $('.page').removeClass('modal-active'); }
+	}
 	
 	
 	// закрывание карты сайта в меню при наведении на одну и ссылок меню во избежание наложения
 	$('.main-menu__link').mouseenter(function(){
 		$('.sitemap-btn').removeClass('on');
+		bodyOverlay(false);
 	});
 	
 	// закрывание карты сайта в меню по клику за ее пределами
@@ -16,12 +22,19 @@ $(function() {
 		var toggleBtn = $(".sitemap-btn");
 		if ( (!div.is(e.target) && div.has(e.target).length === 0 && !toggleBtn.is(e.target)  && toggleBtn.has(e.target).length === 0) ) {
 			$('.sitemap-btn').removeClass('on');
+			if( $(window).width() > 767 ) bodyOverlay(false);
 		}
 	});
 	
 	// открывание и закрытие карты сайта в меню по клику на кнопку-"гамбургер"
 	$('.sitemap-btn').click(function(){
-		$(this).toggleClass('on');
+		if( $(this).hasClass('on') ) {
+			$(this).removeClass('on');
+			bodyOverlay(false);
+		} else {
+			$(this).addClass('on');
+			bodyOverlay(true);
+		}
 	});
 
 
@@ -44,7 +57,7 @@ $(function() {
 	// инициализация слайдера с логотипами клиентов на главной странице
 	$('.clients-slider').slick({
 		infinite: true,
-		autoplay: true,
+		// autoplay: true,
 		slidesToShow: 3,
 		responsive: [
 			{
@@ -65,9 +78,11 @@ $(function() {
 
 	$('.header-btn').click(function() {
 		$('.header').addClass('mob-menu');
+		bodyOverlay(true);
 	});
 	$('.mobile-nav__close').click(function() {
 		$('.header').removeClass('mob-menu');
+		bodyOverlay(false);
 	});
 
 	$('.sitemap__links-title').click(function() {
@@ -86,13 +101,60 @@ $(function() {
 
 
 
+	// modal call
+
+	$('.modal-call').magnificPopup({
+		items: {
+			src: '#popupCallback',
+			type: 'inline'
+		}
+	  });
+
+
+	  $('.mob-modal-call').click(function() {
+		$('.header').removeClass('mob-menu');
+		$('.form-mobile-popup').show();
+	  });
+
+	  $(document).mouseup(function (e){
+		if( $(window).width() < 768 ) {
+			var div = $(".header");
+			if ( (!div.is(e.target) && div.has(e.target).length === 0)) {
+				$('.form-mobile-popup').hide();
+				bodyOverlay(false);
+			}
+		}
+	});
 
 
 
 
+	  // тестовый вызов модального окна благодарности
+	  $('.callbackForm form').submit(function(event ) {
+		  
+		$.magnificPopup.open({
+			items: {
+			  src: '#popupCallbackThanks'
+			},
+			type: 'inline'
+		  });
 
+		event.preventDefault();
 
+	  });
 
+	  $('.form-mobile-popup form').submit(function(event ) {
+		  
+		$.magnificPopup.open({
+			items: {
+			  src: '#popupCallbackThanks'
+			},
+			type: 'inline'
+		  });
+
+		event.preventDefault();
+
+	  });
 
 
 

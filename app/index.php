@@ -34,12 +34,14 @@
 
 <body>
 
-	<div class="main-page">
+	<div class="page main-page">
 
 
 		<!-- header -->
-		<?php include("header.php");?>
+		<?php include("blocks/header.php");?>
 		<!-- header -->
+
+		<div class="overlay"></div>
 
 
 
@@ -154,7 +156,7 @@
 
 
 			<!-- form-section -->
-			<?php include("form-section.php");?>
+			<?php include("blocks/form-section.php");?>
 			<!-- form-section end -->
 
 
@@ -519,8 +521,8 @@
 						<div class="clients__slide">
 							<div class="clients__item">
 								<div class="clients__logo">
-										<img src="img/clients/client2.png" alt="Логотип коиента" class="img-responsive"
-										srcset="img/clients/client2.png 1x, img/clients/client2@2x.png 2x">
+										<img src="img/clients/client4.png" alt="Логотип коиента" class="img-responsive"
+										srcset="img/clients/client4.png 1x, img/clients/client4@2x.png 2x">
 								</div>
 							</div>
 						</div>
@@ -541,12 +543,15 @@
 
 
 		<!-- footer -->
-		<?php include("footer.php");?>
+		<?php include("blocks/footer.php");?>
 		<!-- /.footer -->
+
+
 
 
 	</div>
 	<!-- /.page-main -->
+
 
 	<!-- svg sprite -->
 	<div class="svg-sprite">
@@ -554,7 +559,17 @@
 	</div>
 
 
-	
+
+	<!-- popup callback begin -->
+	<?php include("blocks/modal-callback.php");?>
+	<!-- popup callback end -->
+
+	<!-- popup thanks begin -->
+	<?php include("blocks/modal-thanks.php");?>
+	<!-- popup thanks end -->
+
+
+		
 
 
 

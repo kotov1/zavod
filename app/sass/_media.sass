@@ -10,11 +10,10 @@
 	.press
 		&-miniature
 			&__content
-				padding: 15px 0
+				margin: 0
+				padding: 15px 10px
 			&__title
 				font-size: 18px
-			&__text
-				font-size: 16px
 			&__date, &__link
 				font-size: 12px
 
@@ -26,7 +25,6 @@
 	.about
 		&__item
 			&-text
-				font-size: 16px
 				padding-right: 0
 
 
@@ -71,9 +69,11 @@
 		------------------------------------- */
 	.press
 		&-miniature
+			border: 1px solid #BEBEBE
 			&__content
 				padding-top: 30px
 				min-height: 1px
+				border: none
 
 
 
@@ -116,6 +116,7 @@
 		padding-right: 0
 
 
+
 	/* ------------------------------------- 
 		categories 
 		------------------------------------- */
@@ -139,8 +140,13 @@
 
 
 
-	.content-text
-		font-size: 1rem
+	/* ------------------------------------- 
+		press
+		------------------------------------- */
+	.press
+		&-miniature
+			&__content
+				margin: 0
 
 
 
@@ -151,6 +157,11 @@
 	.about
 		&__img
 			margin: 0 auto
+			width: 55px
+			height: 55px
+			padding: 10px
+		&__text-icon
+			font-size: 24px
 		&__item-text
 			margin-top: 20px
 			padding-left: 0

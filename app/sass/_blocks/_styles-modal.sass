@@ -1,0 +1,215 @@
+.footer-modal
+	background: red
+	min-height: 200px
+
+
+/*GLOBAL STYLE FOR FORM BEGIN*/
+
+.callbackForm
+	color: #BEBEBE
+	max-width: 378px
+	margin: 0 auto
+
+	input:not([type="checkbox"])
+		width: 100%
+		display: block
+		font-size: 14px
+		border: 1px solid #EEEEEE
+		border-radius: 4px
+		padding: 10px 14px
+		&::placeholder
+			font-size: 12px
+	label
+		color: #727272
+		font-size: .875rem
+		margin-bottom: 5px
+
+	.checkbox-text
+		font-size: 14px
+
+	&__inputItem_submit
+		text-align: center
+	input[type="submit"]
+		display: inline-block
+		width: auto
+		background: #239EEB
+		color: #fff
+		font-size: 1.125rem
+		border-radius: 20px
+		padding: 6px 40px
+		margin-top: 20px
+		cursor: pointer
+		&:focus
+			outline: none
+
+/*GLOBAL STYLE FOR FORM END*/
+
+
+/*MODAL CALLBACK-THANK BEGIN*/
+.modalCallback
+	max-width: 720px
+	margin: 0 auto
+	&__container
+		background: #fff
+	&__containerInner
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		justify-content: space-between
+		position: relative
+		.imgWrap
+			overflow: hidden
+			display: -webkit-flex
+			display: -moz-flex
+			display: -ms-flex
+			display: -o-flex
+			display: flex
+			justify-content: center
+			align-items: center
+			height: 100%
+	&__containerInnerRight
+		width: 444px
+		padding: 25px 25px 15px 25px
+	&__title
+		font-family: $main-font
+		font-size: 1.875rem
+		font-weight: 100
+		color: #727272
+		max-width: 378px
+		margin: 0 auto
+	&__containerInnerRight_thank
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		justify-content: center
+		align-items: center
+		.divider
+			background: #239EEB
+			height: 1px
+			margin: 11px auto 17px
+			max-width: 174px
+	&_thank
+		text-align: center
+	&__title_thank
+		padding-left: 0
+		color: #727272
+	&__descThank
+		color: #727272
+		line-height: 25px
+
+	.popup-thanks__img
+		width: 80px
+		height: 80px
+		margin: 0 auto 20px
+
+/*MODAL CALLBACK-THANK END*/
+
+
+/*MODAL QUIZ BEGIN*/
+.modalQuiz
+	.mfp-close.white
+		top: 17px
+		right: 16px
+		z-index: 3
+		&:before,
+		&:after
+			background: #fff
+	&__containerInner
+		flex-direction: column
+	&__containerInnerTop
+		height: 150px
+		overflow: hidden
+		background: #E4E4E4
+		position: relative
+	&__title
+		font-size: 30px
+		font-weight: normal
+		position: absolute
+		bottom: 0
+		padding-left: 36px
+	.quizForm
+		max-width: 676px
+		margin-top: 15px
+		margin-bottom: 10px
+		&__inputItem
+			flex: 0 0 46%
+			max-width: 46%
+			margin: 0 2%
+			label
+				margin-bottom: 0
+	&__field
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		justify-content: space-between
+		align-items: center
+		flex-wrap: wrap
+		position: static
+	.label
+		margin-bottom: 12px
+	&__fieldTitle
+		flex: 100%
+		max-width: 100%
+		margin-left: 14px
+		margin-bottom: 8px
+		margin-top: 8px
+		line-height: 1.2	
+		font-size: 1.25rem
+	&__submit
+		input[type="submit"]
+			margin-top: 0
+/*MODAL QUIZ END*/
+
+
+@media only screen and (max-width : 767px)
+
+	/*MODAL CALLBACK-THANK BEGIN*/
+	.modalCallback
+		max-width: 400px
+		&__containerInnerLeft
+			display: none
+	.modalCallback__descThank
+		br
+			display: none
+	.cls-modal-color-check
+		fill: #22AAF1 !important
+
+	/*MODAL CALLBACK-THANK END*/
+
+	/*MODAL QUIZ BEGIN*/
+	.modalQuiz
+		&__title
+			font-size: 26px
+			text-align: center
+			margin-left: 0
+			padding-left: 0
+		&__field
+			flex-direction: column
+		&__fieldTitle
+			margin-left: 0
+		.quizForm
+			&__inputItem
+				flex: 0 0 100%
+				max-width: 100%
+				width: 90%
+	/**/
+
+@media only screen and (max-width : 480px)
+
+	/*MODAL CALLBACK-THANK BEGIN*/
+	.modalCallback
+		&__containerInnerRight
+			padding: 25px 15px 15px 15px
+
+	/*MODAL QUIZ BEGIN*/
+	.modalQuiz
+		.label
+			margin-left: 15px
+
+	/**/

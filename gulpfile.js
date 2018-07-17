@@ -26,6 +26,7 @@ var gulp           = require('gulp'),
 gulp.task('js', function() {
 	return gulp.src([
 		'app/libs/slick-carousel/slick/slick.min.js',
+		'app/libs/magnific-popup/dist/jquery.magnific-popup.min.js',
 		'app/js/common.js'
 		])
 	.pipe(concat('scripts.js'))
@@ -86,6 +87,10 @@ gulp.task('build', ['removedist', 'imagemin', 'sass', 'js'], function() {
 	var buildFonts = gulp.src([
 		'app/fonts/**/*',
 		]).pipe(gulp.dest('dist/fonts'));
+
+	var buildBlocks = gulp.src([
+		'app/blocks/*.php',
+		]).pipe(gulp.dest('dist/blocks'));
 
 });
 
