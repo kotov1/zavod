@@ -70,9 +70,36 @@
 	margin-bottom: 10px
 
 
+/* ----- breadcrumbs ----- */
+.breadcrumbs
+	padding: 0
+	font-size: 1.125rem
+	>
+		span
+			display: inline-block
+			+ span:before
+				padding: 0 .11em
+				color: #fff
+				content: "/"
+			a
+				color: #fff
+				border-bottom: 1px dashed transparent
+				transition: $trs-all
+				&:hover
+					text-decoration: none
+					color: #fff
+					border-bottom-color: #fff
+					transition: $trs-all
 
 
+			&:last-child
+				a
+					text-decoration: none
+					cursor: default
+					border-bottom: none
 
+
+/* ----- checkbox ----- */
 .checkbox 
 	margin-bottom: 0
 	cursor: pointer
@@ -187,7 +214,6 @@
     outline: none
     background: transparent
 
-
 .slick-prev
 	left: 0
 	transform: translateY(-50%) rotate(135deg)
@@ -243,8 +269,7 @@
 	padding: $margin1 0 calc(#{$margin1} - 33px)
 	&__item
 		display: flex
-		flex-direction: column
-		align-items: flex-start
+		flex-wrap: wrap
 		height: 250px
 		margin-bottom: 33px
 		position: relative
@@ -303,8 +328,36 @@
 			margin-top: -5px
 			transform: rotate(-45deg)
 			transition: $trs-all
-		
 
+	&__list
+		margin-top: 20px
+		padding-left: 0
+		list-style: none
+		font-size: 1.125rem
+		color: #727272
+		li
+			display: flex
+			align-items: center
+			position: relative
+			&::before
+				content: ''
+				display: inline-block
+				width: 5px
+				height: 5px
+				margin-bottom: 3px
+				margin-right: 12px
+				background: #3399FF
+				border-radius: 50%
+				z-index: 0
+		
+.page-categories__block
+	margin-bottom: $margin1
+	.categories__item
+		margin-bottom: 0
+	.categories__name
+		padding-right: 50%
+	.categories__link
+		display: none
 
 /* ------------------------------------- 
 	form-section 
@@ -398,7 +451,6 @@
 	about
 	------------------------------------- */
 .about
-	padding: 0 0 $margin1
 	&__item
 		margin-bottom: 30px
 	&__img
@@ -438,6 +490,7 @@
 	content-text
 	------------------------------------- */
 .content-text
+	padding: $margin1 0
 	margin: 0
 	font-size: 1rem
 	line-height: 1.45
@@ -450,7 +503,7 @@
 	clients
 	------------------------------------- */
 .clients
-	padding: $margin1 0
+	padding: 0 0 $margin1
 	&-slider
 		padding: 0 100px
 	&__slide
