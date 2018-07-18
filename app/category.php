@@ -54,7 +54,7 @@
 			<section class="page-banner text-center" style="background-image: url('img/test2.jpg')">
 				<div class="container">
 					<h1 class="page-title page-title--white">Продукция завода</h1>
-					<div itemscope="" itemtype="http://schema.org/BreadcrumbList" class="breadcrumbs">
+					<div itemscope="" itemtype="http://schema.org/BreadcrumbList" class="breadcrumbs breadcrumbs--white">
 						<span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
 							<a rel="nofollow" itemprop="item" title="Главная" href="index.php">
 								<span itemprop="name">Главная</span>

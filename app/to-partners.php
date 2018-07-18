@@ -53,7 +53,7 @@
 			<!-- page-banner -->
 			<section class="page-banner text-center" style="background-image: url('img/test2.jpg')">
 				<div class="container">
-					<h1 class="page-title page-title--white">Партнерам</h1>
+					<h1 class="page-title">Партнерам</h1>
 					<div itemscope="" itemtype="http://schema.org/BreadcrumbList" class="breadcrumbs">
 						<span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
 							<a rel="nofollow" itemprop="item" title="Главная" href="index.php">
@@ -83,17 +83,17 @@
 						<div class="col-12 col-xl-8">
 
 							<div class="to-partners__block">
-								<h2 class="page-subtitle">Приглашаем к партнерству</h2>
+								<h2 class="page-subtitle to-partners__subtitle">Приглашаем к партнерству</h2>
 								<p class="to-partners__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, inventore quo. Exercitationem, laudantium? Voluptatum, pariatur nemo. Deserunt voluptas eum ullam, quisquam quia inventore magnam maiores vel! Corporis, labore nulla eum ex aperiam quae officiis? Officiis omnis mollitia atque facere! Quia, animi? Quam dolores quas vel corrupti eum praesentium, blanditiis non.</p>
 							</div>
 
 							<div class="to-partners__block">
-								<h2 class="page-subtitle">Преимущества партнеров</h2>
+								<h2 class="page-subtitle to-partners__subtitle">Преимущества партнеров</h2>
 								<p class="to-partners__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et culpa corporis debitis similique omnis quisquam eaque fuga quia sequi? Pariatur repellendus perferendis tenetur nulla asperiores incidunt voluptas possimus eos libero cupiditate. Fugit perferendis odit nam at libero modi vitae, quos necessitatibus? Rem laboriosam ratione, necessitatibus eos perspiciatis nulla, modi non pariatur ducimus accusantium corporis aspernatur quis deserunt beatae ullam magni labore temporibus. Quae accusantium odit quia nostrum beatae quaerat numquam incidunt ullam nemo, qui consectetur commodi nesciunt recusandae eum accusamus perspiciatis vero deserunt facere quam consequuntur ut dolor. Dignissimos esse quas nobis doloribus, ullam repellat voluptates assumenda at soluta praesentium.</p>
 							</div>
 
 							<div class="to-partners__block">
-								<h2 class="page-subtitle">Коммерческая политика</h2>
+								<h2 class="page-subtitle to-partners__subtitle">Коммерческая политика</h2>
 								<p class="to-partners__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tempore voluptas non. Quaerat debitis porro quam. Neque, natus eveniet iusto in doloribus, nulla quis nesciunt esse, laudantium corporis fugiat. Tempore facilis sit, possimus incidunt corrupti voluptatum nobis debitis delectus vel, quia officia veniam reprehenderit nesciunt earum quos. Ipsa quam vel reprehenderit omnis, optio fugit similique accusantium, distinctio, ex eius placeat repellat id aliquam consectetur quis voluptatibus dicta? Architecto modi repellat accusamus sapiente, nesciunt accusantium eaque nisi aut impedit assumenda adipisci.</p>
 							</div>
 

@@ -79,10 +79,10 @@
 			display: inline-block
 			+ span:before
 				padding: 0 .11em
-				color: #fff
+				color: #707070
 				content: "/"
 			a
-				color: #fff
+				color: #707070
 				text-shadow: 0 0 3px rgba(#000, .1)
 				border-bottom: 1px dashed transparent
 				transition: $trs-all
@@ -98,6 +98,12 @@
 					text-decoration: none
 					cursor: default
 					border-bottom: none
+	&--white
+		> span
+			+ span:before
+				color: #fff
+			a
+				color: #fff
 
 
 /* ----- checkbox ----- */
@@ -231,6 +237,7 @@
 	margin-bottom: 0
 	line-height: 1.2
 	font-weight: 300
+	color: #707070
 	&--white
 		color: #fff
 		text-shadow: 0 0 3px rgba(#000, .1)
@@ -447,6 +454,13 @@
 
 
 /* ------------------------------------- 
+	Media styles 
+	------------------------------------- */
+@import "media"
+
+
+
+/* ------------------------------------- 
 	categories 
 	------------------------------------- */
 @import "_pages/_categories"
@@ -470,6 +484,12 @@
 @import "_pages/_to-partners"
 
 
+/* ------------------------------------- 
+	privacy
+	------------------------------------- */
+@import "_pages/_privacy"
+
+
 
 
 
@@ -488,7 +508,3 @@
 
 
 
-/* ------------------------------------- 
-	Media styles 
-	------------------------------------- */
-@import "media"
