@@ -23,7 +23,7 @@
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
 
-	<title>Продукция завода</title>
+	<title>Категория</title>
 
 	<!-- bootstrap grid css -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-grid.min.css">
@@ -50,13 +50,13 @@
 		<main class="content">
 
 
-				<!-- page-banner -->
+			<!-- page-banner -->
 			<section class="page-banner text-center" style="background-image: url('img/test2.jpg')">
 				<div class="container">
-					<h1 class="page-title">Продукция завода</h1>
+					<h1 class="page-title page-title--white">Продукция завода</h1>
 					<div itemscope="" itemtype="http://schema.org/BreadcrumbList" class="breadcrumbs">
 						<span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
-							<a rel="nofollow" itemprop="item" title="Главная" href="#">
+							<a rel="nofollow" itemprop="item" title="Главная" href="index.php">
 								<span itemprop="name">Главная</span>
 								<meta itemprop="position" content="1">
 							</a>
@@ -83,7 +83,7 @@
 							<div class="col-12 col-md-6">
 								<div class="page-categories__block">
 									<div class="categories__item align-items-lg-center">
-										<div class="categories__name">Рукава высокого давления (РВД) в сборе</div>
+										<div class="categories__name"><a href="subcategory.php">Рукава высокого давления (РВД) в сборе</a></div>
 										<div class="categories__img">
 											<img src="img/categories/category-img1.png" class="img-responsive" alt="Логотип" 
 														srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
@@ -106,13 +106,13 @@
 							<div class="col-12 col-md-6">
 								<div class="page-categories__block">
 									<div class="categories__item align-items-lg-center">
-										<div class="categories__name">Металлорукава высокого давления (МРВД)</div>
+										<div class="categories__name"><a href="subcategory.php">Металлорукава высокого давления (МРВД)</a></div>
 										<div class="categories__img">
 											<img src="img/categories/category-img3.png" class="img-responsive" alt="Логотип" 
 														srcset="img/categories/category-img3.png 1x, img/categories/category-img3@2x.png 2x">
 										</div>
 										<div class="categories__link">
-											<a href="#">К разделу</a>
+											<a href="subcategory.php">К разделу</a>
 										</div>
 									</div>
 									<ul class="categories__list">
@@ -132,13 +132,13 @@
 							<div class="col-12 col-md-6">
 								<div class="page-categories__block">
 									<div class="categories__item align-items-lg-center">
-										<div class="categories__name">Сильфонные компенсаторы</div>
+										<div class="categories__name"><a href="subcategory.php">Сильфонные компенсаторы</a></div>
 										<div class="categories__img bottom-0">
 											<img src="img/categories/category-img5.png" class="img-responsive" alt="Логотип" 
 														srcset="img/categories/category-img5.png 1x, img/categories/category-img5@2x.png 2x">
 										</div>
 										<div class="categories__link">
-											<a href="#">К разделу</a>
+											<a href="subcategory.php">К разделу</a>
 										</div>
 									</div>
 									<ul class="categories__list">
@@ -157,13 +157,13 @@
 							<div class="col-12 col-md-6">
 								<div class="page-categories__block">
 									<div class="categories__item align-items-lg-center">
-										<div class="categories__name">Фитинги и муфты для рукавов высокого давления (РВД)</div>
+										<div class="categories__name"><a href="subcategory.php">Фитинги и муфты для рукавов высокого давления (РВД)</a></div>
 										<div class="categories__img bottom-0">
 											<img src="img/categories/category-img2.png" class="img-responsive" alt="Логотип" 
 														srcset="img/categories/category-img2.png 1x, img/categories/category-img2@2x.png 2x">
 										</div>
 										<div class="categories__link">
-											<a href="#">К разделу</a>
+											<a href="subcategory.php">К разделу</a>
 										</div>
 									</div>
 									<ul class="categories__list">
@@ -178,13 +178,13 @@
 							<div class="col-12 col-md-6">
 								<div class="page-categories__block">
 									<div class="categories__item align-items-lg-center">
-										<div class="categories__name">Трубные соединения</div>
+										<div class="categories__name"><a href="subcategory.php">Трубные соединения</a></div>
 										<div class="categories__img">
 											<img src="img/categories/category-img4.png" class="img-responsive" alt="Логотип" 
 														srcset="img/categories/category-img4.png 1x, img/categories/category-img4@2x.png 2x">
 										</div>
 										<div class="categories__link">
-											<a href="#">К разделу</a>
+											<a href="subcategory.php">К разделу</a>
 										</div>
 									</div>
 									<ul class="categories__list">
@@ -199,7 +199,7 @@
 							<div class="col-12 col-md-6">
 								<div class="page-categories__block">
 									<div class="categories__item align-items-lg-center">
-										<div class="categories__name">Скачать каталоги продукции</div>
+										<div class="categories__name"><a href="#">Скачать каталоги продукции</a></div>
 										<div class="categories__img">
 											<img src="img/categories/category-img6.png" class="img-responsive" alt="Логотип" 
 														srcset="img/categories/category-img6.png 1x, img/categories/category-img6@2x.png 2x">
@@ -260,11 +260,11 @@
 
 
 
-	<!-- popup callback begin -->
+	<!-- popup callback -->
 	<?php include("blocks/modal-callback.php");?>
 	<!-- popup callback end -->
 
-	<!-- popup thanks begin -->
+	<!-- popup thanks -->
 	<?php include("blocks/modal-thanks.php");?>
 	<!-- popup thanks end -->
 

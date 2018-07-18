@@ -1,0 +1,54 @@
+.app-area
+	padding-top: $margin1
+	&__block
+		margin-bottom: $margin1
+		display: flex
+		flex-direction: column
+	&__img
+		height: 250px
+		display: flex
+		align-items: center
+		justify-content: center
+		margin-bottom: $margin2
+		background-color: #EAEAEA
+		overflow: hidden
+	&__title
+		order: 1
+		margin: 0 0 1.25rem
+		font-size: 2.5rem
+		line-height: 1
+		color: #707070
+	&__text
+		order: 1
+		margin-bottom: 0
+		line-height: 1.625
+
+@media only screen and (max-width : 991px)
+
+	.app-area
+		&__title
+			font-size: 1.75rem
+		&__text
+			line-height: 1.25
+
+	/**/
+
+@media only screen and (max-width : 767px)
+
+	.app-area
+		padding-top: $margin1-mob
+		&__block
+			display: block
+			margin-bottom: $margin1-mob
+		&__img
+			margin-bottom: $margin2-mob
+
+	/**/
+
+@media only screen and (max-width : 480px)
+
+	.app-area
+		&__title
+			font-size: 1.25rem
+
+	/**/

@@ -87,15 +87,15 @@
 							</li>
 
 							<li class="main-menu__item">
-								<a href="#" class="main-menu__link">Продукция</a>
+								<a href="category.php" class="main-menu__link">Продукция</a>
 								<div class="hidden-menu hidden-menu--gray">
 									<div class="container">
 										<ul class="menu sub-menu">
-											<li class="sub-menu__item"><a href="#" class="sub-menu__link">РВД в сборе</a></li>
-											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Фитинги и муфты</a></li>
-											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Металлорукава</a></li>
-											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Трубные соединения</a></li>
-											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Сильфонные компенсаторы</a></li>
+											<li class="sub-menu__item"><a href="subcategory.php" class="sub-menu__link">РВД в сборе</a></li>
+											<li class="sub-menu__item"><a href="subcategory.php" class="sub-menu__link">Фитинги и муфты</a></li>
+											<li class="sub-menu__item"><a href="subcategory.php" class="sub-menu__link">Металлорукава</a></li>
+											<li class="sub-menu__item"><a href="subcategory.php" class="sub-menu__link">Трубные соединения</a></li>
+											<li class="sub-menu__item"><a href="subcategory.php" class="sub-menu__link">Сильфонные компенсаторы</a></li>
 										</ul>
 									</div>
 								</div>
@@ -115,11 +115,11 @@
 							</li>
 
 							<li class="main-menu__item">
-								<a href="#" class="main-menu__link">Партнерам</a>
+								<a href="to-partners.php" class="main-menu__link">Партнерам</a>
 								<div class="hidden-menu hidden-menu--gray">
 									<div class="container">
 										<ul class="menu sub-menu">
-											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Сотрудничество</a></li>
+											<li class="sub-menu__item"><a href="to-partners.php" class="sub-menu__link">Сотрудничество</a></li>
 										</ul>
 									</div>
 								</div>
@@ -189,7 +189,7 @@
 								<div class="col-12 col-md-6 col-lg-3">
 									<div class="sitemap__links-title">Партнерам</div>
 									<ul class="menu sitemap__links">
-										<li><a href="#" class="sitemap__link">Информация</a></li>
+										<li><a href="to-partners.php" class="sitemap__link">Информация</a></li>
 									</ul>
 								</div>
 

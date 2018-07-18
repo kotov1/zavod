@@ -50,13 +50,13 @@
 		<main class="content">
 
 
-				<!-- page-banner -->
+			<!-- page-banner -->
 			<section class="page-banner text-center" style="background-image: url('img/test2.jpg')">
 				<div class="container">
-					<h1 class="page-title">Фитинги и муфты для рукавов<br> высокого давления РВД</h1>
+					<h1 class="page-title page-title--white">Фитинги и муфты для рукавов<br> высокого давления РВД</h1>
 					<div itemscope="" itemtype="http://schema.org/BreadcrumbList" class="breadcrumbs">
 						<span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
-							<a rel="nofollow" itemprop="item" title="Главная" href="#">
+							<a rel="nofollow" itemprop="item" title="Главная" href="index.php">
 								<span itemprop="name">Главная</span>
 								<meta itemprop="position" content="1">
 							</a>
@@ -395,11 +395,11 @@
 
 
 
-	<!-- popup callback begin -->
+	<!-- popup callback -->
 	<?php include("blocks/modal-callback.php");?>
 	<!-- popup callback end -->
 
-	<!-- popup thanks begin -->
+	<!-- popup thanks -->
 	<?php include("blocks/modal-thanks.php");?>
 	<!-- popup thanks end -->
 

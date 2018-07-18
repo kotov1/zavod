@@ -74,7 +74,7 @@
 													srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 									</div>
 									<div class="categories__link">
-										<a href="#">К разделу</a>
+										<a href="category.php">К разделу</a>
 									</div>
 								</div>
 							</div>
@@ -87,7 +87,7 @@
 													srcset="img/categories/category-img2.png 1x, img/categories/category-img2@2x.png 2x">
 									</div>
 									<div class="categories__link">
-										<a href="#">К разделу</a>
+										<a href="category.php">К разделу</a>
 									</div>
 								</div>
 							</div>
@@ -100,7 +100,7 @@
 													srcset="img/categories/category-img3.png 1x, img/categories/category-img3@2x.png 2x">
 									</div>
 									<div class="categories__link">
-										<a href="#">К разделу</a>
+										<a href="category.php">К разделу</a>
 									</div>
 								</div>
 							</div>
@@ -113,7 +113,7 @@
 													srcset="img/categories/category-img4.png 1x, img/categories/category-img4@2x.png 2x">
 									</div>
 									<div class="categories__link">
-										<a href="#">К разделу</a>
+										<a href="category.php">К разделу</a>
 									</div>
 								</div>
 							</div>
@@ -126,7 +126,7 @@
 													srcset="img/categories/category-img5.png 1x, img/categories/category-img5@2x.png 2x">
 									</div>
 									<div class="categories__link">
-										<a href="#">К разделу</a>
+										<a href="category.php">К разделу</a>
 									</div>
 								</div>
 							</div>
@@ -139,7 +139,7 @@
 													srcset="img/categories/category-img6.png 1x, img/categories/category-img6@2x.png 2x">
 									</div>
 									<div class="categories__link">
-										<a href="#">К разделу</a>
+										<a href="category.php">К разделу</a>
 									</div>
 								</div>
 							</div>
@@ -554,11 +554,11 @@
 
 
 
-	<!-- popup callback begin -->
+	<!-- popup callback -->
 	<?php include("blocks/modal-callback.php");?>
 	<!-- popup callback end -->
 
-	<!-- popup thanks begin -->
+	<!-- popup thanks -->
 	<?php include("blocks/modal-thanks.php");?>
 	<!-- popup thanks end -->
 

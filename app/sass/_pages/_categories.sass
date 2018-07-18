@@ -1,0 +1,148 @@
+.categories
+	padding: $margin1 0 calc(#{$margin1} - 33px)
+	&__item
+		display: flex
+		flex-wrap: wrap
+		height: 250px
+		margin-bottom: 33px
+		position: relative
+		padding: $margin2
+		background-color: #C7C7C7
+		background-image: linear-gradient(90deg, #C7C7C7, #EEEAEA, #EDE9E9)
+		border-radius: 3px
+	&__name
+		max-width: 100%
+		padding-right: 20%
+		font-size: 1.5625rem
+		line-height: 1.2
+		a
+			color: #2A2A2B
+			transition: $trs-all
+			&:hover
+				text-decoration: none
+				color: #22AAF1
+				transition: $trs-all
+	&__img
+		max-width: 230px
+		display: flex
+		align-items: center
+		justify-content: center
+		padding: 15px
+		position: absolute
+		bottom: 10px
+		right: 15px
+		&.bottom-0
+			bottom: 0
+	&__link
+		margin-top: auto
+		position: relative
+		display: inline-block
+		padding-right: 20px
+		font-size: 1.125rem
+		line-height: 1.2
+		&:hover
+			&::before
+				right: 3px
+				transition: $trs-all
+		a, span
+			display: inline-block
+			color: #727272
+			border-bottom: 1px dashed #727272
+			transition: $trs-all
+			&:hover
+				text-decoration: none
+				border-bottom-color: transparent
+				transition: $trs-all
+		&::before
+			content: ''
+			display: inline-block
+			width: 10px
+			height: 10px
+			margin: 0
+			border-bottom: 1px solid #22AAF1
+			border-right: 1px solid #22AAF1
+			position: absolute
+			right: 0
+			top: 50%
+			margin-top: -5px
+			transform: rotate(-45deg)
+			transition: $trs-all
+
+	&__list
+		margin-top: 20px
+		padding-left: 0
+		list-style: none
+		font-size: 1.125rem
+		color: #727272
+		li
+			display: flex
+			align-items: center
+			position: relative
+			&::before
+				content: ''
+				display: inline-block
+				width: 5px
+				height: 5px
+				margin-bottom: 3px
+				margin-right: 12px
+				background: #3399FF
+				border-radius: 50%
+				z-index: 0
+		
+.page-categories__block
+	margin-bottom: $margin1
+	.categories__item
+		margin-bottom: 0
+	.categories__name
+		padding-right: 50%
+	.categories__link
+		display: none
+
+
+@media only screen and (max-width : 991px)
+
+	.categories
+		&__name
+			font-size: 20px
+		&__img
+			max-width: 190px
+		&__link
+			padding-right: 15px
+			font-size: 18px
+		&__list
+			font-size: 1rem
+
+	.page-categories__block
+		.categories__name
+			padding-right: 20%
+
+	/**/
+
+@media only screen and (max-width : 767px)
+
+	.categories
+		padding: $margin1-mob 0 calc(#{$margin1-mob} - #{$margin2-mob})
+		&__item
+			height: 180px
+			margin-bottom: 20px
+		&__name
+			width: 100%
+			font-size: 18px
+		&__img
+			max-width: 160px
+		&__link
+			padding-right: 15px
+			font-size: 16px
+			&::before
+				width: 8px
+				height: 8px
+				margin-top: -4px
+				
+	.page-categories__block
+		margin-bottom: $margin2-mob
+		.categories__link
+			display: block
+		.categories__list
+			display: none
+
+	/**/
