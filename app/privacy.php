@@ -60,13 +60,13 @@
 								<span itemprop="name">Главная</span>
 								<meta itemprop="position" content="1">
 							</a>
-							</span>
-							<span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+						</span>
+						<span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
 							<a rel="nofollow" itemprop="item" title="О компании" href="#">
 								<span itemprop="name">О компании</span>
 								<meta itemprop="position" content="2">
 							</a>
-							</span>
+						</span>
 					</div>
 				</div>
 			</section>
@@ -78,11 +78,11 @@
 
 				<div class="container">
 
-					<div class="privacy__block">
+					<div class="privacy__block page-text">
 						<p>При заполнении форм обратной связи на нашем сайте вы предоставляете свою персональную информацию такую как: имя, номер телефона и адрес электронной почты. Наша политика конфиденциальности объясняет, для чего мы используем данную информацию и какие меры безопасности принимаются для защиты ваших личных данных.</p>
 					</div>
 
-					<div class="privacy__block">
+					<div class="privacy__block page-text">
 						<p>Мы получаем персональную информацию:</p>
 						<ul>
 							<li>когда вы заполняете форму обратной связи;</li>
@@ -92,7 +92,7 @@
 						<p>В момент посещения какой-либо страницы сайта. С его помощью определяется ваш браузер, также «cookie» помогает запоминать ваши настройки.</p>
 					</div>
 
-					<div class="privacy__block">
+					<div class="privacy__block page-text">
 						<p>Мы используем персональную информацию:</p>
 						<ul>
 							<li>чтобы повысить качество предоставляемых услуг;</li>
@@ -105,16 +105,16 @@
 							</p>
 					</div>
 
-					<div class="privacy__block">
+					<div class="privacy__block page-text">
 						<p>Для защиты ваших данных мы стараемся принять все необходимые меры: используем безопасный сервер, доступ ко всей информации имеет ограниченное число лиц.</p>
 					</div>
 
-					<div class="privacy__block">
+					<div class="privacy__block page-text">
 						<p>Сторонние организации</p>
 						<p>Наш сайт может содержать ссылки на сайты сторонних организаций, неподконтрольных нам и имеющих собственную политику конфиденциальности. В связи с этим, мы не несем ответственности за действия данных ресурсов.</p>
 					</div>
 
-					<div class="privacy__block">
+					<div class="privacy__block page-text">
 						<p>Согласие пользователя</p>
 						<p>Используя наш сайт, вы выражаете согласие с действующей политикой конфиденциальности и разрешаете обработку ваших персональных данных, согласно закону «О персональных данных» № 152 ФЗ РФ.</p>
 					</div>

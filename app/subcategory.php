@@ -60,13 +60,13 @@
 								<span itemprop="name">Главная</span>
 								<meta itemprop="position" content="1">
 							</a>
-							</span>
-							<span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+						</span>
+						<span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
 							<a rel="nofollow" itemprop="item" title="Продукция завода" href="#">
 								<span itemprop="name">Продукция завода</span>
 								<meta itemprop="position" content="2">
 							</a>
-							</span>
+						</span>
 					</div>
 				</div>
 			</section>

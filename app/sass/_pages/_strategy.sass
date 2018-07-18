@@ -1,0 +1,20 @@
+.strategy
+	padding: $margin1 0
+	.about
+		padding: $margin2-mob 0
+		&__item-text
+			font-size: 1.125rem
+		div[class*="col"]:last-child
+			> .about__item
+				margin-bottom: 0
+
+@media only screen and (max-width : 767px)
+
+	.strategy
+		.about
+			&__item-text
+				font-size: 1rem
+				text-align: left
+				margin: 0 0 0 15px
+
+	/**/

@@ -83,16 +83,14 @@
 				content: "/"
 			a
 				color: #707070
-				text-shadow: 0 0 3px rgba(#000, .1)
+				text-shadow: 0 0 3px rgba(#fff, .1)
 				border-bottom: 1px dashed transparent
 				transition: $trs-all
 				&:hover
 					text-decoration: none
-					color: #fff
-					border-bottom-color: #fff
+					color: #707070
+					border-bottom-color: #707070
 					transition: $trs-all
-
-
 			&:last-child
 				a
 					text-decoration: none
@@ -104,6 +102,10 @@
 				color: #fff
 			a
 				color: #fff
+				text-shadow: 0 0 3px rgba(#000, .1)
+				&:hover
+					color: #fff
+					border-bottom-color: #fff
 
 
 /* ----- checkbox ----- */
@@ -248,6 +250,12 @@
 	line-height: 1.1
 	font-weight: 400
 	color: #707070
+
+.page-text
+	margin: 0
+	font-size: 1.125rem
+	line-height: 1.45
+	letter-spacing: .01em
 
 
 
@@ -401,14 +409,11 @@
 
 
 /* ------------------------------------- 
-	content-text
+	content-block
 	------------------------------------- */
-.content-text
+.content-block
 	padding: $margin1 0
-	margin: 0
-	font-size: 1rem
-	line-height: 1.45
-	letter-spacing: .01em
+
 
 
 
@@ -490,10 +495,16 @@
 @import "_pages/_privacy"
 
 
+/* ------------------------------------- 
+	strategy
+	------------------------------------- */
+@import "_pages/_strategy"
 
 
-
-
+/* ------------------------------------- 
+	catalogs
+	------------------------------------- */
+@import "_pages/_catalogs"
 
 
 

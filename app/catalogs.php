@@ -23,7 +23,7 @@
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
 
-	<title>Партнерам</title>
+	<title>Каталоги продукции</title>
 
 	<!-- bootstrap grid css -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-grid.min.css">
@@ -34,7 +34,7 @@
 
 <body>
 
-	<div class="page partners-page">
+	<div class="page strategy-page">
 
 
 		<!-- header -->
@@ -47,13 +47,13 @@
 
 
 		<!-- content -->
-		<main class="content partners-page__content">
+		<main class="content">
 
 
 			<!-- page-banner -->
 			<section class="page-banner text-center" style="background-image: url('img/test2.jpg')">
 				<div class="container">
-					<h1 class="page-title">Партнерам</h1>
+					<h1 class="page-title">Каталоги продукции</h1>
 					<div itemscope="" itemtype="http://schema.org/BreadcrumbList" class="breadcrumbs">
 						<span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
 							<a rel="nofollow" itemprop="item" title="Главная" href="index.php">
@@ -73,53 +73,83 @@
 			<!-- page-banner end -->
 
 
-			<!-- to-partners -->
-			<section class="to-partners">
+
+			<!-- catalogs -->
+			<section class="catalogs">
 
 				<div class="container">
 
-					<div class="row">
+					<div class="catalog">
 
-						<div class="col-12 col-xl-8">
+						<div class="catalog__img"><img src="" alt="alt" class="img-responsive"></div>
 
-							<div class="to-partners__block">
-								<h2 class="page-subtitle to-partners__subtitle">Приглашаем к партнерству</h2>
-								<p class="page-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, inventore quo. Exercitationem, laudantium? Voluptatum, pariatur nemo. Deserunt voluptas eum ullam, quisquam quia inventore magnam maiores vel! Corporis, labore nulla eum ex aperiam quae officiis? Officiis omnis mollitia atque facere! Quia, animi? Quam dolores quas vel corrupti eum praesentium, blanditiis non.</p>
+						<div class="catalog__descr">
+							<h2 class="page-subtitle catalog__name">Каталог металлорукава (МРВД)</h2>
+							<p class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat </p>
+							<div class="download">
+								<div class="row align-items-center no-gutters">
+									<div class="col-auto">
+										<div class="download__icon">
+											<svg class="about__img-svg">
+												<use xlink:href="#svg-icon-12" />
+											</svg>
+										</div>
+									</div>
+									<div class="col">
+										<div class="download__link"><a href="img/logo.png" download="">Скачать каталог</a></div>
+										<div class="download__info">25 mb</div>
+									</div>
+								</div>
 							</div>
-
-							<div class="to-partners__block">
-								<h2 class="page-subtitle to-partners__subtitle">Преимущества партнеров</h2>
-								<p class="page-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et culpa corporis debitis similique omnis quisquam eaque fuga quia sequi? Pariatur repellendus perferendis tenetur nulla asperiores incidunt voluptas possimus eos libero cupiditate. Fugit perferendis odit nam at libero modi vitae, quos necessitatibus? Rem laboriosam ratione, necessitatibus eos perspiciatis nulla, modi non pariatur ducimus accusantium corporis aspernatur quis deserunt beatae ullam magni labore temporibus. Quae accusantium odit quia nostrum beatae quaerat numquam incidunt ullam nemo, qui consectetur commodi nesciunt recusandae eum accusamus perspiciatis vero deserunt facere quam consequuntur ut dolor. Dignissimos esse quas nobis doloribus, ullam repellat voluptates assumenda at soluta praesentium.</p>
-							</div>
-
-							<div class="to-partners__block">
-								<h2 class="page-subtitle to-partners__subtitle">Коммерческая политика</h2>
-								<p class="page-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae tempore voluptas non. Quaerat debitis porro quam. Neque, natus eveniet iusto in doloribus, nulla quis nesciunt esse, laudantium corporis fugiat. Tempore facilis sit, possimus incidunt corrupti voluptatum nobis debitis delectus vel, quia officia veniam reprehenderit nesciunt earum quos. Ipsa quam vel reprehenderit omnis, optio fugit similique accusantium, distinctio, ex eius placeat repellat id aliquam consectetur quis voluptatibus dicta? Architecto modi repellat accusamus sapiente, nesciunt accusantium eaque nisi aut impedit assumenda adipisci.</p>
-							</div>
-
+							<!-- /.catalog__download -->
 						</div>
+						<!-- /.catalog__descr -->
 
 					</div>
-					<!-- /.row -->
+					<!-- /.catalog -->
 
-				
+					
+					<div class="catalog">
+
+						<div class="catalog__img"><img src="" alt="alt" class="img-responsive"></div>
+
+						<div class="catalog__descr">
+							<h2 class="page-subtitle catalog__name">Каталог металлорукава (МРВД)</h2>
+							<p class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat </p>
+							<div class="download">
+								<div class="row align-items-center no-gutters">
+									<div class="col-auto">
+										<div class="download__icon">
+											<svg class="about__img-svg">
+												<use xlink:href="#svg-icon-12" />
+											</svg>
+										</div>
+									</div>
+									<div class="col">
+										<div class="download__link"><a href="img/logo.png" download="">Скачать каталог</a></div>
+										<div class="download__info">25 mb</div>
+									</div>
+								</div>
+							</div>
+							<!-- /.catalog__download -->
+						</div>
+						<!-- /.catalog__descr -->
+
+					</div>
+					<!-- /.catalog -->
+
 
 
 				</div>
 				<!-- /.container -->
 
 			</section>
-			<!-- /.to-partners -->
+			<!-- /.catalogs -->
 
 
 
-			<!-- form-section -->
-			<?php include("blocks/form-section.php");?>
-			<!-- form-section end -->
 
 
-
-		
 		</main>
 		<!-- content end -->
 	
@@ -133,7 +163,9 @@
 
 
 	</div>
-	<!-- /.partners-page -->
+	<!-- /.strategy-page -->
+
+
 
 
 
@@ -147,7 +179,13 @@
 
 
 		
-	
+
+
+
+		<!-- svg sprite -->
+		<div class="svg-sprite">
+			<?php echo file_get_contents("img/svg-icons/svg-sprite.svg"); ?>
+		</div>
 
 
 	<!-- Jquery с облака и замена в случае отсутствия доступа к облаку  -->

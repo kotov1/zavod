@@ -92,7 +92,9 @@
 		text-align: center
 		margin-bottom: $margin2-mob
 
-
+	.page-text
+		font-size: 1rem
+		line-height: 1.25
 
 
 	/* ------------------------------------- 
@@ -112,7 +114,9 @@
 		press
 		------------------------------------- */
 	.press
+		padding: $margin1-mob 0 calc(#{$margin1-mob} - #{$margin2-mob})
 		&-miniature
+			margin-bottom: $margin2-mob
 			&__content
 				margin: 0
 
@@ -130,8 +134,10 @@
 			padding: 10px
 		&__text-icon
 			font-size: 24px
+		&__item
+			margin-bottom: 25px
 		&__item-text
-			margin-top: 20px
+			margin-top: 15px
 			padding-left: 0
 			text-align: center
 			overflow: hidden
@@ -139,17 +145,26 @@
 
 
 
+
+	/* ------------------------------------- 
+		content-block
+		------------------------------------- */
+	.content-block
+		padding: $margin1-mob 0
+
+
+
+
 	/* ------------------------------------- 
 		clients
 		------------------------------------- */
 	.clients
+		margin-bottom: $margin1-mob
 		&-slider
 			padding: 10px
 
 		.slick-prev, .slick-next
 			width: 20px
 			height: 20px
-
-
 
 	/**/

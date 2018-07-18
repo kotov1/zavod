@@ -60,19 +60,19 @@
 								<span itemprop="name">Главная</span>
 								<meta itemprop="position" content="1">
 							</a>
-							</span>
-							<span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+						</span>
+						<span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
 							<a rel="nofollow" itemprop="item" title="Продукция завода" href="category.php">
 								<span itemprop="name">Продукция завода</span>
 								<meta itemprop="position" content="2">
 							</a>
-							</span>
-							<span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+						</span>
+						<span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
 							<a rel="nofollow" itemprop="item" title="Рукава высокого давления в сборе (РВД)" href="#">
 								<span itemprop="name">Рукава высокого давления в сборе (РВД)</span>
 								<meta itemprop="position" content="2">
 							</a>
-							</span>
+						</span>
 					</div>
 				</div>
 			</section>
