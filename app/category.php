@@ -34,7 +34,7 @@
 
 <body>
 
-	<div class="page main-page">
+	<div class="page category-page">
 
 
 		<!-- header -->
@@ -254,7 +254,7 @@
 
 
 	</div>
-	<!-- /.page-main -->
+	<!-- /.category-page -->
 
 
 

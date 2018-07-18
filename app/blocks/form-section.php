@@ -3,8 +3,8 @@
 		<div class="form-section__block">
 			<div class="row">
 				<div class="col-12 col-xl-9 ml-auto">
-					<h3 class="form-section__title">Получите бесплатную консультацию нашего специалиста.</h3>
-						<p class="form-section__text">Наш специалист поможет вам подобрать нужные компоненты, сориентирует по срокам и ответит на все ваши вопросы.</p>
+					<h3 class="form-section__title">Получите бесплатную консультацию нашего специалиста</h3>
+						<p class="form-section__text">Наш специалист поможет вам подобрать нужные компоненты, сориентирует по срокам и ответит на все ваши вопросы</p>
 
 						<div class="form form-desktop">
 							<form action="#">

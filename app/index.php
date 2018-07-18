@@ -550,13 +550,7 @@
 
 
 	</div>
-	<!-- /.page-main -->
-
-
-	<!-- svg sprite -->
-	<div class="svg-sprite">
-		<?php echo file_get_contents("img/about-icons/about-icons.svg"); ?>
-	</div>
+	<!-- /.main-page -->
 
 
 
@@ -572,7 +566,10 @@
 		
 
 
-
+	<!-- svg sprite -->
+	<div class="svg-sprite">
+		<?php echo file_get_contents("img/svg-icons/svg-sprite.svg"); ?>
+	</div>
 	
 
 
