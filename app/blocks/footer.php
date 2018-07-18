@@ -12,7 +12,7 @@
 								<div class="sitemap__links-title">О предприятии</div>
 								<ul class="menu sitemap__links">
 									<li><a href="#" class="sitemap__link">О компании</a></li>
-									<li><a href="#" class="sitemap__link">Стратегия</a></li>
+									<li><a href="strategy.php" class="sitemap__link">Стратегия</a></li>
 									<li><a href="#" class="sitemap__link">Производство</a></li>
 									<li><a href="#" class="sitemap__link">Контакты</a></li>
 									<li><a href="#" class="sitemap__link">Доставка</a></li>
@@ -63,7 +63,7 @@
 							<div class="sitemap__column">
 								<div class="sitemap__links-title">Партнерам</div>
 								<ul class="menu sitemap__links">
-									<li><a href="#" class="sitemap__link">Сотрудничество</a></li>
+									<li><a href="to-partners.php" class="sitemap__link">Сотрудничество</a></li>
 								</ul>
 							</div>
 						</div>

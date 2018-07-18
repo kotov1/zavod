@@ -76,7 +76,7 @@
 									<div class="container">
 										<ul class="menu sub-menu">
 											<li class="sub-menu__item"><a href="#" class="sub-menu__link">О компании</a></li>
-											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Стратегия</a></li>
+											<li class="sub-menu__item"><a href="strategy.php" class="sub-menu__link">Стратегия</a></li>
 											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Производство</a></li>
 											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Контакты</a></li>
 											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Доставка</a></li>
@@ -126,14 +126,14 @@
 							</li>
 
 							<li class="main-menu__item">
-								<a href="#" class="main-menu__link">Каталоги</a>
+								<a href="catalogs.php" class="main-menu__link">Каталоги</a>
 								<div class="hidden-menu hidden-menu--gray">
 									<div class="container">
 										<ul class="menu sub-menu">
-											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Каталог 1</a></li>
-											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Каталог 2</a></li>
-											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Каталог 3</a></li>
-											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Каталог 4</a></li>
+											<li class="sub-menu__item"><a href="catalogs.php" class="sub-menu__link">Каталог 1</a></li>
+											<li class="sub-menu__item"><a href="catalogs.php" class="sub-menu__link">Каталог 2</a></li>
+											<li class="sub-menu__item"><a href="catalogs.php" class="sub-menu__link">Каталог 3</a></li>
+											<li class="sub-menu__item"><a href="catalogs.php" class="sub-menu__link">Каталог 4</a></li>
 										</ul>
 									</div>
 								</div>
@@ -157,7 +157,7 @@
 									<div class="sitemap__links-title">О предприятии</div>
 									<ul class="menu sitemap__links">
 										<li><a href="#" class="sitemap__link">О компании</a></li>
-										<li><a href="#" class="sitemap__link">Стратегия</a></li>
+										<li><a href="strategy.php" class="sitemap__link">Стратегия</a></li>
 										<li><a href="#" class="sitemap__link">Производство</a></li>
 										<li><a href="#" class="sitemap__link">Контакты</a></li>
 										<li><a href="#" class="sitemap__link">Доставка</a></li>
@@ -196,10 +196,10 @@
 								<div class="col-12 col-md-6 col-lg-3">
 									<div class="sitemap__links-title">Каталоги</div>
 									<ul class="menu sitemap__links">
-										<li><a href="#" class="sitemap__link">1 каталог</a></li>
-										<li><a href="#" class="sitemap__link">2 каталог</a></li>
-										<li><a href="#" class="sitemap__link">3 каталог</a></li>
-										<li><a href="#" class="sitemap__link">4 каталог</a></li>
+										<li><a href="catalogs.php" class="sitemap__link">1 каталог</a></li>
+										<li><a href="catalogs.php" class="sitemap__link">2 каталог</a></li>
+										<li><a href="catalogs.php" class="sitemap__link">3 каталог</a></li>
+										<li><a href="catalogs.php" class="sitemap__link">4 каталог</a></li>
 									</ul>
 								</div>
 							</div>
