@@ -1,0 +1,66 @@
+.vacancies
+	padding: $margin1 0
+
+.vacancy
+	&__descr
+		padding-bottom: $margin2
+		&:last-child
+			padding-bottom: 0
+	&__img
+		margin-bottom: $margin2
+
+.contacts-info
+	li
+		padding: 0.125em 0
+	a
+		color: inherit
+		border-bottom: 1px dashed transparent
+		transition: $trs-all
+		&:hover
+			text-decoration: none
+			border-bottom-color: currentColor
+			transition: $trs-all
+
+.contacts-ic
+	display: inline-block
+	margin-right: 1rem
+	vertical-align: middle
+	background: url('../img/icons-set.png') no-repeat
+	&-name
+		width: 20px
+		height: 25px
+		background-position: -489px 0
+	&-tel
+		width: 22px
+		height: 22px
+		background-position: -359px 0
+	&-email
+		width: 25px
+		height: 19px
+		background-position: -392px 0
+
+
+@media only screen and (max-width : 1199px)
+
+	.vacancy
+		&__img
+			margin-top: $margin2
+
+	/**/
+
+@media only screen and (max-width : 767px)
+
+	.vacancies
+		padding: $margin1-mob 0
+
+	.vacancy
+		&__descr
+			padding-bottom: $margin2-mob
+		&__img
+			margin: $margin2-mob 0
+
+	.contacts-info
+		li
+			padding: 0.25em 0
+
+	/**/

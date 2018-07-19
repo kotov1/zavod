@@ -106,7 +106,7 @@
 								<div class="hidden-menu hidden-menu--gray">
 									<div class="container">
 										<ul class="menu sub-menu">
-											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Новости и статьи</a></li>
+											<li class="sub-menu__item"><a href="news.php" class="sub-menu__link">Новости и статьи</a></li>
 											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Справочник</a></li>
 											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Медиа</a></li>
 										</ul>
@@ -171,7 +171,7 @@
 										<div class="col-12">
 											<div class="sitemap__links-title">Пресс-центр</div>
 											<ul class="menu sitemap__links">
-												<li><a href="#" class="sitemap__link">Новости и статьи</a></li>
+												<li><a href="news.php" class="sitemap__link">Новости и статьи</a></li>
 												<li><a href="#" class="sitemap__link">Справочник</a></li>
 												<li><a href="#" class="sitemap__link">Медиа</a></li>
 											</ul>
@@ -344,7 +344,7 @@
 			
 			<div class="sitemap__links-title"><i class="icon icon-mob5"></i>Пресс-центр</div>
 			<ul class="menu sitemap__links">
-				<li><a href="#" class="sitemap__link">Новости и статьи</a></li>
+				<li><a href="news.php" class="sitemap__link">Новости и статьи</a></li>
 				<li><a href="#" class="sitemap__link">Медиа</a></li>
 				<li><a href="#" class="sitemap__link">Справочник</a></li>
 			</ul>

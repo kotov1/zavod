@@ -63,7 +63,7 @@ $(function() {
 	// инициализация слайдера с логотипами клиентов на главной странице
 	$('.clients-slider').slick({
 		infinite: true,
-		// autoplay: true,
+		autoplay: true,
 		slidesToShow: 3,
 		responsive: [
 			{
@@ -91,6 +91,7 @@ $(function() {
 		bodyOverlay(false);
 	});
 
+	// акордеон из ссылок на мобильных устройствах
 	$('.sitemap__links-title').click(function() {
 		if ( $(this).hasClass('opened') ) {
 			$(this).removeClass('opened');

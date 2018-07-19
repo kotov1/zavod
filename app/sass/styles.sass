@@ -256,6 +256,12 @@
 	font-size: 1.125rem
 	line-height: 1.45
 	letter-spacing: .01em
+	&--accented
+		font-weight: 700
+
+ul.page-text
+	padding-left: 0
+	list-style: none
 
 
 
@@ -366,6 +372,33 @@
 				margin-top: -5.5px
 				transform: rotate(-45deg)
 				transition: $trs-all
+
+.btn-more
+	padding: .65em 2.75em
+	border: 1px solid #BEC0C0
+	border-radius: 24px
+	background: none
+	font-size: 1.25rem
+	line-height: 1
+	color: #C0C2C2
+	cursor: pointer
+	transition: $trs-all
+	&:hover
+		color: #fff
+		background-color: #BEC0C0
+		background-color: #BEC0C0
+		transition: $trs-all
+	&:active
+		transform: translate(1px, 1px)
+		transition: $trs-all
+	&:focus
+		outline: none
+		box-shadow: 1px 1px 5px #BEC0C0
+
+.press-page .press
+		padding-bottom: $margin1
+
+
 
 
 
@@ -505,6 +538,12 @@
 	catalogs
 	------------------------------------- */
 @import "_pages/_catalogs"
+
+
+/* ------------------------------------- 
+	vacancies
+	------------------------------------- */
+@import "_pages/_vacancies"
 
 
 

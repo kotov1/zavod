@@ -44,7 +44,7 @@
 									<div class="sitemap__column">
 										<div class="sitemap__links-title">Пресс-центр</div>
 										<ul class="menu sitemap__links">
-											<li><a href="#" class="sitemap__link">Новости и статьи</a></li>
+											<li><a href="news.php" class="sitemap__link">Новости и статьи</a></li>
 											<li><a href="#" class="sitemap__link">Справочник</a></li>
 											<li><a href="#" class="sitemap__link">Медиа</a></li>
 										</ul>

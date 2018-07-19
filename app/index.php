@@ -50,7 +50,7 @@
 		<main class="content">
 
 
-				<!-- page-banner -->
+			<!-- page-banner -->
 			<section class="page-banner" style="background-image: url('img/test.jpg')">
 				<div class="container">
 					<h1 class="page-title main-page__title">завод гидравлических соединений</h1>
@@ -62,7 +62,7 @@
 			<!-- categories-section -->
 			<section class="categories">
 				<div class="container">
-					<h2 class="page-subtitle">Производственная линия завода</h2>
+					<h2 class="page-subtitle page-subtitle--centered--sm">Производственная линия завода</h2>
 					<div class="categories__items">
 						<div class="row">
 
@@ -164,7 +164,7 @@
 			<!-- press -->
 			<section class="press">
 				<div class="container">
-					<h2 class="page-subtitle">Пресс - центр</h2>
+					<h2 class="page-subtitle page-subtitle--centered--sm">Пресс - центр</h2>
 					<div class="press__container">
 						<div class="row">
 
@@ -277,7 +277,7 @@
 			<section class="about">
 				<div class="container">
 
-					<h2 class="page-subtitle">О заводе</h2>
+					<h2 class="page-subtitle page-subtitle--centered--sm">О заводе</h2>
 
 					<div class="about__container">
 
@@ -487,7 +487,7 @@
 
 				<div class="container">
 
-					<h2 class="page-subtitle">Наши заказчики</h2>
+					<h2 class="page-subtitle page-subtitle--centered--sm">Наши заказчики</h2>
 
 					<div class="clients-slider">
 
