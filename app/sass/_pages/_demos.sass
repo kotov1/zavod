@@ -1,0 +1,47 @@
+.demo
+	padding-top: $margin1
+
+	&__box
+		display: flex
+		flex-wrap: wrap
+		justify-content: space-between
+
+	&__item
+		flex: 0 0 550px
+		max-width: 550px
+		margin-bottom: $margin1
+	&__descr
+		padding-top: $margin2
+	&__name
+		margin-bottom: $margin3
+
+.demo-feedbacks
+	padding-bottom: $margin1
+	.demo__name
+		margin-bottom: 0
+
+
+
+@media only screen and (max-width : 1199px)
+
+	.demo
+		&__box
+			justify-content: center
+
+	/**/
+
+@media only screen and (max-width : 767px)
+
+	.demo
+		padding-top: $margin1-mob
+		&-feedbacks
+			padding-bottom: $margin1-mob
+		&__item
+			flex: 0 0 100%
+			margin-bottom: $margin1-mob
+		&__descr
+			padding-top: 0
+		&__name
+			margin-bottom: $margin2-mob
+
+	/**/

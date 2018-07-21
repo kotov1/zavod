@@ -16,8 +16,8 @@
 									<li><a href="#" class="sitemap__link">Производство</a></li>
 									<li><a href="#" class="sitemap__link">Контакты</a></li>
 									<li><a href="#" class="sitemap__link">Доставка</a></li>
-									<li><a href="#" class="sitemap__link">Сертификаты</a></li>
-									<li><a href="#" class="sitemap__link">Отзывы и благодаронсти</a></li>
+									<li><a href="certificates.php" class="sitemap__link">Сертификаты</a></li>
+									<li><a href="feedbacks.php" class="sitemap__link">Отзывы и благодаронсти</a></li>
 								</ul>
 							</div>
 						</div>
@@ -46,7 +46,7 @@
 										<ul class="menu sitemap__links">
 											<li><a href="news.php" class="sitemap__link">Новости и статьи</a></li>
 											<li><a href="#" class="sitemap__link">Справочник</a></li>
-											<li><a href="#" class="sitemap__link">Медиа</a></li>
+											<li><a href="media.php" class="sitemap__link">Медиа</a></li>
 										</ul>
 									</div>
 								</div>

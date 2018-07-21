@@ -23,10 +23,13 @@
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
 
-	<title>Каталоги продукции</title>
+	<title>Отзывы и благодарности</title>
 
 	<!-- bootstrap grid css -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-grid.min.css">
+
+	<!-- fancybox -->
+	<link rel="stylesheet" href="libs/fancybox/dist/jquery.fancybox.min.css">
 
 	<link rel="stylesheet" href="css/styles.css">
 
@@ -34,7 +37,7 @@
 
 <body>
 
-	<div class="page catalogs-page">
+	<div class="page feedbacks-page">
 
 
 		<!-- header -->
@@ -53,7 +56,7 @@
 			<!-- page-banner -->
 			<section class="page-banner text-center" style="background-image: url('img/test2.jpg')">
 				<div class="container">
-					<h1 class="page-title">Каталоги продукции</h1>
+					<h1 class="page-title">Отзывы и благодарности</h1>
 					<div itemscope="" itemtype="http://schema.org/BreadcrumbList" class="breadcrumbs">
 						<span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
 							<a rel="nofollow" itemprop="item" title="Главная" href="index.php">
@@ -67,6 +70,12 @@
 								<meta itemprop="position" content="2">
 							</a>
 						</span>
+						<span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+							<a rel="nofollow" itemprop="item" title="Отзывы и благодарности" href="#">
+								<span itemprop="name">Отзывы и благодарности</span>
+								<meta itemprop="position" content="3">
+							</a>
+						</span>
 					</div>
 				</div>
 			</section>
@@ -74,69 +83,75 @@
 
 
 
-			<!-- catalogs -->
-			<section class="catalogs">
+			<!-- demo -->
+			<section class="demo demo-feedbacks">
 
 				<div class="container">
 
-					<div class="catalog">
+					<div class="demo__box">
 
-						<div class="demo-img demo-img--static"><img src="" alt="alt" class="img-responsive"></div>
 
-						<div class="catalog__descr">
-							<h2 class="page-subtitle catalog__name">Каталог металлорукава (МРВД)</h2>
-							<p class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat </p>
-							<div class="download">
-								<div class="row align-items-center no-gutters">
-									<div class="col-auto">
-										<div class="download__icon">
-											<svg class="about__img-svg">
-												<use xlink:href="#svg-icon-12" />
-											</svg>
-										</div>
-									</div>
-									<div class="col">
-										<div class="download__link"><a href="img/logo.png" download="">Скачать каталог</a></div>
-										<div class="download__info">25 mb</div>
-									</div>
-								</div>
+						<div class="demo__item">
+	
+							<div class="demo-img demo-img--fancy">
+								<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images">
+									<img src="img/certificates/certificate1.jpg" alt="alt" class="img-responsive">
+								</a>
 							</div>
-							<!-- /.catalog__download -->
+	
+							<div class="demo__descr">
+								<h2 class="page-subtitle demo__name">Название компании</h2>
+							</div>
+							<!-- /.demo__descr -->
+	
 						</div>
-						<!-- /.catalog__descr -->
+						<!-- /.demo__item -->
+						
+						<div class="demo__item">
+	
+							<div class="demo-img demo-img--fancy"><img src="" alt="alt" class="img-responsive"></div>
+	
+							<div class="demo__descr">
+								<h2 class="page-subtitle demo__name">Название компании</h2>
+							</div>
+							<!-- /.demo__descr -->
+	
+						</div>
+						<!-- /.demo__item -->
+						
+						<div class="demo__item">
+	
+							<div class="demo-img demo-img--fancy">
+								<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images">
+									<img src="img/certificates/certificate1.jpg" alt="alt" class="img-responsive">
+								</a>
+							</div>
+	
+							<div class="demo__descr">
+								<h2 class="page-subtitle demo__name">Название компании</h2>
+							</div>
+							<!-- /.demo__descr -->
+	
+						</div>
+						<!-- /.demo__item -->
+						
+						<div class="demo__item">
+	
+							<div class="demo-img demo-img--fancy"><img src="" alt="alt" class="img-responsive"></div>
+	
+							<div class="demo__descr">
+								<h2 class="page-subtitle demo__name">Название компании</h2>
+							</div>
+							<!-- /.demo__descr -->
+	
+						</div>
+						<!-- /.demo__item -->
 
 					</div>
-					<!-- /.catalog -->
+					<!-- /.demo__box -->
 
-					
-					<div class="catalog">
-
-						<div class="demo-img demo-img--static"><img src="" alt="alt" class="img-responsive"></div>
-
-						<div class="catalog__descr">
-							<h2 class="page-subtitle catalog__name">Каталог металлорукава (МРВД)</h2>
-							<p class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</p>
-							<div class="download">
-								<div class="row align-items-center no-gutters">
-									<div class="col-auto">
-										<div class="download__icon">
-											<svg class="about__img-svg">
-												<use xlink:href="#svg-icon-12" />
-											</svg>
-										</div>
-									</div>
-									<div class="col">
-										<div class="download__link"><a href="img/logo.png" download="">Скачать каталог</a></div>
-										<div class="download__info">25 mb</div>
-									</div>
-								</div>
-							</div>
-							<!-- /.catalog__download -->
-						</div>
-						<!-- /.catalog__descr -->
-
-					</div>
-					<!-- /.catalog -->
+					<p class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</p>
+						
 
 
 
@@ -144,7 +159,7 @@
 				<!-- /.container -->
 
 			</section>
-			<!-- /.catalogs -->
+			<!-- /.feedbacks -->
 
 
 
@@ -163,7 +178,7 @@
 
 
 	</div>
-	<!-- /.catalogs-page -->
+	<!-- /.feedbacks-page -->
 
 
 

@@ -3,6 +3,13 @@
 
 @media only screen and (max-width : 1199px)
 
+	/* ----- demo img ----- */
+	.demo-img
+		height: 600px
+		&--static
+			flex: 0 0 50%
+			max-width: 50%
+
 
 	/* ------------------------------------- 
 		press
@@ -52,6 +59,10 @@
 
 @media only screen and (max-width : 991px)
 
+	/* ----- demo img ----- */
+	.demo-img
+		height: 450px
+
 
 	/* ------------------------------------- 
 		press
@@ -63,6 +74,7 @@
 				padding-top: 30px
 				min-height: 1px
 				border: none
+
 
 
 	/**/
@@ -96,9 +108,18 @@
 		&--centered--sm
 			text-align: center
 
+	/* ----- text ----- */
 	.page-text
 		font-size: 1rem
 		line-height: 1.25
+
+	/* ----- demo img ----- */
+	.demo-img
+		width: 100%
+		max-width: 290px
+		height: 250px
+		margin-bottom: $margin3
+		box-shadow: 0 5px 25px rgba(#000, .1)
 
 
 	/* ------------------------------------- 
@@ -175,5 +196,8 @@
 		.slick-prev, .slick-next
 			width: 20px
 			height: 20px
+
+
+
 
 	/**/

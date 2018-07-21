@@ -80,7 +80,7 @@
 											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Производство</a></li>
 											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Контакты</a></li>
 											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Доставка</a></li>
-											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Сертификаты</a></li>
+											<li class="sub-menu__item"><a href="certificates.php" class="sub-menu__link">Сертификаты</a></li>
 										</ul>
 									</div>
 								</div>
@@ -108,7 +108,7 @@
 										<ul class="menu sub-menu">
 											<li class="sub-menu__item"><a href="news.php" class="sub-menu__link">Новости и статьи</a></li>
 											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Справочник</a></li>
-											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Медиа</a></li>
+											<li class="sub-menu__item"><a href="media.php" class="sub-menu__link">Медиа</a></li>
 										</ul>
 									</div>
 								</div>
@@ -161,8 +161,8 @@
 										<li><a href="#" class="sitemap__link">Производство</a></li>
 										<li><a href="#" class="sitemap__link">Контакты</a></li>
 										<li><a href="#" class="sitemap__link">Доставка</a></li>
-										<li><a href="#" class="sitemap__link">Сертификаты</a></li>
-										<li><a href="#" class="sitemap__link">Отзывы и благодаронсти</a></li>
+										<li><a href="certificates.php" class="sitemap__link">Сертификаты</a></li>
+										<li><a href="feedbacks.php" class="sitemap__link">Отзывы и благодарности</a></li>
 									</ul>
 								</div>
 
@@ -173,7 +173,7 @@
 											<ul class="menu sitemap__links">
 												<li><a href="news.php" class="sitemap__link">Новости и статьи</a></li>
 												<li><a href="#" class="sitemap__link">Справочник</a></li>
-												<li><a href="#" class="sitemap__link">Медиа</a></li>
+												<li><a href="media.php" class="sitemap__link">Медиа</a></li>
 											</ul>
 										</div>
 										<div class="col-12 d-flex flex-column justify-content-end">
@@ -317,8 +317,8 @@
 				<li><a href="#" class="sitemap__link">Производство</a></li>
 				<li><a href="#" class="sitemap__link">Контакты</a></li>
 				<li><a href="#" class="sitemap__link">Доставка</a></li>
-				<li><a href="#" class="sitemap__link">Сертификаты</a></li>
-				<li><a href="#" class="sitemap__link">Отзывы и благодаронсти</a></li>
+				<li><a href="certificates.php" class="sitemap__link">Сертификаты</a></li>
+				<li><a href="feedbacks.php" class="sitemap__link">Отзывы и благодарности</a></li>
 			</ul>
 
 			<div class="sitemap__links-title"><i class="icon icon-mob2"></i>Продукция</div>
@@ -345,7 +345,7 @@
 			<div class="sitemap__links-title"><i class="icon icon-mob5"></i>Пресс-центр</div>
 			<ul class="menu sitemap__links">
 				<li><a href="news.php" class="sitemap__link">Новости и статьи</a></li>
-				<li><a href="#" class="sitemap__link">Медиа</a></li>
+				<li><a href="media.php" class="sitemap__link">Медиа</a></li>
 				<li><a href="#" class="sitemap__link">Справочник</a></li>
 			</ul>
 

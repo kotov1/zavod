@@ -251,6 +251,7 @@
 	font-weight: 400
 	color: #707070
 
+/* ----- text ----- */
 .page-text
 	margin: 0
 	font-size: 1.125rem
@@ -262,6 +263,34 @@
 ul.page-text
 	padding-left: 0
 	list-style: none
+
+
+/* ----- demo img ----- */
+.demo-img
+	flex: 0 0 550px
+	max-width: 550px
+	height: 777px
+	display: flex
+	align-items: center
+	justify-content: center
+	overflow: hidden
+	background-color: #fff
+	border-radius: 3px
+	img
+		border-radius: 3px
+	&--static
+		box-shadow: 0 10px 50px rgba(#000, .1)
+
+	&--fancy
+		border: 1px solid #BEBEBE
+		cursor: pointer
+		transition: $trs-all
+		&:hover
+			box-shadow: 0 10px 50px rgba(#000, .1)
+			border-color: transparent
+			transition: $trs-all
+		img
+			width: 100% // ie
 
 
 
@@ -491,6 +520,7 @@ ul.page-text
 
 
 
+
 /* ------------------------------------- 
 	Media styles 
 	------------------------------------- */
@@ -545,6 +575,18 @@ ul.page-text
 	------------------------------------- */
 @import "_pages/_vacancies"
 
+	
+/* ------------------------------------- 
+	certificates
+	------------------------------------- */
+@import "_pages/_demos"
+
+
+/* ------------------------------------- 
+	certificates
+	------------------------------------- */
+@import "_pages/_media"
+
 
 
 
@@ -552,9 +594,9 @@ ul.page-text
 	footer
 	------------------------------------- */
 @import "_blocks/_footer"
-				
+
+
+/* ------------------------------------- 
+	modal windows
+	------------------------------------- */			
 @import "_blocks/_modal"
-
-
-
-

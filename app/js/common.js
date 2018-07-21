@@ -87,16 +87,19 @@ $(function() {
 
 	// акордеон из ссылок на мобильных устройствах
 	$('.sitemap__links-title').click(function() {
-		if ( $(this).hasClass('opened') ) {
-			$(this).removeClass('opened');
-			$(this).next().slideUp();
-		}
-		else {
-			$('.sitemap__links').slideUp();
-			$('.sitemap__links-title').removeClass('opened');
-			$(this).addClass('opened');
-			$(this).next().slideDown();
-			return false;
+		if ( $(window).width() < 767 ) {
+
+			if ( $(this).hasClass('opened') ) {
+				$(this).removeClass('opened');
+				$(this).next().slideUp();
+			}
+			else {
+				$('.sitemap__links').slideUp();
+				$('.sitemap__links-title').removeClass('opened');
+				$(this).addClass('opened');
+				$(this).next().slideDown();
+				return false;
+			}
 		}
 	});
 
