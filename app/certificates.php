@@ -28,8 +28,6 @@
 	<!-- bootstrap grid css -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-grid.min.css">
 
-	<!-- fancybox -->
-	<link rel="stylesheet" href="libs/fancybox/dist/jquery.fancybox.min.css">
 
 	<link rel="stylesheet" href="css/styles.css">
 

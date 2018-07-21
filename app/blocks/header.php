@@ -102,7 +102,7 @@
 							</li>
 
 							<li class="main-menu__item">
-								<a href="#" class="main-menu__link">Пресс-центр</a>
+								<a href="news.php" class="main-menu__link">Пресс-центр</a>
 								<div class="hidden-menu hidden-menu--gray">
 									<div class="container">
 										<ul class="menu sub-menu">
@@ -313,7 +313,7 @@
 			<div class="sitemap__links-title"><i class="icon icon-mob1"></i>О предприятии</div>
 			<ul class="menu sitemap__links">
 				<li><a href="#" class="sitemap__link">О компании</a></li>
-				<li><a href="#" class="sitemap__link">Стратегия</a></li>
+				<li><a href="strategy.php" class="sitemap__link">Стратегия</a></li>
 				<li><a href="#" class="sitemap__link">Производство</a></li>
 				<li><a href="#" class="sitemap__link">Контакты</a></li>
 				<li><a href="#" class="sitemap__link">Доставка</a></li>
@@ -323,10 +323,10 @@
 
 			<div class="sitemap__links-title"><i class="icon icon-mob2"></i>Продукция</div>
 			<ul class="menu sitemap__links">
-				<li><a href="#" class="sitemap__link">Рукава РВД в сборе</a></li>
-				<li><a href="#" class="sitemap__link">Металлорукава (МРВД)</a></li>
-				<li><a href="#" class="sitemap__link">Фитинги и муфты</a></li>
-				<li><a href="#" class="sitemap__link">Трубные соединения</a></li>
+				<li><a href="subcategory.php" class="sitemap__link">Рукава РВД в сборе</a></li>
+				<li><a href="subcategory.php" class="sitemap__link">Металлорукава (МРВД)</a></li>
+				<li><a href="subcategory.php" class="sitemap__link">Фитинги и муфты</a></li>
+				<li><a href="subcategory.php" class="sitemap__link">Трубные соединения</a></li>
 			</ul>
 
 

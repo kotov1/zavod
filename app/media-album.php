@@ -28,9 +28,6 @@
 	<!-- bootstrap grid css -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-grid.min.css">
 
-	<!-- fancybox -->
-	<link rel="stylesheet" href="libs/fancybox/dist/jquery.fancybox.min.css">
-
 	<link rel="stylesheet" href="css/styles.css">
 
 </head>
@@ -112,7 +109,7 @@
 
 									<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 
-									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images">
+									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images" data-caption="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi">
 										<figcaption class="media__text">
 											<span class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi</span>
 										</figcaption>
@@ -128,7 +125,7 @@
 
 									<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 
-									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images">
+									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images" data-caption="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi">
 										<figcaption class="media__text">
 											<span class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi</span>
 										</figcaption>
@@ -144,7 +141,7 @@
 
 									<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 
-									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images">
+									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images" data-caption="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi">
 										<figcaption class="media__text">
 											<span class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi</span>
 										</figcaption>
@@ -160,7 +157,7 @@
 
 									<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 
-									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images">
+									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images" data-caption="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi">
 										<figcaption class="media__text">
 											<span class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi</span>
 										</figcaption>
@@ -176,7 +173,7 @@
 
 									<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 
-									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images">
+									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images" data-caption="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi">
 										<figcaption class="media__text">
 											<span class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi</span>
 										</figcaption>
@@ -192,7 +189,7 @@
 
 									<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 
-									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images">
+									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images" data-caption="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi">
 										<figcaption class="media__text">
 											<span class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi</span>
 										</figcaption>
@@ -208,7 +205,7 @@
 
 									<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 
-									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images">
+									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images" data-caption="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi">
 										<figcaption class="media__text">
 											<span class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi</span>
 										</figcaption>
@@ -224,7 +221,7 @@
 
 									<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 
-									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images">
+									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images" data-caption="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi">
 										<figcaption class="media__text">
 											<span class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi</span>
 										</figcaption>
