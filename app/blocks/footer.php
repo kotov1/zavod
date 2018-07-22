@@ -15,7 +15,7 @@
 									<li><a href="strategy.php" class="sitemap__link">Стратегия</a></li>
 									<li><a href="#" class="sitemap__link">Производство</a></li>
 									<li><a href="#" class="sitemap__link">Контакты</a></li>
-									<li><a href="#" class="sitemap__link">Доставка</a></li>
+									<li><a href="delivery.php" class="sitemap__link">Доставка</a></li>
 									<li><a href="certificates.php" class="sitemap__link">Сертификаты</a></li>
 									<li><a href="feedbacks.php" class="sitemap__link">Отзывы и благодаронсти</a></li>
 								</ul>

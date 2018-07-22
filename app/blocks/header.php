@@ -79,7 +79,7 @@
 											<li class="sub-menu__item"><a href="strategy.php" class="sub-menu__link">Стратегия</a></li>
 											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Производство</a></li>
 											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Контакты</a></li>
-											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Доставка</a></li>
+											<li class="sub-menu__item"><a href="delivery.php" class="sub-menu__link">Доставка</a></li>
 											<li class="sub-menu__item"><a href="certificates.php" class="sub-menu__link">Сертификаты</a></li>
 										</ul>
 									</div>
@@ -160,7 +160,7 @@
 										<li><a href="strategy.php" class="sitemap__link">Стратегия</a></li>
 										<li><a href="#" class="sitemap__link">Производство</a></li>
 										<li><a href="#" class="sitemap__link">Контакты</a></li>
-										<li><a href="#" class="sitemap__link">Доставка</a></li>
+										<li><a href="delivery.php" class="sitemap__link">Доставка</a></li>
 										<li><a href="certificates.php" class="sitemap__link">Сертификаты</a></li>
 										<li><a href="feedbacks.php" class="sitemap__link">Отзывы и благодарности</a></li>
 									</ul>
@@ -316,7 +316,7 @@
 				<li><a href="strategy.php" class="sitemap__link">Стратегия</a></li>
 				<li><a href="#" class="sitemap__link">Производство</a></li>
 				<li><a href="#" class="sitemap__link">Контакты</a></li>
-				<li><a href="#" class="sitemap__link">Доставка</a></li>
+				<li><a href="delivery.php" class="sitemap__link">Доставка</a></li>
 				<li><a href="certificates.php" class="sitemap__link">Сертификаты</a></li>
 				<li><a href="feedbacks.php" class="sitemap__link">Отзывы и благодарности</a></li>
 			</ul>

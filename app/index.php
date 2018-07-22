@@ -494,7 +494,7 @@
 						<div class="clients__slide">
 							<div class="clients__item">
 								<div class="clients__logo">
-										<img src="img/clients/client1.png" alt="Логотип коиента" class="img-responsive"
+										<img src="img/clients/client1.png" alt="Логотип клиента" class="img-responsive"
 										srcset="img/clients/client1.png 1x, img/clients/client1@2x.png 2x">
 								</div>
 							</div>
@@ -503,7 +503,7 @@
 						<div class="clients__slide">
 							<div class="clients__item">
 								<div class="clients__logo">
-										<img src="img/clients/client2.png" alt="Логотип коиента" class="img-responsive"
+										<img src="img/clients/client2.png" alt="Логотип клиента" class="img-responsive"
 										srcset="img/clients/client2.png 1x, img/clients/client2@2x.png 2x">
 								</div>
 							</div>
@@ -512,7 +512,7 @@
 						<div class="clients__slide">
 							<div class="clients__item">
 								<div class="clients__logo">
-										<img src="img/clients/client3.png" alt="Логотип коиента" class="img-responsive"
+										<img src="img/clients/client3.png" alt="Логотип клиента" class="img-responsive"
 										srcset="img/clients/client3.png 1x, img/clients/client3@2x.png 2x">
 								</div>
 							</div>
@@ -521,7 +521,7 @@
 						<div class="clients__slide">
 							<div class="clients__item">
 								<div class="clients__logo">
-										<img src="img/clients/client4.png" alt="Логотип коиента" class="img-responsive"
+										<img src="img/clients/client4.png" alt="Логотип клиента" class="img-responsive"
 										srcset="img/clients/client4.png 1x, img/clients/client4@2x.png 2x">
 								</div>
 							</div>

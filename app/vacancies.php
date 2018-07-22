@@ -34,7 +34,7 @@
 
 <body>
 
-	<div class="page privacy-page">
+	<div class="page vacancies-page">
 
 
 		<!-- header -->
@@ -176,7 +176,7 @@
 
 
 	</div>
-	<!-- /.privacy-page -->
+	<!-- /.vacancies-page -->
 
 
 

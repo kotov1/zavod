@@ -1,0 +1,36 @@
+.delivery
+	padding: $margin1 0
+	&__companies
+		padding: $margin1 0 calc(#{$margin1} - #{$margin2})
+	&__company
+		margin-bottom: $margin2
+		display: flex
+		align-items: center
+		justify-content: center
+		height: 180px
+		padding: 15px
+		border: 1px solid #BEBEBE
+		border-radius: 3px
+		transition: $trs-all
+		img
+			filter: grayscale(1)
+			transition:  $trs-all
+		&:hover
+			border-color: transparent
+			box-shadow: 0 0 15px rgba(#000, .16)
+			transition: $trs-all
+			img
+				filter: grayscale(0)
+				transition:  $trs-all
+
+
+@media only screen and (max-width : 767px)
+
+	.delivery
+		padding: $margin1-mob 0
+		&__companies
+				padding: $margin1-mob 0 calc(#{$margin1-mob} - #{$margin2-mob})
+		&__company
+			margin-bottom: $margin2-mob
+
+	/**/
