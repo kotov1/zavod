@@ -106,7 +106,7 @@
 										<div class="subcategories-item__img">
 											<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 										</div>
-										<a href="#" class="subcategories-item__name">
+										<a href="card.php" class="subcategories-item__name">
 											Муфта Interlock для РВД R13/R15
 											<div class="subcategories-item__link"><span>подробнее</span></div>
 										</a>
@@ -119,7 +119,7 @@
 										<div class="subcategories-item__img">
 											<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 										</div>
-										<a href="#" class="subcategories-item__name">
+										<a href="card.php" class="subcategories-item__name">
 											Муфта Interlock для РВД R13/R15
 											<div class="subcategories-item__link"><span>подробнее</span></div>
 										</a>
@@ -132,7 +132,7 @@
 										<div class="subcategories-item__img">
 											<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 										</div>
-										<a href="#" class="subcategories-item__name">
+										<a href="card.php" class="subcategories-item__name">
 											Муфта Interlock для РВД R13/R15
 											<div class="subcategories-item__link"><span>подробнее</span></div>
 										</a>
@@ -145,7 +145,7 @@
 										<div class="subcategories-item__img">
 											<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 										</div>
-										<a href="#" class="subcategories-item__name">
+										<a href="card.php" class="subcategories-item__name">
 											Муфта Interlock для РВД R13/R15
 											<div class="subcategories-item__link"><span>подробнее</span></div>
 										</a>
@@ -158,7 +158,7 @@
 										<div class="subcategories-item__img">
 											<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 										</div>
-										<a href="#" class="subcategories-item__name">
+										<a href="card.php" class="subcategories-item__name">
 											Муфта Interlock для РВД R13/R15
 											<div class="subcategories-item__link"><span>подробнее</span></div>
 										</a>
@@ -171,7 +171,7 @@
 										<div class="subcategories-item__img">
 											<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 										</div>
-										<a href="#" class="subcategories-item__name">
+										<a href="card.php" class="subcategories-item__name">
 											Муфта Interlock для РВД R13/R15
 											<div class="subcategories-item__link"><span>подробнее</span></div>
 										</a>
@@ -215,7 +215,7 @@
 										<div class="subcategories-item__img">
 											<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 										</div>
-										<a href="#" class="subcategories-item__name">
+										<a href="card.php" class="subcategories-item__name">
 											Муфта Interlock для РВД R13/R15
 											<div class="subcategories-item__link"><span>подробнее</span></div>
 										</a>
@@ -228,7 +228,7 @@
 										<div class="subcategories-item__img">
 											<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 										</div>
-										<a href="#" class="subcategories-item__name">
+										<a href="card.php" class="subcategories-item__name">
 											Муфта Interlock для РВД R13/R15
 											<div class="subcategories-item__link"><span>подробнее</span></div>
 										</a>
@@ -241,7 +241,7 @@
 										<div class="subcategories-item__img">
 											<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 										</div>
-										<a href="#" class="subcategories-item__name">
+										<a href="card.php" class="subcategories-item__name">
 											Муфта Interlock для РВД R13/R15
 											<div class="subcategories-item__link"><span>подробнее</span></div>
 										</a>
@@ -254,7 +254,7 @@
 										<div class="subcategories-item__img">
 											<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 										</div>
-										<a href="#" class="subcategories-item__name">
+										<a href="card.php" class="subcategories-item__name">
 											Муфта Interlock для РВД R13/R15
 											<div class="subcategories-item__link"><span>подробнее</span></div>
 										</a>
@@ -298,7 +298,7 @@
 										<div class="subcategories-item__img">
 											<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 										</div>
-										<a href="#" class="subcategories-item__name">
+										<a href="card.php" class="subcategories-item__name">
 											Муфта Interlock для РВД R13/R15
 											<div class="subcategories-item__link"><span>подробнее</span></div>
 										</a>
@@ -311,7 +311,7 @@
 										<div class="subcategories-item__img">
 											<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 										</div>
-										<a href="#" class="subcategories-item__name">
+										<a href="card.php" class="subcategories-item__name">
 											Муфта Interlock для РВД R13/R15
 											<div class="subcategories-item__link"><span>подробнее</span></div>
 										</a>
@@ -324,7 +324,7 @@
 										<div class="subcategories-item__img">
 											<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 										</div>
-										<a href="#" class="subcategories-item__name">
+										<a href="card.php" class="subcategories-item__name">
 											Муфта Interlock для РВД R13/R15
 											<div class="subcategories-item__link"><span>подробнее</span></div>
 										</a>
@@ -337,7 +337,7 @@
 										<div class="subcategories-item__img">
 											<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 										</div>
-										<a href="#" class="subcategories-item__name">
+										<a href="card.php" class="subcategories-item__name">
 											Муфта Interlock для РВД R13/R15
 											<div class="subcategories-item__link"><span>подробнее</span></div>
 										</a>

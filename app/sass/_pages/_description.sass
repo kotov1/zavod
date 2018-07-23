@@ -1,0 +1,36 @@
+/* CHAPTER-ITEM BEGIN */
+
+.chapterItem
+	padding: $margin1 0
+	&__descTop
+		h2
+			font-size: 1.875rem
+			font-weight: normal
+		p
+			line-height: 26px
+			font-size: 1.125rem
+			margin-bottom: 30px
+	&__ImgWrap
+		margin-top: 8px
+
+/* CHAPTER-ITEM END */
+
+
+@media only screen and (max-width : 1199px)
+
+	.chapterItem
+		&__ImgWrap
+			img
+				margin: 20px auto 30px
+	/**/
+
+	
+@media only screen and (max-width : 767px)
+
+	.chapterItem
+		padding: $margin1-mob 0
+		&__descTop
+			h2	
+				font-size: 1.5rem	
+		
+	/**/

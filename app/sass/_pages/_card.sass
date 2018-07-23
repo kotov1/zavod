@@ -1,0 +1,256 @@
+/* PRODUCT-CART BEGIN */
+.card-page .form-section
+	margin: $margin1 0
+
+.productCart
+	padding: $margin1 0
+	&__top
+		margin-bottom: calc(#{$margin1} - 10px)
+	&__ImgWrap
+		margin-top: 8px
+		margin-right: 3%
+		display: -webkit-flex
+		display: -moz-flex
+		display: -ms-flex
+		display: -o-flex
+		display: flex
+		float: left
+		justify-content: center
+		align-items: center
+		overflow: hidden
+		width: 40%
+		max-width: 480px
+		height: auto
+		max-height: 400px
+		a
+			position: relative
+			display: inline-block
+			outline: none
+			img
+				margin: 0 auto
+			&:before
+				position: absolute
+				content: ''
+				width: 50px
+				height: 50px
+				background: url(../img/zoomIcon.png) no-repeat 
+				background-position: 0 0
+				right: 25px
+				top: 20px
+
+	&__descTop
+		position: relative
+		min-height: 100%
+		float: right
+		width: 57%
+		h2
+			font-size: 1.875rem
+			font-weight: normal
+			margin-bottom: calc(#{$margin2} - 20px)
+		h4
+			font-weight: bold
+			font-size: 1.25rem
+			margin-bottom: calc(#{$margin2-mob} - 15px)
+		p
+			line-height: 26px
+			font-size: 1.125rem
+			margin-bottom: calc(#{$margin2} - 15px)
+
+	&__buttonOrder
+		text-align: center
+		display: inline-block
+		width: auto
+		background: #239EEB
+		color: #fff
+		font-size: 1.25rem
+		font-weight: bold
+		border-radius: 24px
+		padding: 10px 45px
+		margin-top: 8px
+		outline: none
+		&:hover
+			color: #fff
+			text-decoration: none
+	&__buttonQuiz
+		display: inline-block
+		font-size: 1.125rem
+		color: #707070
+		margin: 0 20px 0 60px
+		outline: none
+		border-bottom: 1px dashed #707070
+		&:hover
+			text-decoration: none
+			color: #707070
+
+
+
+//table begin
+
+table.tableCharacteristics
+	border: 1px solid rgba(0,0,0,0.2)
+	border-top: none
+	width: 100%
+	border-collapse: collapse
+	thead
+		tr:first-child 
+			background-image: linear-gradient(to right,rgb(34, 170, 241) 0%,rgb(142, 212, 241) 100%)
+			text-align: center
+			color: #fff
+			font-size: 1.25rem
+			th
+				font-weight: normal
+		tr:last-child
+			text-align: center
+			color: #727272
+			font-size: 1.25rem
+
+			th:nth-child(1),
+			th:nth-child(2)
+				text-align: left
+				border-right: 1px solid rgba(0,0,0,0.2)
+			th:nth-child(3),
+			th:nth-child(4),
+			th:nth-child(5)
+				border-right: 1px solid rgba(0,0,0,0.2)
+	tr:nth-child(odd)
+		background: #F7F7F7
+	td,th
+		padding: 12px 1% 9px
+	tbody
+		td
+			font-size: 1.125rem
+			color: #707070
+			text-align: center
+	td:first-child
+		text-align: left
+		border-right: 1px solid rgba(0,0,0,0.2)
+	td:nth-child(2)
+		text-align: left
+		border-right: 1px solid rgba(0,0,0,0.2)
+	td:nth-child(3),
+	td:nth-child(4),
+	td:nth-child(5)
+		border-right: 1px solid rgba(0,0,0,0.2)
+
+//table end
+
+/* PRODUCT-CART END */
+
+
+
+
+
+@media only screen and (max-width : 1199px)
+	.productCart
+		&__ImgWrap
+			margin-right: 4%
+			width: 44%
+			margin-bottom: 20px
+		&__descTop
+			width: 52%
+
+
+@media only screen and (max-width : 991px)
+
+	.productCart
+		&__buttonQuiz
+			margin-right: 0
+			margin-left: 20px
+			font-size: 1.1rem
+		&__buttonOrder
+			padding: 10px 25px
+			font-size: 1.1rem
+
+	/**/
+
+
+@media only screen and (max-width : 767px)
+	.productCart
+		&__ImgWrap
+			margin-right: auto
+			margin-left: auto
+			float: none
+			width: 100%
+			display: block
+			max-width: 400px
+		&__descTop
+			float: none
+			width: 100%
+			h2
+				font-size: 1.625rem
+			h4
+				font-size: 1.125rem
+			p
+				font-size: 1.125rem
+		&__buttonWrap
+			text-align: center
+		&__buttonOrder
+			font-size: 1rem
+		&__buttonQuiz
+			font-size: 1.1rem
+
+	//table begin
+	table.tableCharacteristics
+		thead
+			tr:first-child 
+				font-size: 1.1rem
+			tr:last-child
+				font-size: 1.1rem
+		tbody
+			td
+				font-size: 1rem
+
+	.card-page 
+		.form-section
+			margin: 0 0 $margin1-mob
+		.about__item-text
+			font-size: 1rem
+			text-align: left
+			margin: 0 0 0 15px
+
+
+@media only screen and (max-width : 480px)
+
+	/* PRODUCT-CART BEGIN */
+	.productCart
+		&__ImgWrap
+			max-width: 375px
+			max-height: 200px
+			a:before
+				content: none
+		&__buttonWrap
+			flex-direction: column
+			align-items: center
+		&__descTop
+			padding-bottom: 40px
+		 h2
+		 	font-size: 1.25rem
+		 	font-weight: 600
+		 p
+		 	font-size: 1rem
+		&__buttonOrder
+			font-size: 0.875rem
+			margin-top: 0
+		&__buttonQuiz
+			margin: 15px 0 15px 10px
+			line-height: 1.2
+			font-size: 1rem
+
+	//table begin
+	.tableCharacteristics__wrap
+		overflow-x: scroll
+		min-width: 290px
+	table.tableCharacteristics
+		thead
+			tr:first-child 
+				font-size: 0.875rem
+			tr:last-child
+				font-size: 0.875rem
+				font-weight: 100
+		td,th
+			padding: 10px 1% 7px
+		tbody
+			td
+				font-size: 0.875rem
+
+	/**/

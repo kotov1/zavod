@@ -1,0 +1,28 @@
+.production
+	padding: $margin1 0
+	&__images
+		padding: $margin1 0 calc(#{$margin1} - #{$margin2})
+	&__img
+		height: 300px
+		margin-bottom: $margin2
+		display: flex
+		align-items: center
+		justify-content: center
+		background-color: #F7F7F7
+		overflow: hidden
+		&--big
+			height: 630px
+
+
+
+@media only screen and (max-width : 767px)
+
+	.production
+		padding: $margin1-mob 0
+		&__img
+			height: 200px
+			&--big
+				height: 350px
+
+
+	/**/

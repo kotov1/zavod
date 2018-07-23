@@ -92,7 +92,7 @@
 											<a href="#">К разделу</a>
 										</div>
 									</div>
-									<ul class="categories__list">
+									<ul class="page-list categories__list">
 										<li>РВД в сборе с фитингами из нерж. стали</li>
 										<li>РВД в сборе с сертификатом РМРС</li>
 										<li>Рукавные соединения</li>
@@ -115,7 +115,7 @@
 											<a href="subcategory.php">К разделу</a>
 										</div>
 									</div>
-									<ul class="categories__list">
+									<ul class="page-list categories__list">
 										<li>Под приварку</li>
 										<li>С фланцами</li>
 										<li>С резьбовыми соединениями</li>
@@ -141,7 +141,7 @@
 											<a href="subcategory.php">К разделу</a>
 										</div>
 									</div>
-									<ul class="categories__list">
+									<ul class="page-list categories__list">
 										<li>Осевые (КСО)</li>
 										<li>Стартовые (ССК)</li>
 										<li>Сдвиговые (КСС)</li>
@@ -166,7 +166,7 @@
 											<a href="subcategory.php">К разделу</a>
 										</div>
 									</div>
-									<ul class="categories__list">
+									<ul class="page-list categories__list">
 										<li>Муфты из нерж. стали для РВД </li>
 										<li>Фитинги из нерж. стали для РВД </li>
 										<li>Нестандартные фитинги</li>
@@ -187,7 +187,7 @@
 											<a href="subcategory.php">К разделу</a>
 										</div>
 									</div>
-									<ul class="categories__list">
+									<ul class="page-list categories__list">
 										<li>Тип 1</li>
 										<li>Тип 2</li>
 										<li>Тип 3</li>
@@ -208,7 +208,7 @@
 											<a href="#">К разделу</a>
 										</div>
 									</div>
-									<ul class="categories__list">
+									<ul class="page-list categories__list">
 										<li>Каталог 1</li>
 										<li>Каталог 2</li>
 										<li>Каталог 3</li>

@@ -79,33 +79,37 @@
 			display: inline-block
 			+ span:before
 				padding: 0 .11em
-				color: #707070
+				color: #fff
 				content: "/"
 			a
-				color: #707070
-				text-shadow: 0 0 3px rgba(#fff, .1)
+				color: #fff
+				text-shadow: 0 0 3px rgba(#000, .1)
+				
 				border-bottom: 1px dashed transparent
 				transition: $trs-all
 				&:hover
 					text-decoration: none
-					color: #707070
-					border-bottom-color: #707070
+					color: #fff
+					border-bottom-color: #fff
 					transition: $trs-all
 			&:last-child
 				a
 					text-decoration: none
 					cursor: default
 					border-bottom: none
-	&--white
-		> span
-			+ span:before
-				color: #fff
-			a
-				color: #fff
-				text-shadow: 0 0 3px rgba(#000, .1)
-				&:hover
-					color: #fff
-					border-bottom-color: #fff
+	// &--white
+	// 	> span
+	// 		+ span:before
+	// 			
+				// color: #707070
+	// 		a
+	// 			
+				// color: #707070
+	// 			text-shadow: 0 0 3px rgba(#fff, .1)
+	// 			&:hover
+	// 				
+					// color: #707070
+					// border-bottom-color: #707070
 
 
 /* ----- checkbox ----- */
@@ -239,10 +243,8 @@
 	margin-bottom: 0
 	line-height: 1.2
 	font-weight: 300
-	color: #707070
-	&--white
-		color: #fff
-		text-shadow: 0 0 3px rgba(#000, .1)
+	color: #fff
+	text-shadow: 0 0 3px rgba(#000, .1)
 
 .page-subtitle
 	margin: 0 0 $margin2
@@ -257,12 +259,32 @@
 	font-size: 1.125rem
 	line-height: 1.45
 	letter-spacing: .01em
+	&--big
+		font-size: 1.25rem
 	&--accented
 		font-weight: 700
 
-ul.page-text
-	padding-left: 0
-	list-style: none
+/* ----- lists ----- */
+ul
+	&.page-text
+		padding-left: 0
+		list-style: none
+	&.page-list
+		li
+			position: relative
+			&::before
+				content: ''
+				display: inline-block
+				width: 5px
+				height: 5px
+				margin-bottom: 3px
+				margin-right: 12px
+				background: #3399FF
+				border-radius: 50%
+				z-index: 0
+
+
+
 
 
 /* ----- demo img ----- */
@@ -305,7 +327,17 @@ ul.page-text
 /* ------------------------------------- 
 	content 
 	------------------------------------- */
+.main-page-banner
+	max-height: 400px
+	position: relative
+	z-index: 1
+	overflow: hidden
+
+@import "_blocks/video"
+
+
 .page-banner
+	min-height: 400px
 	padding: 6.25rem 0 7.5rem
 	background-color: #CCCBCB
 	background-repeat: no-repeat
@@ -462,6 +494,8 @@ ul.page-text
 		line-height: 1.4
 		letter-spacing: .01em
 		color: #727272
+		p
+			margin: 0
 
 	.slick-prev
 		left: 20px
@@ -527,6 +561,17 @@ ul.page-text
 	------------------------------------- */
 @import "media"
 
+
+/* ------------------------------------- 
+	services
+	------------------------------------- */
+@import "_pages/_card"
+
+
+/* ------------------------------------- 
+	services
+	------------------------------------- */
+@import "_pages/_description"
 
 
 /* ------------------------------------- 
@@ -606,9 +651,41 @@ ul.page-text
 @import "_pages/_contacts"
 
 
+/* ------------------------------------- 
+	services
+	------------------------------------- */
+@import "_pages/_services"
+
+
+/* ------------------------------------- 
+	about
+	------------------------------------- */
+@import "_pages/_about"
+
+
+/* ------------------------------------- 
+	production
+	------------------------------------- */
+@import "_pages/_production"
+
+
+/* ------------------------------------- 
+	article
+	------------------------------------- */
+@import "_pages/_article"
 
 
 
+
+
+
+
+
+
+/* ------------------------------------- 
+	video block
+	------------------------------------- */
+@import "_blocks/_video"
 
 
 /* ------------------------------------- 

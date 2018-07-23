@@ -71,14 +71,14 @@
 						<ul class="menu main-menu">
 
 							<li class="main-menu__item">
-								<a href="#" class="main-menu__link">О предприятии</a>
+								<a href="about.php" class="main-menu__link">О предприятии</a>
 								<div class="hidden-menu hidden-menu--gray">
 									<div class="container">
 										<ul class="menu sub-menu">
-											<li class="sub-menu__item"><a href="#" class="sub-menu__link">О компании</a></li>
+											<li class="sub-menu__item"><a href="about.php" class="sub-menu__link">О компании</a></li>
 											<li class="sub-menu__item"><a href="strategy.php" class="sub-menu__link">Стратегия</a></li>
 											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Производство</a></li>
-											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Контакты</a></li>
+											<li class="sub-menu__item"><a href="contacts.php" class="sub-menu__link">Контакты</a></li>
 											<li class="sub-menu__item"><a href="delivery.php" class="sub-menu__link">Доставка</a></li>
 											<li class="sub-menu__item"><a href="certificates.php" class="sub-menu__link">Сертификаты</a></li>
 										</ul>
@@ -156,10 +156,10 @@
 								<div class="col-12 col-md-6 col-lg-3">
 									<div class="sitemap__links-title">О предприятии</div>
 									<ul class="menu sitemap__links">
-										<li><a href="#" class="sitemap__link">О компании</a></li>
+										<li><a href="about.php" class="sitemap__link">О компании</a></li>
 										<li><a href="strategy.php" class="sitemap__link">Стратегия</a></li>
 										<li><a href="#" class="sitemap__link">Производство</a></li>
-										<li><a href="#" class="sitemap__link">Контакты</a></li>
+										<li><a href="contacts.php" class="sitemap__link">Контакты</a></li>
 										<li><a href="delivery.php" class="sitemap__link">Доставка</a></li>
 										<li><a href="certificates.php" class="sitemap__link">Сертификаты</a></li>
 										<li><a href="feedbacks.php" class="sitemap__link">Отзывы и благодарности</a></li>
@@ -312,10 +312,10 @@
 			
 			<div class="sitemap__links-title"><i class="icon icon-mob1"></i>О предприятии</div>
 			<ul class="menu sitemap__links">
-				<li><a href="#" class="sitemap__link">О компании</a></li>
+				<li><a href="about.php" class="sitemap__link">О компании</a></li>
 				<li><a href="strategy.php" class="sitemap__link">Стратегия</a></li>
 				<li><a href="#" class="sitemap__link">Производство</a></li>
-				<li><a href="#" class="sitemap__link">Контакты</a></li>
+				<li><a href="contacts.php" class="sitemap__link">Контакты</a></li>
 				<li><a href="delivery.php" class="sitemap__link">Доставка</a></li>
 				<li><a href="certificates.php" class="sitemap__link">Сертификаты</a></li>
 				<li><a href="feedbacks.php" class="sitemap__link">Отзывы и благодарности</a></li>

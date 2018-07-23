@@ -51,9 +51,14 @@
 
 
 			<!-- page-banner -->
-			<section class="page-banner" style="background-image: url('img/test.jpg')">
+			<section class="page-banner main-page-banner" style="background-image: url('img/test.jpg')">
 				<div class="container">
 					<h1 class="page-title main-page__title">завод гидравлических соединений</h1>
+					<video id="html5-video" class="fill main-video" poster="" autoplay="autoplay" loop="loop" muted="">
+						<source src="/video/index.webm" type="video/webm">
+						<source src="/video/index.mp4" type="video/mp4">
+				</video>
+				<div class="video-overlay"></div>
 				</div>
 			</section>
 			<!-- page-banner end -->

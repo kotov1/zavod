@@ -4,6 +4,8 @@
 .contacts
 	margin: $margin1 0
 	border: 1px solid #BEBEBE
+	&.mt-0
+		margin-top: 0
 
 	&-info
 		li
@@ -47,7 +49,7 @@
 			background-position: -458px 0
 
 	&__block
-		padding: 45px
+		padding: 40px
 
 #map
 	width: 100%
@@ -57,6 +59,9 @@
 @media only screen and (max-width : 767px)
 
 	.contacts
+		margin: $margin1-mob 0
+		&.mt-0
+			margin-top: 0
 		&__block
 			padding: $margin2-mob 8px 15px 15px
 		&-info
