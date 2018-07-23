@@ -8,23 +8,21 @@
 
 				<div class="col-12 col-md-4 col-lg-3">
 					<div class="logo desktop-logo">
-						<a href="/">
-							<div class="row no-gutters align-items-center">
-								<div class="col-auto">
-									<div class="logo__img">
-											<div class="d-none d-md-block"><img src="img/logo.png" class="img-responsive" alt="Логотип" 
-												srcset="img/logo.png 1x, img/logo@2x.png 2x"></div>
-											<div class="d-md-none"><img src="img/logo--white.png" class="img-responsive" alt="Логотип"></div>
-									</div>
-								</div>
-								<div class="col-auto">
-									<div class="logo__text">
-										<div class="logo__up-text">standart</div>
-										<!-- <div class="logo__down-text">техмаш</div> -->
-									</div>
+						<div class="row no-gutters align-items-center">
+							<div class="col-auto">
+								<div class="logo__img">
+										<div class="d-none d-md-block"><img src="img/logo.png" class="img-responsive" alt="Логотип" 
+											srcset="img/logo.png 1x, img/logo@2x.png 2x"></div>
+										<div class="d-md-none"><img src="img/logo--white.png" class="img-responsive" alt="Логотип"></div>
 								</div>
 							</div>
-						</a>
+							<div class="col-auto">
+								<div class="logo__text">
+									<div class="logo__up-text">standart</div>
+									<!-- <div class="logo__down-text">техмаш</div> -->
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -63,16 +61,14 @@
 
 				<div class="col-auto d-flex align-items-center">
 					<div class="logo">
-						<a href="/">
-							<div class="logo__img">
-								<div class="row align-items-center">
-									<div class="col-auto">
-										<img src="img/logo--white.png" class="img-responsive" alt="Логотип">
-									</div>
-									<div class="col-auto">standart</div>
+						<div class="logo__img">
+							<div class="row align-items-center">
+								<div class="col-auto">
+									<img src="img/logo--white.png" class="img-responsive" alt="Логотип">
 								</div>
+								<div class="col-auto">standart</div>
 							</div>
-						</a>
+						</div>
 					</div>
 				</div>
 
@@ -283,22 +279,20 @@
 
 		<div class="logo mobile-logo">
 			<div class="mobile-nav__close"></div>
-			<a href="/">
-				<div class="row no-gutters align-items-center">
-					<div class="col-auto">
-						<div class="logo__img">
-							<img src="img/logo.png" class="img-responsive" alt="Логотип" 
-									srcset="img/logo.png 1x, img/logo@2x.png 2x">
-						</div>
-					</div>
-					<div class="col-auto">
-						<div class="logo__text">
-							<div class="logo__up-text">standart</div>
-							<!-- <div class="logo__down-text">техмаш</div> -->
-						</div>
+			<div class="row no-gutters align-items-center">
+				<div class="col-auto">
+					<div class="logo__img">
+						<a href="index.php"><img src="img/logo.png" class="img-responsive" alt="Логотип" 
+								srcset="img/logo.png 1x, img/logo@2x.png 2x"></a>
 					</div>
 				</div>
-			</a>
+				<div class="col-auto">
+					<div class="logo__text">
+						<div class="logo__up-text">standart</div>
+						<!-- <div class="logo__down-text">техмаш</div> -->
+					</div>
+				</div>
+			</div>
 		</div>
 		<!-- /.mobile-logo -->
 

@@ -3,10 +3,16 @@
 	z-index: 2
 
 .top-line
-	padding: 10px 0
+	padding: 15px 0 11px
 	background-color: #fff
 
 .logo
+	color: #201600
+	a
+		color: #201600
+		&:hover
+			text-decoration: none
+			color: #201600
 	&__text
 		padding-left: 15px
 		line-height: 1.1
@@ -46,17 +52,14 @@
 
 .arrow-right
 	display: inline-block
-	width: 10px
-	height: 10px
+	width: 30px
+	height: 30px
 	margin: 0
-	border-bottom: 2px solid #fff
-	border-right: 2px solid #fff
 	position: absolute
 	right: 15px
 	top: 50%
-	margin-top: -5.5px
-	transform: rotate(-45deg)
-	transition: $trs-all
+	border-radius: 50%
+	background: url('../img/icons-set.png') no-repeat -520px 0
 
 .icon
 	display: inline-block
@@ -67,10 +70,20 @@
 		width: 35px
 		height: 18px
 		background-position: 0 0
+		transition: $trs-all
+		&:hover
+			box-shadow: 0 0 20px rgba(#2398ED, .25)
+			transition: $trs-all
 	&__tel
-		width: 31px
+		width: 33px
 		height: 33px
 		background-position: -44px 0
+		cursor: pointer
+		border-radius: 50%
+		transition: $trs-all
+		&:hover
+			box-shadow: 0 0 20px rgba(#2398ED, .25)
+			transition: $trs-all
 	&__tel-mobile
 		width: 19px
 		height: 19px
@@ -113,6 +126,13 @@
 	background-image: linear-gradient(65deg, #2365D6, #22B1F1)
 	.logo
 		display: none
+		font-size: 28px
+		font-weight: bold
+		text-transform: uppercase
+		color: #fff
+		a
+			color: #fff
+
 	.logo__img
 		img
 			max-height: 3.25rem
@@ -239,8 +259,6 @@
 	background-color: rgba(#fff, .9)
 	transition: $trs-all
 	z-index: 2
-	// &--gray
-	// 	background-color: #CCCBCB
 
 
 /* ----- sitemap ----- */
@@ -313,7 +331,7 @@
 
 .form-mobile-popup
 	display: none
-	padding: 10px 20px 20px
+	padding: 10px 20px 25px
 	background-color: #fff	
 
 .form-mobile.form-mobile-popup

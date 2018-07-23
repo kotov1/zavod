@@ -41,6 +41,8 @@
 		<?php include("blocks/header.php");?>
 		<!-- header -->
 
+		<div class="overlay"></div>
+
 
 
 		<!-- CHAPTER-ITEM BEGIN -->

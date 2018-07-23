@@ -1,4 +1,4 @@
-// Video at main page
+// Youtube video on page "about"
 $(document).on('click', '.videoPoster', function(e) {
 	e.preventDefault();
 	var poster = $(this);

@@ -13,7 +13,7 @@
 								<ul class="menu sitemap__links">
 									<li><a href="about.php" class="sitemap__link">О компании</a></li>
 									<li><a href="strategy.php" class="sitemap__link">Стратегия</a></li>
-									<li><a href="production.php" class="sitemap__link">Производство</a></li>
+									<li><a href="#" class="sitemap__link">Производство</a></li>
 									<li><a href="contacts.php" class="sitemap__link">Контакты</a></li>
 									<li><a href="delivery.php" class="sitemap__link">Доставка</a></li>
 									<li><a href="certificates.php" class="sitemap__link">Сертификаты</a></li>
@@ -178,22 +178,20 @@
 
 				<div class="col-5 justify-content-end d-none d-lg-flex">
 					<div class="logo">
-						<a href="/">
-							<div class="row no-gutters align-items-center">
-								<div class="col-auto">
-									<div class="logo__img">
-											<img src="img/logo.png" class="img-responsive" alt="Логотип" 
-												srcset="img/logo.png 1x, img/logo@2x.png 2x">
-									</div>
-								</div>
-								<div class="col-auto">
-									<div class="logo__text">
-										<div class="logo__up-text">гидрал</div>
-										<div class="logo__down-text">техмаш</div>
-									</div>
+						<div class="row no-gutters align-items-center">
+							<div class="col-auto">
+								<div class="logo__img">
+										<img src="img/logo.png" class="img-responsive" alt="Логотип" 
+											srcset="img/logo.png 1x, img/logo@2x.png 2x">
 								</div>
 							</div>
-						</a>
+							<div class="col-auto">
+								<div class="logo__text">
+									<div class="logo__up-text">гидрал</div>
+									<div class="logo__down-text">техмаш</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 

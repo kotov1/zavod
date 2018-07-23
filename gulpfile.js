@@ -78,7 +78,7 @@ gulp.task('build', ['removedist', 'imagemin', 'sass', 'js'], function() {
 		]).pipe(gulp.dest('dist/css'));
 
 	var buildJs = gulp.src([
-		'app/js/scripts.js'
+		'app/js/*.js'
 		]).pipe(gulp.dest('dist/js'));
 
 	var buildJquery = gulp.src([
@@ -92,6 +92,10 @@ gulp.task('build', ['removedist', 'imagemin', 'sass', 'js'], function() {
 	var buildBlocks = gulp.src([
 		'app/blocks/*.php',
 		]).pipe(gulp.dest('dist/blocks'));
+		
+	var buildVideos = gulp.src([
+		'app/video/*',
+		]).pipe(gulp.dest('dist/video'));
 
 });
 

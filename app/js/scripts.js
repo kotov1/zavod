@@ -98,7 +98,7 @@ $(function() {
 		$('.header').addClass('mob-menu');
 		bodyOverlay(true);
 	});
-	$('.mobile-nav__close').click(function() {
+	$('.mobile-nav__close, .overlay').click(function() {
 		$('.header').removeClass('mob-menu');
 		bodyOverlay(false);
 	});
