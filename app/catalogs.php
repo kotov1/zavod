@@ -79,7 +79,7 @@
 
 				<div class="container">
 
-					<div class="catalog">
+					<div class="catalog" id="catalog1">
 
 						<div class="demo-img demo-img--static"><img src="" alt="alt" class="img-responsive"></div>
 
@@ -87,19 +87,21 @@
 							<h2 class="page-subtitle catalog__name">Каталог металлорукава (МРВД)</h2>
 							<p class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat </p>
 							<div class="download">
-								<div class="row align-items-center no-gutters">
-									<div class="col-auto">
-										<div class="download__icon">
-											<svg class="about__img-svg">
-												<use xlink:href="#svg-icon-12" />
-											</svg>
+								<a href="img/logo.png" download="">
+									<div class="row align-items-center no-gutters">
+										<div class="col-auto">
+											<div class="download__icon">
+												<svg class="about__img-svg">
+													<use xlink:href="#svg-icon-12" />
+												</svg>
+											</div>
+										</div>
+										<div class="col">
+											<div><span class="download__link">Скачать каталог</span></div>
+											<div><span class="download__info">25 mb</span></div>
 										</div>
 									</div>
-									<div class="col">
-										<div class="download__link"><a href="img/logo.png" download="">Скачать каталог</a></div>
-										<div class="download__info">25 mb</div>
-									</div>
-								</div>
+								</a>
 							</div>
 							<!-- /.catalog__download -->
 						</div>
@@ -107,29 +109,30 @@
 
 					</div>
 					<!-- /.catalog -->
-
 					
-					<div class="catalog">
+					<div class="catalog" id="catalog2">
 
 						<div class="demo-img demo-img--static"><img src="" alt="alt" class="img-responsive"></div>
 
 						<div class="catalog__descr">
 							<h2 class="page-subtitle catalog__name">Каталог металлорукава (МРВД)</h2>
-							<p class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</p>
+							<p class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat </p>
 							<div class="download">
-								<div class="row align-items-center no-gutters">
-									<div class="col-auto">
-										<div class="download__icon">
-											<svg class="about__img-svg">
-												<use xlink:href="#svg-icon-12" />
-											</svg>
+								<a href="img/logo.png" download="">
+									<div class="row align-items-center no-gutters">
+										<div class="col-auto">
+											<div class="download__icon">
+												<svg class="about__img-svg">
+													<use xlink:href="#svg-icon-12" />
+												</svg>
+											</div>
+										</div>
+										<div class="col">
+											<div><span class="download__link">Скачать каталог</span></div>
+											<div><span class="download__info">25 mb</span></div>
 										</div>
 									</div>
-									<div class="col">
-										<div class="download__link"><a href="img/logo.png" download="">Скачать каталог</a></div>
-										<div class="download__info">25 mb</div>
-									</div>
-								</div>
+								</a>
 							</div>
 							<!-- /.catalog__download -->
 						</div>
@@ -137,7 +140,68 @@
 
 					</div>
 					<!-- /.catalog -->
+					
+					<div class="catalog" id="catalog3">
 
+						<div class="demo-img demo-img--static"><img src="" alt="alt" class="img-responsive"></div>
+
+						<div class="catalog__descr">
+							<h2 class="page-subtitle catalog__name">Каталог металлорукава (МРВД)</h2>
+							<p class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat </p>
+							<div class="download">
+								<a href="img/logo.png" download="">
+									<div class="row align-items-center no-gutters">
+										<div class="col-auto">
+											<div class="download__icon">
+												<svg class="about__img-svg">
+													<use xlink:href="#svg-icon-12" />
+												</svg>
+											</div>
+										</div>
+										<div class="col">
+											<div><span class="download__link">Скачать каталог</span></div>
+											<div><span class="download__info">25 mb</span></div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<!-- /.catalog__download -->
+						</div>
+						<!-- /.catalog__descr -->
+
+					</div>
+					<!-- /.catalog -->
+					
+					<div class="catalog" id="catalog4">
+
+						<div class="demo-img demo-img--static"><img src="" alt="alt" class="img-responsive"></div>
+
+						<div class="catalog__descr">
+							<h2 class="page-subtitle catalog__name">Каталог металлорукава (МРВД)</h2>
+							<p class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat </p>
+							<div class="download">
+								<a href="img/logo.png" download="">
+									<div class="row align-items-center no-gutters">
+										<div class="col-auto">
+											<div class="download__icon">
+												<svg class="about__img-svg">
+													<use xlink:href="#svg-icon-12" />
+												</svg>
+											</div>
+										</div>
+										<div class="col">
+											<div><span class="download__link">Скачать каталог</span></div>
+											<div><span class="download__info">25 mb</span></div>
+										</div>
+									</div>
+								</a>
+							</div>
+							<!-- /.catalog__download -->
+						</div>
+						<!-- /.catalog__descr -->
+
+					</div>
+					<!-- /.catalog -->
 
 
 				</div>
@@ -193,6 +257,14 @@
 	<script>window.jQuery || document.write('<script src="libs/jquery/dist/jquery.min.js"><\/script>')</script>
 
 	<script src="js/scripts.js"></script>
+
+		<!-- animated scroll to anchor section-->
+		<script>
+			var myHash = location.hash;
+			if(myHash[1] != undefined){
+				$('html, body').animate({scrollTop: $(myHash).offset().top - 70}, 750);
+			};
+		</script>
 
 </body>
 </html>

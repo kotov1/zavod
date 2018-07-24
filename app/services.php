@@ -187,7 +187,7 @@
 							</div>
 
 							<div class="col-12 col-xl-8">
-								<div id="map"></div>
+								<div class="map" id="map"></div>
 							</div>
 
 						</div>
@@ -218,7 +218,7 @@
 							</div>
 
 							<div class="col-12 col-xl-8">
-								<div id="map"></div>
+								<div class="map" id="map2"></div>
 							</div>
 
 						</div>
@@ -250,7 +250,7 @@
 							</div>
 
 							<div class="col-12 col-xl-8">
-								<div id="map"></div>
+								<div class="map" id="map3"></div>
 							</div>
 
 						</div>

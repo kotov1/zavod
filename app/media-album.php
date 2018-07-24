@@ -88,8 +88,8 @@
 					<div class="row">
 
 						<div class="col-12 col-md-6 col-xl-4">
-							<div class="subcategories-item media__item">
-								<figure class="subcategories-item__img media__img">
+							<div class="media-item media-item--bg">
+								<figure class="media-item__img">
 
 									<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 
@@ -104,12 +104,12 @@
 						</div>
 						
 						<div class="col-12 col-md-6 col-xl-4">
-							<div class="subcategories-item media__item">
-								<figure class="subcategories-item__img media__img">
+							<div class="media-item media-item--bg">
+								<figure class="media-item__img">
 
 									<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 
-									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images" data-caption="Альбомное фото № 2">
+									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images" data-caption="Альбомное фото № 1">
 										<figcaption class="media__text">
 											<span class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi</span>
 										</figcaption>
@@ -120,12 +120,12 @@
 						</div>
 						
 						<div class="col-12 col-md-6 col-xl-4">
-							<div class="subcategories-item media__item">
-								<figure class="subcategories-item__img media__img">
+							<div class="media-item media-item--bg">
+								<figure class="media-item__img">
 
 									<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 
-									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images" data-caption="Альбомное фото № 3">
+									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images" data-caption="Альбомное фото № 1">
 										<figcaption class="media__text">
 											<span class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi</span>
 										</figcaption>
@@ -136,12 +136,12 @@
 						</div>
 						
 						<div class="col-12 col-md-6 col-xl-4">
-							<div class="subcategories-item media__item">
-								<figure class="subcategories-item__img media__img">
+							<div class="media-item media-item--bg">
+								<figure class="media-item__img">
 
 									<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 
-									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images" data-caption="Альбомное фото № 4">
+									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images" data-caption="Альбомное фото № 1">
 										<figcaption class="media__text">
 											<span class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi</span>
 										</figcaption>
@@ -152,12 +152,12 @@
 						</div>
 						
 						<div class="col-12 col-md-6 col-xl-4">
-							<div class="subcategories-item media__item">
-								<figure class="subcategories-item__img media__img">
+							<div class="media-item media-item--bg">
+								<figure class="media-item__img">
 
 									<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 
-									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images" data-caption="Альбомное фото № 5">
+									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images" data-caption="Альбомное фото № 1">
 										<figcaption class="media__text">
 											<span class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi</span>
 										</figcaption>
@@ -168,12 +168,12 @@
 						</div>
 						
 						<div class="col-12 col-md-6 col-xl-4">
-							<div class="subcategories-item media__item">
-								<figure class="subcategories-item__img media__img">
+							<div class="media-item media-item--bg">
+								<figure class="media-item__img">
 
 									<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 
-									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images" data-caption="Альбомное фото № 6">
+									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images" data-caption="Альбомное фото № 1">
 										<figcaption class="media__text">
 											<span class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi</span>
 										</figcaption>
@@ -184,12 +184,12 @@
 						</div>
 						
 						<div class="col-12 col-md-6 col-xl-4">
-							<div class="subcategories-item media__item">
-								<figure class="subcategories-item__img media__img">
+							<div class="media-item media-item--bg">
+								<figure class="media-item__img">
 
 									<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 
-									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images" data-caption="Альбомное фото № 7">
+									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images" data-caption="Альбомное фото № 1">
 										<figcaption class="media__text">
 											<span class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi</span>
 										</figcaption>
@@ -200,12 +200,12 @@
 						</div>
 						
 						<div class="col-12 col-md-6 col-xl-4">
-							<div class="subcategories-item media__item">
-								<figure class="subcategories-item__img media__img">
+							<div class="media-item media-item--bg">
+								<figure class="media-item__img">
 
 									<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 
-									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images" data-caption="Альбомное фото № 8">
+									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images" data-caption="Альбомное фото № 1">
 										<figcaption class="media__text">
 											<span class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi</span>
 										</figcaption>
@@ -216,12 +216,12 @@
 						</div>
 						
 						<div class="col-12 col-md-6 col-xl-4">
-							<div class="subcategories-item media__item">
-								<figure class="subcategories-item__img media__img">
+							<div class="media-item media-item--bg">
+								<figure class="media-item__img">
 
 									<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 
-									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images" data-caption="Альбомное фото № 9">
+									<a href="img/certificates/certificate1-zoom.jpg" data-fancybox="images" data-caption="Альбомное фото № 1">
 										<figcaption class="media__text">
 											<span class="page-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugi</span>
 										</figcaption>
@@ -230,6 +230,7 @@
 								</figure>
 							</div>
 						</div>
+
 
 
 						<div class="col-12 d-flex justify-content-center">

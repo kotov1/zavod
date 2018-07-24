@@ -23,7 +23,7 @@
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
 
-	<title>Категория</title>
+	<title>Продукция завода</title>
 
 	<!-- bootstrap grid css -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-grid.min.css">
@@ -56,7 +56,7 @@
 					<h1 class="page-title page-title--white">Продукция завода</h1>
 					<div itemscope="" itemtype="http://schema.org/BreadcrumbList" class="breadcrumbs breadcrumbs--white">
 						<span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
-							<a rel="nofollow" itemprop="item" title="Главная" href="index.php">
+							<a rel="nofollow" itemprop="item" title="Главная" href="/">
 								<span itemprop="name">Главная</span>
 								<meta itemprop="position" content="1">
 							</a>
@@ -82,22 +82,22 @@
 
 							<div class="col-12 col-md-6">
 								<div class="page-categories__block">
-									<div class="categories__item align-items-lg-center">
-										<div class="categories__name"><a href="subcategory.php">Рукава высокого давления (РВД) в сборе</a></div>
-										<div class="categories__img">
-											<img src="img/categories/category-img1.png" class="img-responsive" alt="Логотип" 
-														srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
+									<a href="products/rykava.php">
+										<div class="categories__item align-items-lg-center">
+											<div class="categories__name">Рукава высокого давления (РВД) в сборе</div>
+											<div class="categories__img">
+												<img src="img/categories/category-img1.png" class="img-responsive" alt="Логотип" 
+															srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
+											</div>
+											<div class="categories__link">К разделу</div>
 										</div>
-										<div class="categories__link">
-											<a href="#">К разделу</a>
-										</div>
-									</div>
+									</a>
 									<ul class="page-list categories__list">
-										<li>РВД в сборе с фитингами из нерж. стали</li>
-										<li>РВД в сборе с сертификатом РМРС</li>
-										<li>Рукавные соединения</li>
-										<li>Судовые шланги</li>
-										<li>РВД с нестандартными окончаниями</li>
+										<li><a href="products/rykava.php#subcategory1">РВД в сборе с фитингами из нерж. стали</a></li>
+										<li><a href="products/rykava.php#subcategory2">РВД в сборе с сертификатом РМРС</a></li>
+										<li><a href="products/rykava.php#subcategory3">Рукавные соединения</a></li>
+										<li><a href="products/rykava.php#subcategory4">Судовые шланги</a></li>
+										<li><a href="products/rykava.php#subcategory5">РВД с нестандартными окончаниями</a></li>
 									</ul>
 								</div>
 							</div>
@@ -105,25 +105,25 @@
 
 							<div class="col-12 col-md-6">
 								<div class="page-categories__block">
-									<div class="categories__item align-items-lg-center">
-										<div class="categories__name"><a href="subcategory.php">Металлорукава высокого давления (МРВД)</a></div>
-										<div class="categories__img">
-											<img src="img/categories/category-img3.png" class="img-responsive" alt="Логотип" 
-														srcset="img/categories/category-img3.png 1x, img/categories/category-img3@2x.png 2x">
+									<a href="products/metallorykava.php">
+										<div class="categories__item align-items-lg-center">
+											<div class="categories__name">Металлорукава высокого давления (МРВД)</div>
+											<div class="categories__img">
+												<img src="img/categories/category-img2.png" class="img-responsive" alt="Логотип" 
+															srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
+											</div>
+											<div class="categories__link">К разделу</div>
 										</div>
-										<div class="categories__link">
-											<a href="subcategory.php">К разделу</a>
-										</div>
-									</div>
+									</a>
 									<ul class="page-list categories__list">
-										<li>Под приварку</li>
-										<li>С фланцами</li>
-										<li>С резьбовыми соединениями</li>
-										<li>С отводами</li>
-										<li>С БРС Camlock</li>
-										<li>МРВД стандартной гибкости (100)</li>
-										<li>МРВД усиленный (200)</li>
-										<li>МРВД повышенной гибкости (300) </li>
+										<li><a href="products/metallorykava.php#subcategory1">Под приварку</a></li>
+										<li><a href="products/metallorykava.php#subcategory2">С фланцами</a></li>
+										<li><a href="products/metallorykava.php#subcategory3">С резьбовыми соединениями</a></li>
+										<li><a href="products/metallorykava.php#subcategory4">С отводами</a></li>
+										<li><a href="products/metallorykava.php#subcategory5">С БРС Camlock</a></li>
+										<li><a href="products/metallorykava.php#subcategory6">МРВД стандартной гибкости (100)</a></li>
+										<li><a href="products/metallorykava.php#subcategory7">МРВД усиленный (200)</a></li>
+										<li><a href="products/metallorykava.php#subcategory8">МРВД повышенной гибкости (300)</a></li>
 									</ul>
 								</div>
 							</div>
@@ -131,66 +131,67 @@
 							
 							<div class="col-12 col-md-6">
 								<div class="page-categories__block">
-									<div class="categories__item align-items-lg-center">
-										<div class="categories__name"><a href="subcategory.php">Сильфонные компенсаторы</a></div>
-										<div class="categories__img bottom-0">
-											<img src="img/categories/category-img5.png" class="img-responsive" alt="Логотип" 
-														srcset="img/categories/category-img5.png 1x, img/categories/category-img5@2x.png 2x">
+									<a href="products/kompensatoru.php">
+										<div class="categories__item align-items-lg-center">
+											<div class="categories__name">Сильфонные компенсаторы</div>
+											<div class="categories__img">
+												<img src="img/categories/category-img3.png" class="img-responsive" alt="Логотип" 
+															srcset="img/categories/category-img3.png 1x, img/categories/category-img3@2x.png 2x">
+											</div>
+											<div class="categories__link">К разделу</div>
 										</div>
-										<div class="categories__link">
-											<a href="subcategory.php">К разделу</a>
-										</div>
-									</div>
+									</a>
 									<ul class="page-list categories__list">
-										<li>Осевые (КСО)</li>
-										<li>Стартовые (ССК)</li>
-										<li>Сдвиговые (КСС)</li>
-										<li>Угловые (КСП)</li>
-										<li>Карданные (КСПК)</li>
-										<li>Разгруженные (КСР)</li>
-										<li>Компенсационные устройства</li>
-									</ul>
-								</div>
-							</div>
-							
-
-							<div class="col-12 col-md-6">
-								<div class="page-categories__block">
-									<div class="categories__item align-items-lg-center">
-										<div class="categories__name"><a href="subcategory.php">Фитинги и муфты для рукавов высокого давления (РВД)</a></div>
-										<div class="categories__img bottom-0">
-											<img src="img/categories/category-img2.png" class="img-responsive" alt="Логотип" 
-														srcset="img/categories/category-img2.png 1x, img/categories/category-img2@2x.png 2x">
-										</div>
-										<div class="categories__link">
-											<a href="subcategory.php">К разделу</a>
-										</div>
-									</div>
-									<ul class="page-list categories__list">
-										<li>Муфты из нерж. стали для РВД </li>
-										<li>Фитинги из нерж. стали для РВД </li>
-										<li>Нестандартные фитинги</li>
+										<li><a href="products/kompensatoru.php#subcategory1">Осевые (КСО)</a></li>
+										<li><a href="products/kompensatoru.php#subcategory2">Стартовые (ССК)</a></li>
+										<li><a href="products/kompensatoru.php#subcategory3">Сдвиговые (КСС)</a></li>
+										<li><a href="products/kompensatoru.php#subcategory4">Угловые (КСП)</a></li>
+										<li><a href="products/kompensatoru.php#subcategory5">Карданные (КСПК)</a></li>
+										<li><a href="products/kompensatoru.php#subcategory6">Разгруженные (КСР)</a></li>
+										<li><a href="products/kompensatoru.php#subcategory7">Компенсационные устройства</a></li>
 									</ul>
 								</div>
 							</div>
 
 
+
 							<div class="col-12 col-md-6">
 								<div class="page-categories__block">
-									<div class="categories__item align-items-lg-center">
-										<div class="categories__name"><a href="subcategory.php">Трубные соединения</a></div>
-										<div class="categories__img">
-											<img src="img/categories/category-img4.png" class="img-responsive" alt="Логотип" 
-														srcset="img/categories/category-img4.png 1x, img/categories/category-img4@2x.png 2x">
+									<a href="products/fitingi.php">
+										<div class="categories__item align-items-lg-center">
+											<div class="categories__name">Фитинги и муфты для рукавов высокого давления (РВД)</div>
+											<div class="categories__img">
+												<img src="img/categories/category-img4.png" class="img-responsive" alt="Логотип" 
+															srcset="img/categories/category-img4.png 1x, img/categories/category-img4@2x.png 2x">
+											</div>
+											<div class="categories__link">К разделу</div>
 										</div>
-										<div class="categories__link">
-											<a href="subcategory.php">К разделу</a>
-										</div>
-									</div>
+									</a>
 									<ul class="page-list categories__list">
-										<li>Тип 1</li>
-										<li>Тип 2</li>
-										<li>Тип 3</li>
+										<li><a href="products/fitingi.php#subcategory1">Муфты из нерж. стали для РВД </a></li>
+										<li><a href="products/fitingi.php#subcategory2">Фитинги из нерж. стали для РВД</a></li>
+										<li><a href="products/fitingi.php#subcategory3">Нестандартные фитинги</a></li>
+									</ul>
+								</div>
+							</div>
+
+
+							<div class="col-12 col-md-6">
+								<div class="page-categories__block">
+									<a href="products/soedineniya.php">
+										<div class="categories__item align-items-lg-center">
+											<div class="categories__name">Трубные соединения</div>
+											<div class="categories__img">
+												<img src="img/categories/category-img5.png" class="img-responsive" alt="Логотип" 
+															srcset="img/categories/category-img5.png 1x, img/categories/category-img5@2x.png 2x">
+											</div>
+											<div class="categories__link">К разделу</div>
+										</div>
+									</a>
+									<ul class="page-list categories__list">
+										<li><a href="products/soedineniya.php#subcategory1">Тип 1</a></li>
+										<li><a href="products/soedineniya.php#subcategory2">Тип 2</a></li>
+										<li><a href="products/soedineniya.php#subcategory3">Тип 3</a></li>
 									</ul>
 								</div>
 							</div>

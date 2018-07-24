@@ -21,7 +21,6 @@
 		&-miniature
 			&__content
 				margin: 0
-				padding: 15px 10px
 			&__title
 				font-size: 1.125rem
 			&__date, &__link
@@ -74,14 +73,14 @@
 		&-miniature
 			border: 1px solid #BEBEBE
 			&__content
-				padding-top: 30px
-				min-height: 1px
 				border: none
 			&__img
 				img
-					width: auto
+					height: auto
+					min-height: 180px
 
-
+	.contacts__link
+		font-size: 1rem
 
 	/**/
 
@@ -153,11 +152,7 @@
 		padding: $margin1-mob 0 calc(#{$margin1-mob} - #{$margin2-mob})
 		&-miniature
 			margin-bottom: $margin2-mob
-			&__content
-				margin: 0
 
-	.btn-more
-		font-size: 1rem
 	
 	.press-page .press
 		padding-bottom: $margin1-mob

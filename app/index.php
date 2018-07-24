@@ -71,69 +71,81 @@
 					<div class="categories__items">
 						<div class="row">
 
-							<div class="col-12 col-md-6 col-xl-4">
-								<a href="card.php" class="categories__item">
+							<div class="col-12 col-md-6 col-xl-3">
+								<a href="products/rykava.php" class="categories__item">
 									<div class="categories__name">Рукава высокого давления (РВД) в сборе</div>
 									<div class="categories__img">
 										<img src="img/categories/category-img1.png" class="img-responsive" alt="Логотип" 
 													srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
 									</div>
-									<div class="categories__link">К разделу</div>
+									<div class="categories__link"><span>К разделу</span></div>
 								</a>
 							</div>
 
-							<div class="col-12 col-md-6 col-xl-4">
-								<a href="card.php" class="categories__item">
+							<div class="col-12 col-md-6 col-xl-3">
+								<a href="products/fitingi.php" class="categories__item">
 									<div class="categories__name">Фитинги и муфты для рукавов высокого давления (РВД)</div>
 									<div class="categories__img bottom-0">
 										<img src="img/categories/category-img2.png" class="img-responsive" alt="Логотип" 
 													srcset="img/categories/category-img2.png 1x, img/categories/category-img2@2x.png 2x">
 									</div>
-									<div class="categories__link">К разделу</div>
+									<div class="categories__link"><span>К разделу</span></div>
 								</a>
 							</div>
 
-							<div class="col-12 col-md-6 col-xl-4">
-								<a href="card.php" class="categories__item">
+							<div class="col-12 col-md-6 col-xl-3">
+								<a href="products/metallorykava.php" class="categories__item">
 									<div class="categories__name">Металлорукава высокого давления (МРВД)</div>
 									<div class="categories__img">
 										<img src="img/categories/category-img3.png" class="img-responsive" alt="Логотип" 
 													srcset="img/categories/category-img3.png 1x, img/categories/category-img3@2x.png 2x">
 									</div>
-									<div class="categories__link">К разделу</div>
+									<div class="categories__link"><span>К разделу</span></div>
 								</a>
 							</div>
 
-							<div class="col-12 col-md-6 col-xl-4">
-								<a href="card.php" class="categories__item">
+							<div class="col-12 col-md-6 col-xl-3">
+								<a href="products/soedineniya.php" class="categories__item">
 									<div class="categories__name">Трубные соединения</div>
 									<div class="categories__img">
 										<img src="img/categories/category-img4.png" class="img-responsive" alt="Логотип" 
 													srcset="img/categories/category-img4.png 1x, img/categories/category-img4@2x.png 2x">
 									</div>
-										<div class="categories__link">К разделу</div>
+									<div class="categories__link"><span>К разделу</span></div>
 								</a>
 							</div>
 
-							<div class="col-12 col-md-6 col-xl-4">
-								<a href="card.php" class="categories__item">
+							<div class="col-12 col-md-6 col-xl-3">
+								<a href="products/kompensatoru.php" class="categories__item">
 									<div class="categories__name">Сильфонные компенсаторы</div>
 									<div class="categories__img bottom-0">
 										<img src="img/categories/category-img5.png" class="img-responsive" alt="Логотип" 
 													srcset="img/categories/category-img5.png 1x, img/categories/category-img5@2x.png 2x">
 									</div>
-										<div class="categories__link">К разделу</div>
+									<div class="categories__link"><span>К разделу</span></div>
 								</a>
 							</div>
 
-							<div class="col-12 col-md-6 col-xl-4">
-								<a href="card.php" class="categories__item">
+							<div class="col-12 col-md-6 col-xl-3">
+								<a href="products/nestandart.php" class="categories__item">
+									<div class="categories__name">Нестандартная продукция под<br> заказ</div>
+									<div class="categories__img">
+										<img src="img/categories/nestandart.png" class="img-responsive" alt="Логотип" 
+													srcset="img/categories/nestandart.png 1x, img/categories/nestandart@2x.png 2x">
+									</div>
+									<div class="categories__link"><span>К разделу</span></div>
+								</a>
+							</div>
+
+
+							<div class="col-12 col-md-6 col-xl-3">
+								<a href="catalogs.php" class="categories__item">
 									<div class="categories__name">Скачать каталоги продукции</div>
 									<div class="categories__img">
 										<img src="img/categories/category-img6.png" class="img-responsive" alt="Логотип" 
 													srcset="img/categories/category-img6.png 1x, img/categories/category-img6@2x.png 2x">
 									</div>
-										<div class="categories__link">К разделу</div>
+									<div class="categories__link"><span>К разделу</span></div>
 								</a>
 							</div>
 
@@ -161,7 +173,7 @@
 					<div class="press__container">
 						<div class="row">
 
-							<div class="col-12 col-lg-4">
+							<div class="col-12 col-md-6 col-xl-3">
 								<a href="article.php" class="press-miniature">
 									<div class="press-miniature__img">
 										<img src="img/press-img.png" alt="Изображение новости" class="img-responsive"
@@ -169,7 +181,6 @@
 									</div>
 									<div class="press-miniature__content">
 										<h3 class="press-miniature__title">Длинный заголовок с каким-то уточнением и артикулом</h3>
-										<p class="press-miniature__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 										<div class="press-miniature__info">
 											<div class="row align-items-center justify-content-between">
 												<div class="col-auto">
@@ -188,7 +199,7 @@
 							</div>
 							<!-- /.col -->
 							
-							<div class="col-12 col-lg-4">
+							<div class="col-12 col-md-6 col-xl-3">
 								<a href="article.php" class="press-miniature">
 									<div class="press-miniature__img">
 										<img src="img/press-img.png" alt="Изображение новости" class="img-responsive"
@@ -196,7 +207,6 @@
 									</div>
 									<div class="press-miniature__content">
 										<h3 class="press-miniature__title">Длинный заголовок</h3>
-										<p class="press-miniature__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
 										<div class="press-miniature__info">
 											<div class="row align-items-center justify-content-between">
 												<div class="col-auto">
@@ -215,7 +225,7 @@
 							</div>
 							<!-- /.col -->
 							
-							<div class="col-12 col-lg-4">
+							<div class="col-12 col-md-6 col-xl-3">
 								<a href="article.php" class="press-miniature">
 									<div class="press-miniature__img">
 										<img src="img/press-img.png" alt="Изображение новости" class="img-responsive"
@@ -223,7 +233,32 @@
 									</div>
 									<div class="press-miniature__content">
 										<h3 class="press-miniature__title">Длинный заголовок с каким-то уточнением и артикулом</h3>
-										<p class="press-miniature__text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+										<div class="press-miniature__info">
+											<div class="row align-items-center justify-content-between">
+												<div class="col-auto">
+														<div class="press-miniature__date">24 июня 2018</div>
+												</div>
+												<div class="col-auto">
+													<div class="press-miniature__link">подробнее</div>
+												</div>
+											</div>
+										</div>
+										<!-- /.press-miniature__info -->
+									</div>
+									<!-- /.press-miniature__content -->
+								</a>
+								<!-- /.press-miniature -->
+							</div>
+							<!-- /.col -->
+							
+							<div class="col-12 col-md-6 col-xl-3">
+								<a href="article.php" class="press-miniature">
+									<div class="press-miniature__img">
+										<img src="img/video-bg.jpg" alt="Изображение новости" class="img-responsive"
+												>
+									</div>
+									<div class="press-miniature__content">
+										<h3 class="press-miniature__title">Длинный заголовок с каким-то уточнением и  артикулом артикулом</h3>
 										<div class="press-miniature__info">
 											<div class="row align-items-center justify-content-between">
 												<div class="col-auto">
@@ -242,7 +277,7 @@
 							</div>
 							<!-- /.col -->
 
-
+							
 						</div>
 						<!-- /.row -->
 					</div>

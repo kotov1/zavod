@@ -17,13 +17,16 @@
 		padding-left: 15px
 		line-height: 1.1
 		text-transform: uppercase
-		text-align: center
+		// text-align: center
 	&__up-text
 		font-size: 28px
 		font-weight: 700
 	&__down-text
-		font-size: 27px
-		font-weight: 300
+		max-width: 14.6em
+		font-size: 12px
+		font-weight: 700
+		text-transform: uppercase
+		color: #BEBEBE
 
 .mobile-logo
 	position: relative
@@ -275,10 +278,19 @@
 		color: $text-color
 	&__links-title
 		font-weight: 700
+		a
+			display: inline-flex
+			align-items: center
+			color: inherit
+			&:hover
+				color: inherit
+
 	&__link
+		border-bottom: 1px dashed transparent
 		&:hover
 			color: darken($text-color, 10%)
 			text-shadow: -1px -1px 1px rgba(#000,.1)
+
 
 
 .toggle-btn
@@ -416,8 +428,10 @@
 	.logo
 		&__img
 			max-width: 25px
-		&__up-text, &__down-text
+		&__up-text
 			font-size: 22px
+		&__down-text
+			display: none
 
 	.desktop-logo
 		display: flex
@@ -478,23 +492,37 @@
 			position: relative
 			display: flex
 			align-items: center
-			&::before
-				content: ''
+			a
+				display: inline-flex
+				align-items: center
+				color: inherit
+				&:hover
+					color: inherit
+					text-decoration: none
+			.toggle-ic
 				display: inline-block
-				width: 10px
-				height: 10px
-				margin: 0
-				border-bottom: 2px solid #999
-				border-right: 2px solid #999
-				position: absolute
-				right: 0
-				top: 50%
-				margin-top: -5.5px
-				transform: rotate(45deg)
-				transition: $trs-all
-			&.opened
+				height: 20px
+				width: 30px
+				position: relative
+				margin-left: auto
 				&::before
-					transform: rotate(-135deg)
+					content: ''
+					display: inline-block
+					width: 10px
+					height: 10px
+					margin: 0
+					border-bottom: 2px solid #999
+					border-right: 2px solid #999
+					position: absolute
+					right: 0
+					top: 50%
+					margin-top: -5px
+					transform-origin: 50% 50%
+					transform: rotate(45deg)
+					transition: $trs-all
+				&.opened
+					&::before
+						transform: rotate(-135deg)
 		&__links
 			margin: 0
 			display: none

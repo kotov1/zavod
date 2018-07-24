@@ -88,90 +88,72 @@
 					<div class="row">
 
 						<div class="col-12 col-md-6 col-xl-4">
-							<div class="subcategories-item">
-								<div class="subcategories-item__img">
-									<a href="media-album.php">
-										<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
-									</a>
-								</div>
-								<a href="media-album.php" class="subcategories-item__name">
-									Муфта Interlock для РВД R13/R15
-									<div class="subcategories-item__link"><span>подробнее</span></div>
+							<div class="media-item media-item--gradient">
+								<a href="media-album.php">
+									<div class="media-item__img">
+											<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
+									</div>
+									<div class="media-item__name">Резьбовые трубные соединения. Муфты. Адаптеры</div>
 								</a>
 							</div>
 						</div>
 						
 						<div class="col-12 col-md-6 col-xl-4">
-							<div class="subcategories-item">
-								<div class="subcategories-item__img">
-									<a href="media-album.php">
-										<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
-									</a>
-								</div>
-								<a href="media-album.php" class="subcategories-item__name">
-									Муфта Interlock для РВД R13/R15
-									<div class="subcategories-item__link"><span>подробнее</span></div>
+							<div class="media-item media-item--gradient">
+								<a href="media-album.php">
+									<div class="media-item__img">
+											<img src="img/categories/category-img2.png" class="img-responsive" alt="alt" srcset="img/categories/category-img2.png 1x, img/categories/category-img2@2x.png 2x">
+									</div>
+									<div class="media-item__name">Резьбовые трубные соединения. Муфты. Адаптеры</div>
 								</a>
 							</div>
 						</div>
 						
 						<div class="col-12 col-md-6 col-xl-4">
-							<div class="subcategories-item">
-								<div class="subcategories-item__img">
-									<a href="media-album.php">
-										<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
-									</a>
-								</div>
-								<a href="media-album.php" class="subcategories-item__name">
-									Муфта Interlock для РВД R13/R15
-									<div class="subcategories-item__link"><span>подробнее</span></div>
+							<div class="media-item media-item--gradient">
+								<a href="media-album.php">
+									<div class="media-item__img">
+											<img src="img/categories/category-img3.png" class="img-responsive" alt="alt" srcset="img/categories/category-img3.png 1x, img/categories/category-img3@2x.png 2x">
+									</div>
+									<div class="media-item__name">Резьбовые трубные соединения. Муфты. Адаптеры</div>
 								</a>
 							</div>
 						</div>
 						
 						<div class="col-12 col-md-6 col-xl-4">
-							<div class="subcategories-item">
-								<div class="subcategories-item__img">
-									<a href="media-album.php">
-										<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
-									</a>
-								</div>
-								<a href="media-album.php" class="subcategories-item__name">
-									Муфта Interlock для РВД R13/R15
-									<div class="subcategories-item__link"><span>подробнее</span></div>
+							<div class="media-item media-item--gradient">
+								<a href="media-album.php">
+									<div class="media-item__img">
+											<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
+									</div>
+									<div class="media-item__name">Резьбовые трубные соединения. Муфты. Адаптеры</div>
 								</a>
 							</div>
 						</div>
 						
 						<div class="col-12 col-md-6 col-xl-4">
-							<div class="subcategories-item">
-								<div class="subcategories-item__img">
-									<a href="media-album.php">
-										<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
-									</a>
-								</div>
-								<a href="media-album.php" class="subcategories-item__name">
-									Муфта Interlock для РВД R13/R15
-									<div class="subcategories-item__link"><span>подробнее</span></div>
+							<div class="media-item media-item--gradient">
+								<a href="media-album.php">
+									<div class="media-item__img">
+											<img src="img/categories/category-img2.png" class="img-responsive" alt="alt" srcset="img/categories/category-img2.png 1x, img/categories/category-img2@2x.png 2x">
+									</div>
+									<div class="media-item__name">Резьбовые трубные соединения. Муфты. Адаптеры</div>
 								</a>
 							</div>
 						</div>
 						
 						<div class="col-12 col-md-6 col-xl-4">
-							<div class="subcategories-item">
-								<div class="subcategories-item__img">
-									<a href="media-album.php">
-										<img src="img/categories/category-img1.png" class="img-responsive" alt="alt" srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
-									</a>
-								</div>
-								<a href="media-album.php" class="subcategories-item__name">
-									Муфта Interlock для РВД R13/R15
-									<div class="subcategories-item__link"><span>подробнее</span></div>
+							<div class="media-item media-item--gradient">
+								<a href="media-album.php">
+									<div class="media-item__img">
+											<img src="img/categories/category-img3.png" class="img-responsive" alt="alt" srcset="img/categories/category-img3.png 1x, img/categories/category-img3@2x.png 2x">
+									</div>
+									<div class="media-item__name">Резьбовые трубные соединения. Муфты. Адаптеры</div>
 								</a>
 							</div>
 						</div>
 
-
+						
 						<div class="col-12 d-flex justify-content-center">
 							<button class="btn-more">Показать ещё</button>
 						</div>

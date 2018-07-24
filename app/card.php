@@ -53,7 +53,7 @@
 					<div class="container">
 						<div class="row justify-content-md-center align-items-start">
 	
-							<div class="col-12">
+							<div class="col-12 no-padding-sm">
 								<div class="productCart__ImgWrap">
 									<a class="image-popup-no-margins" href="img/prevChapterItem.png">
 										<img class="img-responsive" src="img/prevChapterItem.png">
@@ -67,21 +67,15 @@
 									<h4>Заголовок 2</h4>
 									<p>Муфта обжимная для опрессовки рукавов высокого давления R13/R15 (со снятием наружного и внутреннего слоя резины).</p>
 									<h4>Заголовок 3</h4>
-									<p>Муфта обжимная для опрессовки рукавов высокого давления R13/R15 (со снятием наружного и внутреннего слоя резины).</p>
-	
-	
-																
+									<p>Муфта обжимная для опрессовки рукавов высокого давления R13/R15 (со снятием наружного и внутреннего слоя резины).</p>		
 								</div><!-- productCart__descTop -->
+
 								<div class="productCart__buttonWrap">
 									<a href="#popupCallback" class="productCart__buttonOrder">Приобрести</a>
 									<a href="#popupCallbackQuiz" class="productCart__buttonQuiz">Опросный лист</a>
 								</div>	
 							</div>
-	
-							
-	
-					
-									
+
 						</div><!-- row -->
 	
 					</div><!-- container -->
@@ -174,7 +168,7 @@
 
 				<div class="about__container">
 	
-					<div class="row justify-content-center">
+					<div class="row">
 	
 						<div class="col-12 col-xl-4">
 							<div class="about__item">
@@ -188,7 +182,7 @@
 									</div>
 									<div class="col">
 										<div class="about__item-text">
-											<p class="page-text page-text--big page-text--accent">Справочник</p>
+											<a href="#" class="page-text page-text--big page-text--accent">Справочник</a>
 											<p>Все необходимые сведения по продукции в этом разделе.</p>
 										</div>
 									</div>
@@ -211,7 +205,7 @@
 									</div>
 									<div class="col">
 										<div class="about__item-text">
-											<p class="page-text page-text--big page-text--accent">Доставка</p>
+											<a href="delivery.php" class="page-text page-text--big page-text--accent">Доставка</a>
 											<p>Ознакомьтесь с условиями и сроками доставки, а также с условиями самовывоза.</p>
 										</div>
 									</div>
@@ -234,7 +228,7 @@
 									</div>
 									<div class="col">
 										<div class="about__item-text">
-											<p class="page-text page-text--big page-text--accent">Сертификаты и допуски</p>
+											<a href="certificates.php" class="page-text page-text--big page-text--accent">Сертификаты и допуски</a>
 											<p>В данном разделе находятся допуски и сертификация для нашей продукции.</p>
 										</div>
 									</div>

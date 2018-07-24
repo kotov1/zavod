@@ -18,7 +18,7 @@
 												<svg class="checkbox-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.5 11.5"><path d="M20 7L12 16L8 12" fill-opacity="0" fill="#707070" stroke="#707070" stroke-width="1.5" transform="matrix(1,0,0,1,-6.75,-5.75)"></path></svg>
 											</span>
 										</span>
-										<span class="checkbox-text">С <a href="privacy.php" class="privacy-link" target="_blank">политикой конфиденциальности</a> соглашаюсь.</span>
+										<span class="checkbox-text">С <a href="/privacy.php" class="privacy-link" target="_blank">политикой конфиденциальности</a> соглашаюсь.</span>
 									</label>
 								</div>
 							</form>
@@ -40,7 +40,7 @@
 											<svg class="checkbox-check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14.5 11.5"><path d="M20 7L12 16L8 12" fill-opacity="0" fill="#707070" stroke="#707070" stroke-width="1.5" transform="matrix(1,0,0,1,-6.75,-5.75)"></path></svg>
 										</span>
 									</span>
-									<span class="checkbox-text">С <a href="privacy.php" target="_blank">политикой конфиденциальности</a> соглашаюсь.</span>
+									<span class="checkbox-text">С <a href="/privacy.php" target="_blank">политикой конфиденциальности</a> соглашаюсь.</span>
 								</label>
 								<div class="text-center"><input type="submit" class="form-btn form-mobile__btn" value="Отправить"></div>
 							</form>

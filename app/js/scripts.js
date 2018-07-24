@@ -104,18 +104,18 @@ $(function() {
 	});
 
 	// акордеон из ссылок на мобильных устройствах
-	$('.sitemap__links-title').click(function() {
+	$('.sitemap__links-title .toggle-ic').click(function() {
 		if ( $(window).width() < 767 ) {
 
 			if ( $(this).hasClass('opened') ) {
 				$(this).removeClass('opened');
-				$(this).next().slideUp();
+				$(this).parent().next().slideUp();
 			}
 			else {
 				$('.sitemap__links').slideUp();
-				$('.sitemap__links-title').removeClass('opened');
+				$('.sitemap__links-title .toggle-ic').removeClass('opened');
 				$(this).addClass('opened');
-				$(this).next().slideDown();
+				$(this).parent().next().slideDown();
 				return false;
 			}
 		}

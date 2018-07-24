@@ -1,14 +1,26 @@
 .media
 	padding: $margin1 0
-	&__item
-		border: none
+	&-item
+		display: flex
+		flex-direction: column
+		margin-bottom: 30px
+		border-radius: 3px
+		position: relative
 		overflow: hidden
 		transition: $trs-all
+		&--gradient
+			background-image: linear-gradient(0deg, rgba(#000, .56), rgba(#000, .2) 33%, rgba(#000, .01) )
+		&--bg
+			background-color: #EAEAEA
 		a
 			color: inherit
 		&:hover
-			box-shadow: 0 0 15px rgba(#000, .16)
+			box-shadow: $box-shdw
 			transition: $trs-all
+
+			.media-item__name:before
+				right: 33px
+
 			.media__text
 				transform: translate(0)
 				transition: $trs-all
@@ -18,8 +30,40 @@
 				transition-property: transform, opacity
 				transition-duration: .5s
 				transition-delay: 0s, .2s
-	&__img
-		position: relative
+
+		&__name
+			padding-right: 20%
+			position: absolute
+			min-width: 50px
+			left: 20px
+			bottom: 15px
+			font-size: 1.125rem
+			line-height: 1.4
+			color: #fff
+			&::before
+				content: ''
+				display: inline-block
+				width: 13px
+				height: 13px
+				margin: 0
+				border-bottom: 2px solid #fff
+				border-right: 2px solid #fff
+				position: absolute
+				right: 30px
+				top: 50%
+				margin-top: -7px
+				transform: rotate(-45deg)
+				transition: $trs-all
+
+		&__img
+			width: 100%
+			height: 250px
+			margin: 0
+			display: flex
+			align-items: center
+			justify-content: center
+			overflow: hidden
+
 	&__text
 		transform: translateY(100%)
 		display: flex
@@ -31,7 +75,7 @@
 		top: 0
 		padding: 0 25px 15px
 		text-align: center
-		background: #fff url('../img/search.svg') no-repeat 50% 35%
+		background: rgba(#fff, .8) url('../img/search.svg') no-repeat 50% 35%
 		background-size: 62px 64px
 		z-index: 0
 		transition: $trs-all
@@ -40,10 +84,29 @@
 		transform: translateY(-300px)
 
 
+@media only screen and (max-width : 1199px)
+
+	.media-item
+		&-item
+			&:hover
+				.media-item__name:before
+				right: 23px
+
+		&__name
+			padding-right: 10%
+			&::before
+				right: 20px
+
+
+	/**/
+
 @media only screen and (max-width : 767px)
 
 	.media
 		padding: $margin1-mob 0
+		&-item
+			&--gradient
+			background-image: linear-gradient(0deg, rgba(#000, .56), rgba(#000, .2) 53%, rgba(#000, .01) )
 		&__img
 			flex: 0 0 100%
 			max-width: 100%

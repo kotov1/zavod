@@ -3,10 +3,10 @@
 	&__item
 		display: flex
 		flex-wrap: wrap
-		height: 230px
+		height: 170px
 		margin-bottom: $margin2
 		position: relative
-		padding: 1.5rem
+		padding: 1rem
 		background-color: #C7C7C7
 		background-image: linear-gradient(90deg, #C7C7C7, #EEEAEA, #EDE9E9)
 		border-radius: 3px
@@ -16,27 +16,33 @@
 			transition: $trs-all
 			text-decoration: none
 			color: $text-color
+			.categories__link 
+				span
+					border-bottom-color: transparent
+				&::before
+					right: 3px
+					transition: $trs-all
+	a
+		color: inherit
+		&:hover
+			text-decoration: none
+
 	&__name
 		max-width: 100%
-		padding-right: 20%
-		font-size: 1.5625rem
-		line-height: 1.2
-		a
-			color: #2A2A2B
-			transition: $trs-all
-			&:hover
-				text-decoration: none
-				color: #22AAF1
-				transition: $trs-all
+		padding-right: 15%
+		font-size: 1.25rem
+		line-height: 1.15
+		color: #2A2A2B
+
 	&__img
-		max-width: 230px
+		max-width: 160px
 		display: flex
 		align-items: center
 		justify-content: center
 		padding: 15px
 		position: absolute
-		bottom: 10px
-		right: 15px
+		bottom: -5px
+		right: -5px
 		&.bottom-0
 			bottom: 0
 	&__link
@@ -44,12 +50,10 @@
 		position: relative
 		display: inline-block
 		padding-right: 20px
-		font-size: 1.125rem
+		font-size: 1rem
 		line-height: 1.2
-		&:hover
-			&::before
-				right: 3px
-				transition: $trs-all
+		span
+			border-bottom: 1px dashed currentColor
 		a, span
 			display: inline-block
 			color: #727272
@@ -78,8 +82,14 @@
 		margin-top: 20px
 		padding-left: 0
 		list-style: none
-		font-size: 1.125rem
+		font-size: 1rem
 		color: #727272
+		a
+			color: inherit
+			border-bottom: 1px dashed transparent
+			&:hover
+				text-decoration: none
+				border-bottom-color: currentColor
 
 		
 .page-categories__block
@@ -120,7 +130,7 @@
 			margin-bottom: 20px
 		&__name
 			width: 100%
-			font-size: 18px
+			font-size: 1.125rem
 		&__img
 			max-width: 160px
 		&__link
@@ -133,6 +143,11 @@
 				
 	.page-categories__block
 		margin-bottom: $margin2-mob
+		.categories__name
+			padding-right: 15%
+			font-size: 1.25rem
+			font-weight: 600
+			color: #212121
 		.categories__link
 			display: block
 		.categories__list

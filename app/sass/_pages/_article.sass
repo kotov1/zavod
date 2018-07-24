@@ -1,10 +1,6 @@
 .singleNewsPageBg
 	background: #D1D1D1
 	height: 400px
-	display: -webkit-flex
-	display: -moz-flex
-	display: -ms-flex
-	display: -o-flex
 	display: flex
 	justify-content: center
 	align-items: center
@@ -33,40 +29,33 @@
 		margin-bottom: 0
 		line-height: 1.25
 		font-weight: 300
-	.breadcrumb
-		display: -webkit-flex
-		display: -moz-flex
-		display: -ms-flex
-		display: -o-flex
-		display: flex
-		list-style-type: none
-		padding-left: 0
+
 	&__descTop
-		margin-bottom: $margin1
+		margin-bottom: calc(#{$margin1} - 1rem)
 		img
 			display: block
 			margin: $margin2 auto
 			min-height: 200px
 	&__press-miniature
-		display: -webkit-flex
-		display: -moz-flex
-		display: -ms-flex
-		display: -o-flex
 		display: flex
 		margin-bottom: $margin1
+		transition: $trs-all
+		&:hover
+			box-shadow: $box-shdw
+			transition: $trs-all
 	&__link
 		display: inline-block
 		padding-right: 15px
 		position: relative
 		color: #999
 		text-transform: uppercase
-		letter-spacing: 1px
-		font-size: 0.875em
+		letter-spacing: .02em
+		font-size: 0.625rem
 		&:before
 			content: ''
 			display: inline-block
-			width: 10px
-			height: 10px
+			width: 8px
+			height: 8px
 			margin: 0
 			border-bottom: 2px solid #BEBEBE
 			border-right: 2px solid #BEBEBE
@@ -92,10 +81,15 @@
 				border-bottom-color: transparent
 				transition: all 0.2s linear
 
-
 	&__headline
 		margin-bottom: $margin3
 		font-weight: 400
+
+.singleNews__bottom a
+	&:hover
+		text-decoration: none
+
+
 .singleNews__img 
 	display: flex
 	align-items: center
@@ -115,17 +109,14 @@
 	border-left: 0
 	margin: 0 
 	padding: 15px 3%
-.singleNews__img img
-	transition: transform 3s
-.singleNews__img:hover img 
-	transform: scale(1.3)
-	transition: transform 10s
+
 .singleNews__titleNews
 	font-size: 20px
-	line-height: 1.25
+	line-height: 1.125
 	font-weight: 600
 	color: #727272
 	margin-bottom: 10px
+	
 .singleNews__info
 	width: 100%
 	text-transform: uppercase
@@ -169,19 +160,49 @@
 
 
 @media only screen and (max-width : 767px)
+	.singleNewsPage
+		padding: 0 0 calc(#{$margin1-mob} - #{$margin2-mob})
+		.p-sm-0
+			padding: 0
 	.singleNews__breadcrumbWrap
+		margin: 0
+		padding: 0
+		display: flex
+		align-items: center
+		justify-content: center
 		margin-bottom: $margin3
+		position: absolute
+		bottom: 0
+		width: 100%
+		height: 100%
 	.singleNewsPageBg
 		height: 200px
 	.singleNews
-		.breadcrumb
-			flex-wrap: wrap
-			justify-content: flex-start
 		&__title
+			padding: 0 15px
 			font-size: 1.5625rem
-			font-weight: 300
+			font-weight: 400
+			text-align: center
+
+	.singleNews__press-miniature
+		margin-bottom: $margin2-mob
+	.singleNews__descTop
+		margin: $margin3 0 calc(#{$margin1-mob} - 1rem)
 	.singleNews__ImgWrap
 		height: 230px
+		margin-top: 0
+		position: relative
+		&::before
+			content: ''
+			display: block
+			width: 100%
+			height: 100%
+			position: absolute
+			left: 0
+			top: 0
+			background: #000
+			opacity: 0.4
+			z-index: 0
 		img
 			width: 100%
 			height: 100%
@@ -216,9 +237,3 @@
 			font-weight: 400
 		&__headline
 			font-size: 20px
-
-
-@media only screen and (max-width : 480px)
-	.singleNews
-		&__headline
-			font-size: 18px

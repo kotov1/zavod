@@ -23,12 +23,12 @@
 	<!-- iOS Safari -->
 	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
 
-	<title>Нестандартные изделия</title>
+	<title>Кейс по нестандартной муфте XXX</title>
 
 	<!-- bootstrap grid css -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap-grid.min.css">
 
-	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="/css/styles.css">
 
 </head>
 
@@ -38,7 +38,7 @@
 
 
 		<!-- header -->
-		<?php include("blocks/header.php");?>
+		<?php include("../blocks/header.php");?>
 		<!-- header -->
 
 		<div class="overlay"></div>
@@ -135,7 +135,7 @@
 
 
 		<!-- footer -->
-		<?php include("blocks/footer.php");?>
+		<?php include("../blocks/footer.php");?>
 		<!-- /.footer -->
 
 
@@ -149,11 +149,11 @@
 
 
 	<!-- popup callback -->
-	<?php include("blocks/modal-callback.php");?>
+	<?php include("../blocks/modal-callback.php");?>
 	<!-- popup callback end -->
 
 	<!-- popup thanks -->
-	<?php include("blocks/modal-thanks.php");?>
+	<?php include("../blocks/modal-thanks.php");?>
 	<!-- popup thanks end -->
 
 
@@ -162,9 +162,9 @@
 
 	<!-- Jquery с облака и замена в случае отсутствия доступа к облаку  -->
 	<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
-	<script>window.jQuery || document.write('<script src="libs/jquery/dist/jquery.min.js"><\/script>')</script>
+	<script>window.jQuery || document.write('<script src="/libs/jquery/dist/jquery.min.js"><\/script>')</script>
 
-	<script src="js/scripts.js"></script>
+	<script src="/js/scripts.js"></script>
 
 </body>
 </html>

@@ -22,18 +22,25 @@
 .download
 	margin-top: $margin2
 	color: #727272
+	a
+		&:hover
+			text-decoration: none
 	&__icon
 		width: 45px
 		height: 61px
 		margin-right: 24px
+		&:hover
+			box-shadow: 0 0 20px rgba(35, 152, 237, 0.25)
+			transition: $trs-all
+	&__link, &__info
+		display: inline-block
+		line-height: 1.1
+		color: #727272
+		border-bottom: 1px dashed transparent
+		&:hover
+			border-bottom-color: #727272
 	&__link
-		a
-			font-size: 1.25rem
-			color: #727272
-			border-bottom: 1px dashed transparent
-			&:hover
-				text-decoration: none
-				border-bottom-color: #727272
+		font-size: 1.25rem
 	&__info
 		font-size: 1.125rem
 

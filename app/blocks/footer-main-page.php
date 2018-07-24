@@ -2,18 +2,21 @@
 
 	<div class="container">
 
-		<div class="sitemap">
+				<div class="sitemap">
 			<div class="container">
 				<div class="sitemap__top">
 					<div class="row">
 
 						<div class="col-12 col-md-6 col-lg-3">
 							<div class="sitemap__column">
-								<div class="sitemap__links-title">О предприятии</div>
+							<div class="sitemap__links-title">
+									<a href="about.php">О предприятии</a>
+									<i class="toggle-ic"></i>
+								</div>
 								<ul class="menu sitemap__links">
 									<li><a href="about.php" class="sitemap__link">О компании</a></li>
 									<li><a href="strategy.php" class="sitemap__link">Стратегия</a></li>
-									<li><a href="#" class="sitemap__link">Производство</a></li>
+									<li><a href="production.php" class="sitemap__link">Производство</a></li>
 									<li><a href="contacts.php" class="sitemap__link">Контакты</a></li>
 									<li><a href="delivery.php" class="sitemap__link">Доставка</a></li>
 									<li><a href="certificates.php" class="sitemap__link">Сертификаты</a></li>
@@ -24,7 +27,10 @@
 
 						<div class="col-12 col-md-6 col-lg-3">
 							<div class="sitemap__column">
-								<div class="sitemap__links-title">Продукция</div>
+								<div class="sitemap__links-title">
+									<a href="products.php">Продукция</a>
+									<i class="toggle-ic"></i>
+								</div>
 								<ul class="menu sitemap__links">
 									<li><a href="#" class="sitemap__link">Комплектующие РВДг</a></li>
 									<li><a href="#" class="sitemap__link">Рукава РВД в сборе</a></li>
@@ -42,7 +48,10 @@
 							<div class="row no-gutters justify-content-between w-100">
 								<div class="col-12">
 									<div class="sitemap__column">
-										<div class="sitemap__links-title">Пресс-центр</div>
+										<div class="sitemap__links-title">
+											<a href="news.php">Пресс-центр</a>
+											<i class="toggle-ic"></i>
+										</div>
 										<ul class="menu sitemap__links">
 											<li><a href="news.php" class="sitemap__link">Новости и статьи</a></li>
 											<li><a href="#" class="sitemap__link">Справочник</a></li>
@@ -61,7 +70,10 @@
 
 						<div class="col-12 col-md-6 col-lg-3">
 							<div class="sitemap__column">
-								<div class="sitemap__links-title">Партнерам</div>
+								<div class="sitemap__links-title">
+									<a href="to-partners.php">Партнерам</a>
+									<i class="toggle-ic"></i>
+								</div>
 								<ul class="menu sitemap__links">
 									<li><a href="to-partners.php" class="sitemap__link">Сотрудничество</a></li>
 								</ul>
@@ -71,26 +83,35 @@
 						<div class="col-12 d-block d-md-none">
 
 							<div class="sitemap__column">
-								<div class="sitemap__links-title">Услуги</div>
+								<div class="sitemap__links-title">
+									<a href="services.php">Услуги</a>
+									<i class="toggle-ic"></i>
+								</div>
 								<ul class="menu sitemap__links">
-									<li><a href="#" class="sitemap__link">Сервис</a></li>
-									<li><a href="#" class="sitemap__link">Нестандартные компоненты</a></li>
+									<li><a href="services.php" class="sitemap__link">Сервис</a></li>
+									<li><a href="products/subcategory2.php" class="sitemap__link">Нестандартные компоненты</a></li>
 								</ul>
 							</div>
 
 							<div class="sitemap__column">
-								<div class="sitemap__links-title">Обработка информации</div>
+								<div class="sitemap__links-title">
+									<a href="#">Обработка информации</a>
+									<i class="toggle-ic"></i>
+								</div>
 								<ul class="menu sitemap__links">
-									<li><a href="#" class="sitemap__link">Сервис</a></li>
-									<li><a href="#" class="sitemap__link">Нестандартные компоненты</a></li>
+									<li><a href="services.php" class="sitemap__link">Сервис</a></li>
+									<li><a href="products/subcategory2.php" class="sitemap__link">Нестандартные компоненты</a></li>
 								</ul>
 							</div>
 
 							<div class="sitemap__column">
-								<div class="sitemap__links-title">Карта сайта</div>
+								<div class="sitemap__links-title">
+									<a href="#">Карта сайта</a>
+									<i class="toggle-ic"></i>
+								</div>
 								<ul class="menu sitemap__links">
-									<li><a href="#" class="sitemap__link">Сервис</a></li>
-									<li><a href="#" class="sitemap__link">Нестандартные компоненты</a></li>
+									<li><a href="services.php" class="sitemap__link">Сервис</a></li>
+									<li><a href="products/subcategory2.php" class="sitemap__link">Нестандартные компоненты</a></li>
 								</ul>
 							</div>
 
@@ -187,8 +208,8 @@
 							</div>
 							<div class="col-auto">
 								<div class="logo__text">
-									<div class="logo__up-text">гидрал</div>
-									<div class="logo__down-text">техмаш</div>
+									<div class="logo__up-text">standart</div>
+									<div class="logo__down-text">завод гидравлических соединений</div>
 								</div>
 							</div>
 						</div>

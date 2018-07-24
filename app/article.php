@@ -60,18 +60,38 @@
 				<div class="container">
 					<div class="row">
 
-						<div class="col-12">
+						<div class="col-12 p-sm-0">
 							<div class="singleNews__ImgWrap">
 								<img src="img/video-bg.jpg" class="img-responsive" alt="Логотип">
 							</div>
 							<div class="singleNews__breadcrumbWrap">
 								<h2 class="singleNews__title">Заголовок новости</h2>
-								<ul class="breadcrumb">
-									<li><a href="#">Главная</a> / </li>
-									<li><a href="#">Пресс-центр</a> / </li>
-									<li><a href="#">Новости и статьи</a> / </li> 
-									<li><a href="#">Заголовок новости</a></li>
-								</ul>								
+								<div itemscope="" itemtype="http://schema.org/BreadcrumbList" class="breadcrumbs pt-0">
+									<span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+										<a rel="nofollow" itemprop="item" title="Главная" href="index.php">
+											<span itemprop="name">Главная</span>
+											<meta itemprop="position" content="1">
+										</a>
+									</span>
+									<span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+										<a rel="nofollow" itemprop="item" title="Пресс-центр" href="#">
+											<span itemprop="name">Пресс-центр</span>
+											<meta itemprop="position" content="2">
+										</a>
+									</span>
+									<span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+										<a rel="nofollow" itemprop="item" title="Новости и статьи" href="#">
+											<span itemprop="name">Новости и статьи</span>
+											<meta itemprop="position" content="3">
+										</a>
+									</span>
+									<span itemscope="" itemprop="itemListElement" itemtype="http://schema.org/ListItem">
+										<a rel="nofollow" itemprop="item" title="Заголовок новости" href="#">
+											<span itemprop="name">Заголовок новости</span>
+											<meta itemprop="position" content="4">
+										</a>
+									</span>
+								</div>						
 							</div>
 							
 						</div>
@@ -103,47 +123,43 @@
 					<div class="row">
 
 						<div class="col-xl-6">
-							<div class="singleNews__press-miniature">
-								<div class="singleNews__img">
-									<a href="#">
-										<img src="img/press-img.png" alt="Изображение новости" class="img-responsive" srcset="img/press-img.png 1x, img/press-img@2x.png 2x">
-									</a>
-								</div>
-								<div class="singleNews__content">
-									<div class="singleNews__info">
-										<p class="">24 июня 2018</p>
+							<a href="article.php">
+								<div class="singleNews__press-miniature">
+									<div class="singleNews__img">
+											<img src="img/press-img.png" alt="Изображение новости" class="img-responsive" srcset="img/press-img.png 1x, img/press-img@2x.png 2x">
 									</div>
-									<h3 class="singleNews__titleNews">Длинный заголовок с каким-то уточнением и артикулом</h3>
-									<div class="singleNews__link">
-										<a href="#">подробнее</a>
+									<div class="singleNews__content">
+										<div class="singleNews__info">
+											<p class="">24 июня 2018</p>
+										</div>
+										<h3 class="singleNews__titleNews">Длинный заголовок с каким-то уточнением и артикулом</h3>
+										<div class="singleNews__link">подробнее</div>
+										<!-- /.press-miniature__info -->
 									</div>
-									<!-- /.press-miniature__info -->
+									<!-- /.press-miniature__content -->
 								</div>
-								<!-- /.press-miniature__content -->
-							</div>
-							<!-- /.press-miniature -->
+								<!-- /.press-miniature -->
+							</a>
 						</div>
 
 						<div class="col-xl-6">
-							<div class="singleNews__press-miniature">
-								<div class="singleNews__img">
-									<a href="#">
-										<img src="img/press-img.png" alt="Изображение новости" class="img-responsive" srcset="img/press-img.png 1x, img/press-img@2x.png 2x">
-									</a>
-								</div>
-								<div class="singleNews__content">
-									<div class="singleNews__info">
-										<p class="">24 июня 2018</p>
+							<a href="article.php">
+								<div class="singleNews__press-miniature">
+									<div class="singleNews__img">
+											<img src="img/press-img.png" alt="Изображение новости" class="img-responsive" srcset="img/press-img.png 1x, img/press-img@2x.png 2x">
 									</div>
-									<h3 class="singleNews__titleNews">Длинный заголовок с каким-то уточнением и артикулом</h3>
-									<div class="singleNews__link">
-										<a href="#">подробнее</a>
+									<div class="singleNews__content">
+										<div class="singleNews__info">
+											<p class="">24 июня 2018</p>
+										</div>
+										<h3 class="singleNews__titleNews">Длинный заголовок с каким-то уточнением и артикулом</h3>
+										<div class="singleNews__link">подробнее</div>
+										<!-- /.press-miniature__info -->
 									</div>
-									<!-- /.press-miniature__info -->
+									<!-- /.press-miniature__content -->
 								</div>
-								<!-- /.press-miniature__content -->
-							</div>
-							<!-- /.press-miniature -->
+								<!-- /.press-miniature -->
+							</a>
 						</div>
 
 					</div>
