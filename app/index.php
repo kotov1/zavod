@@ -300,7 +300,7 @@
 
 						<div class="row justify-content-center">
 
-							<div class="col-6 col-xl-4">
+							<div class="col-6 col-xl-3">
 								<div class="about__item">
 									<div class="row align-items-center no-gutters">
 										<div class="col-12 col-md-auto">
@@ -320,7 +320,7 @@
 							</div>
 							<!--/ .col -->
 
-							<div class="col-6 col-xl-4">
+							<div class="col-6 col-xl-3">
 								<div class="about__item">
 									<div class="row align-items-center no-gutters">
 										<div class="col-12 col-md-auto">
@@ -331,7 +331,7 @@
 											</div>
 										</div>
 										<div class="col-12 col-md">
-											<p class="about__item-text">Сертификация РМРС, РРР, ТРТС, ВП, ГОСТ-Р, ISO 9001</p>
+											<p class="about__item-text">Сертификаты РМРС, РРР, ГОСТ-Р, ISO 9001</p>
 										</div>
 									</div>
 									<!-- /.row					 -->
@@ -340,7 +340,7 @@
 							</div>
 							<!--/ .col -->
 
-							<div class="col-6 col-xl-4">
+							<div class="col-6 col-xl-3">
 								<div class="about__item">
 									<div class="row align-items-center no-gutters">
 										<div class="col-12 col-md-auto">
@@ -360,7 +360,27 @@
 							</div>
 							<!--/ .col -->
 
-							<div class="col-6 col-xl-4">
+							<div class="col-6 col-xl-3">
+								<div class="about__item">
+									<div class="row align-items-center no-gutters">
+										<div class="col-12 col-md-auto">
+											<div class="about__img">
+												<svg class="about__img-svg">
+													<use xlink:href="#svg-icon-7" />
+												</svg>
+											</div>
+										</div>
+										<div class="col-12 col-md">
+											<p class="about__item-text">Создаем нестандартные детали</p>
+										</div>
+									</div>
+									<!-- /.row					 -->
+								</div>
+								<!-- /.about__item -->
+							</div>
+							<!--/ .col -->
+
+							<div class="col-6 col-xl-3">
 								<div class="about__item">
 									<div class="row align-items-center no-gutters">
 										<div class="col-12 col-md-auto">
@@ -380,7 +400,7 @@
 							</div>
 							<!--/ .col -->
 
-							<div class="col-6 col-xl-4">
+							<div class="col-6 col-xl-3">
 								<div class="about__item">
 									<div class="row align-items-center no-gutters">
 										<div class="col-12 col-md-auto">
@@ -400,7 +420,7 @@
 							</div>
 							<!--/ .col -->
 
-							<div class="col-6 col-xl-4">
+							<div class="col-6 col-xl-3">
 								<div class="about__item">
 									<div class="row align-items-center no-gutters">
 										<div class="col-12 col-md-auto">
@@ -420,27 +440,8 @@
 							</div>
 							<!--/ .col -->
 
-							<div class="col-6 col-xl-4">
-								<div class="about__item">
-									<div class="row align-items-center no-gutters">
-										<div class="col-12 col-md-auto">
-											<div class="about__img">
-												<svg class="about__img-svg">
-													<use xlink:href="#svg-icon-7" />
-												</svg>
-											</div>
-										</div>
-										<div class="col-12 col-md">
-											<p class="about__item-text">Разрабатываем и создаем нестандартные детали</p>
-										</div>
-									</div>
-									<!-- /.row					 -->
-								</div>
-								<!-- /.about__item -->
-							</div>
-							<!--/ .col -->
 
-							<div class="col-6 col-xl-4">
+							<div class="col-6 col-xl-3">
 								<div class="about__item">
 									<div class="row align-items-center no-gutters">
 											<div class="col-12 col-md-auto">
@@ -460,7 +461,8 @@
 							</div>
 							<!--/ .col -->
 
-							<div class="col-6 col-xl-4">
+
+							<!-- <div class="col-6 col-xl-3">
 								<div class="about__item">
 									<div class="row align-items-center no-gutters">
 										<div class="col-12 col-md-auto">
@@ -472,11 +474,8 @@
 											<p class="about__item-text">Более 30 постоянных клиентов</p>
 										</div>
 									</div>
-									<!-- /.row					 -->
 								</div>
-								<!-- /.about__item -->
-							</div>
-							<!--/ .col -->
+							</div> -->
 
 						</div>
 						<!-- /.row -->
