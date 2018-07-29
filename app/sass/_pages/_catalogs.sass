@@ -30,8 +30,9 @@
 		height: 61px
 		margin-right: 24px
 		&:hover
-			box-shadow: 0 0 20px rgba(35, 152, 237, 0.25)
-			transition: $trs-all
+			svg
+				filter: drop-shadow(2px -2px 3px rgba(35, 152, 237, .6))
+				transition: $trs-all
 	&__link, &__info
 		display: inline-block
 		line-height: 1.1

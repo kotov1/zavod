@@ -37,6 +37,11 @@
 	<div class="page delivery-page">
 
 
+	
+		<!-- preloader -->
+		<div id="preloader"></div>
+
+
 		<!-- header -->
 		<?php include("blocks/header.php");?>
 		<!-- header -->
@@ -93,50 +98,48 @@
 
 							<div class="col-12 col-md-6 col-xl-3">
 								<div class="delivery__company">
-										<img src="img/delivery/delivery-img1.jpg" alt="Логотип компании доставки" class="img-responsive"
+										<img src="img/delivery/delivery-img1.jpg" alt="Логотип компании доставки" class="img-responsive" width="230" height="35"
 										srcset="img/delivery/delivery-img1.jpg 1x, img/delivery/delivery-img1@2x.jpg 2x">
 								</div>
 							</div>
 							<div class="col-12 col-md-6 col-xl-3">
 								<div class="delivery__company">
-										<img src="img/delivery/delivery-img2.jpg" alt="Логотип компании доставки" class="img-responsive"
+										<img src="img/delivery/delivery-img2.jpg" alt="Логотип компании доставки" class="img-responsive" width="217" height="39"
 										srcset="img/delivery/delivery-img2.jpg 1x, img/delivery/delivery-img2@2x.jpg 2x">
 								</div>
 							</div>
 							<div class="col-12 col-md-6 col-xl-3">
 								<div class="delivery__company">
-										<img src="img/delivery/delivery-img3.jpg" alt="Логотип компании доставки" class="img-responsive"
+										<img src="img/delivery/delivery-img3.jpg" alt="Логотип компании доставки" class="img-responsive" width="165" height="42"
 										srcset="img/delivery/delivery-img3.jpg 1x, img/delivery/delivery-img3@2x.jpg 2x">
 								</div>
 							</div>
 							<div class="col-12 col-md-6 col-xl-3">
 								<div class="delivery__company">
-										<img src="img/delivery/delivery-img4.jpg" alt="Логотип компании доставки" class="img-responsive"
+										<img src="img/delivery/delivery-img4.jpg" alt="Логотип компании доставки" class="img-responsive" width="175" height="42"
 										srcset="img/delivery/delivery-img4.jpg 1x, img/delivery/delivery-img4@2x.jpg 2x">
 								</div>
 							</div>
 							<div class="col-12 col-md-6 col-xl-3">
 								<div class="delivery__company">
-										<img src="img/delivery/delivery-img5.jpg" alt="Логотип компании доставки" class="img-responsive"
+										<img src="img/delivery/delivery-img5.jpg" alt="Логотип компании доставки" class="img-responsive" width="156" height="81"
 										srcset="img/delivery/delivery-img5.jpg 1x, img/delivery/delivery-img5@2x.jpg 2x">
 								</div>
 							</div>
 							<div class="col-12 col-md-6 col-xl-3">
 								<div class="delivery__company">
-										<img src="img/delivery/delivery-img6.jpg" alt="Логотип компании доставки" class="img-responsive"
-										srcset="img/delivery/delivery-img6.jpg 1x, img/delivery/delivery-img6@2x.jpg 2x">
+									<img src="img/delivery/delivery-img8.png" alt="Логотип компании доставки" class="img-responsive" width="69" height="85">
 								</div>
 							</div>
 							<div class="col-12 col-md-6 col-xl-3">
 								<div class="delivery__company">
-										<img src="img/delivery/delivery-img7.jpg" alt="Логотип компании доставки" class="img-responsive"
-										srcset="img/delivery/delivery-img7.jpg 1x, img/delivery/delivery-img7@2x.jpg 2x">
+									<img src="img/delivery/delivery-img7.png" alt="Логотип компании доставки" class="img-responsive" width="120" height="102">
 								</div>
 							</div>
 							<div class="col-12 col-md-6 col-xl-3">
 								<div class="delivery__company">
-										<img src="img/delivery/delivery-img8.jpg" alt="Логотип компании доставки" class="img-responsive"
-										srcset="img/delivery/delivery-img8.jpg 1x, img/delivery/delivery-img8@2x.jpg 2x">
+									<img src="img/delivery/delivery-img6.jpg" alt="Логотип компании доставки" class="img-responsive" width="163" height="77"
+									srcset="img/delivery/delivery-img6.jpg 1x, img/delivery/delivery-img6@2x.jpg 2x">
 								</div>
 							</div>
 
@@ -152,9 +155,9 @@
 
 					<div class="contacts">
 
-						<div class="row">
+						<div class="row no-gutters">
 
-							<div class="col-12 col-xl-4">
+							<div class="col-12 col-xl-4 box-shadow">
 
 								<div class="contacts__block">
 
@@ -216,7 +219,7 @@
 
 
 		
-	
+
 
 
 	<!-- Jquery с облака и замена в случае отсутствия доступа к облаку  -->

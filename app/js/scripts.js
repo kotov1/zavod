@@ -189,24 +189,23 @@ $(function() {
 		alignTop: true
 	  });
   
-  
-  
-	  $('.image-popup-no-margins').magnificPopup({
-		  type: 'image',
-		  closeOnContentClick: false,
-		  closeBtnInside: false,
-		  fixedContentPos: true,
-		  mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
-		  image: {
-			  verticalFit: true
-		  },
-		  zoom: {
-			  enabled: true,
-			  duration: 300 // don't foget to change the duration also in CSS
-		  }
-	  });
 	  /*PRODUCT CART END*/
 
 
 
+		// preloader
+		var hellopreloader = document.getElementById("preloader");
+		function fadeOutnojquery(el){
+			el.style.opacity = 1;
+			var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;
+				if (el.style.opacity <=0.05){
+					clearInterval(interhellopreloader);
+					$(hellopreloader).addClass('hide');
+				}
+			},16);
+		}
+		window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};
+
+
 });
+

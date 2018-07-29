@@ -62,7 +62,6 @@ gulp.task('watch', ['sass', 'js', 'browser-sync'], function() {
 
 gulp.task('imagemin', function() {
 	return gulp.src('app/img/**/*')
-	.pipe(cache(imagemin()))
 	.pipe(gulp.dest('dist/img')); 
 });
 

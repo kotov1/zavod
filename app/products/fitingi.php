@@ -37,6 +37,11 @@
 	<div class="page subcategory-page">
 
 
+	
+		<!-- preloader -->
+		<div id="preloader"></div>
+
+
 		<!-- header -->
 		<?php include("../blocks/header.php");?>
 		<!-- header -->
@@ -51,7 +56,7 @@
 
 
 			<!-- page-banner -->
-			<section class="page-banner text-center" style="background-image: url('../img/test2.jpg')">
+			<section class="page-banner text-center" style="background-image: url('/img/test2.jpg')">
 				<div class="container">
 					<h1 class="page-title page-title--white">Фитинги и муфты для рукавов высокого давления (РВД)</h1>
 					<div itemscope="" itemtype="http://schema.org/BreadcrumbList" class="breadcrumbs breadcrumbs--white">
@@ -400,6 +405,11 @@
 	</div>
 
 
+
+
+
+
+	
 
 	<!-- Jquery с облака и замена в случае отсутствия доступа к облаку  -->
 	<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>

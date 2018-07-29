@@ -201,6 +201,11 @@
 		</div>
 
 
+		
+	<!-- preloader -->
+	<div id="preloader"></div>
+
+
 	<!-- Jquery с облака и замена в случае отсутствия доступа к облаку  -->
 	<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script>window.jQuery || document.write('<script src="libs/jquery/dist/jquery.min.js"><\/script>')</script>

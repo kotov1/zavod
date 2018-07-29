@@ -37,6 +37,11 @@
 	<div class="page services-page">
 
 
+	
+		<!-- preloader -->
+		<div id="preloader"></div>
+
+
 		<!-- header -->
 		<?php include("blocks/header.php");?>
 		<!-- header -->
@@ -167,9 +172,9 @@
 
 					<div class="contacts mt-0">
 
-						<div class="row">
+						<div class="row no-gutters">
 
-							<div class="col-12 col-xl-4">
+							<div class="col-12 col-xl-4 box-shadow">
 
 								<div class="contacts__block">
 
@@ -198,9 +203,9 @@
 
 					<div class="contacts mt-0">
 
-						<div class="row">
+						<div class="row no-gutters">
 
-							<div class="col-12 col-xl-4">
+							<div class="col-12 col-xl-4 box-shadow">
 
 								<div class="contacts__block">
 
@@ -230,9 +235,9 @@
 					<h2 class="page-subtitle services__title">Расположение сервисных центров в Воркуте.</h2>
 					<div class="contacts mt-0">
 
-						<div class="row">
+						<div class="row no-gutters">
 
-							<div class="col-12 col-xl-4">
+							<div class="col-12 col-xl-4 box-shadow">
 
 								<div class="contacts__block">
 
@@ -294,7 +299,7 @@
 	<!-- popup thanks end -->
 
 
-	
+
 
 
 	<!-- Jquery с облака и замена в случае отсутствия доступа к облаку  -->

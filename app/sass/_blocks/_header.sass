@@ -3,11 +3,14 @@
 	z-index: 2
 
 .top-line
-	padding: 15px 0 11px
+	padding: 6px 0
 	background-color: #fff
 
 .logo
 	color: #201600
+	&__svg
+		width: 49px
+		height: 78px
 	a
 		color: #201600
 		&:hover
@@ -17,7 +20,6 @@
 		padding-left: 15px
 		line-height: 1.1
 		text-transform: uppercase
-		// text-align: center
 	&__up-text
 		font-size: 28px
 		font-weight: 700
@@ -55,14 +57,16 @@
 
 .arrow-right
 	display: inline-block
-	width: 30px
-	height: 30px
+	width: 50px
+	height: 50px
 	margin: 0
 	position: absolute
 	right: 15px
-	top: 50%
+	top: 5%
 	border-radius: 50%
-	background: url('../img/icons-set.png') no-repeat -520px 0
+	background: url('../../img/svg-icons/callback-white.svg') no-repeat 50% 50%
+	background-size: 30px 30px
+	z-index: 1
 
 .icon
 	display: inline-block
@@ -75,7 +79,7 @@
 		background-position: 0 0
 		transition: $trs-all
 		&:hover
-			box-shadow: 0 0 20px rgba(#2398ED, .25)
+			filter: drop-shadow(0px 0px 4px rgba(35, 152, 237, .4))
 			transition: $trs-all
 	&__tel
 		width: 33px
@@ -85,41 +89,49 @@
 		border-radius: 50%
 		transition: $trs-all
 		&:hover
-			box-shadow: 0 0 20px rgba(#2398ED, .25)
+			filter: drop-shadow(0px 0px 4px rgba(35, 152, 237, .4))
 			transition: $trs-all
 	&__tel-mobile
 		width: 19px
 		height: 19px
-		background-position: -86px 0
+		background: url('../../img/svg-icons/phone-white.svg') no-repeat 50% 50%
+		background-size: 100% 100%
 	&__mail-mobile
 		width: 20px
 		height: 15px
-		background-position: -116px 0
+		background: url('../../img/svg-icons/mail-white.svg') no-repeat 50% 50%
+		background-size: 100% 100%
 
 	&-mob1
 		width: 20px
 		height: 24px
-		background-position: -148px 0
+		background: url('../../img/svg-icons/mob-nav1.svg') no-repeat 0 50%
+		background-size: 100% 100%
 	&-mob2
 		width: 20px
 		height: 18px
-		background-position: -177px 0
+		background: url('../../img/svg-icons/mob-nav2.svg') no-repeat 0 50%
+		background-size: 100% 100%
 	&-mob3
 		width: 20px
 		height: 16px
-		background-position: -206px 0
+		background: url('../../img/svg-icons/mob-nav3.svg') no-repeat 0 50%
+		background-size: 100% 100%
 	&-mob4
 		width: 20px
 		height: 20px
-		background-position: -234px 0
+		background: url('../../img/svg-icons/mob-nav4.svg') no-repeat 0 50%
+		background-size: 100% 100%
 	&-mob5
 		width: 20px
 		height: 19px
-		background-position: -260px 0
+		background: url('../../img/svg-icons/mob-nav5.svg') no-repeat 0 50%
+		background-size: 100% 100%
 	&-mob6
 		width: 20px
 		height: 19px
-		background-position: -285px 0
+		background: url('../../img/svg-icons/mob-nav6.svg') no-repeat 0 50%
+		background-size: 100% 100%
 
 
 .desktop-nav
@@ -127,6 +139,7 @@
 	position: relative
 	background: #2365D6
 	background-image: linear-gradient(65deg, #2365D6, #22B1F1)
+
 	.logo
 		display: none
 		font-size: 28px
@@ -135,10 +148,12 @@
 		color: #fff
 		a
 			color: #fff
+	&__text
+		line-height: 1
+	.logo__svg
+		width: 49px
+		height: 3.25rem
 
-	.logo__img
-		img
-			max-height: 3.25rem
 	&.fixed
 		width: 100%
 		position: fixed
@@ -202,7 +217,10 @@
 		&:hover
 			> .hidden-menu
 				visibility: visible
-				transform: scale(1)
+				opacity: 1
+				transform: translateY(0)
+				transition: all .3s
+
 	&__link
 		display: block
 		padding: 0.806em 0
@@ -227,6 +245,11 @@
 			&::before
 				transform: scale(1)
 				transition: $trs-all
+
+.desktop-nav.fixed
+	.hidden-menu
+		transform: translateY(0)
+
 
 
 .sub-menu
@@ -253,15 +276,20 @@
 
 .hidden-menu
 	visibility: hidden
-	transform: scale(0)
+	opacity: 0
 	transform-origin: 50% 0
 	width: 100%
 	position: absolute
 	top: 3.5rem
 	left: 0
-	background-color: rgba(#fff, .9)
-	transition: $trs-all
-	z-index: 2
+	background-color: rgba(#fff, .95)
+	transition: transform .1s
+	z-index: -1
+	&--toggle
+		transform: translateY(-100%)
+	&--scale
+		transform: scale(0)
+
 
 
 /* ----- sitemap ----- */
@@ -278,7 +306,7 @@
 		color: $text-color
 	&__links-title
 		font-weight: 700
-		a
+		a, span
 			display: inline-flex
 			align-items: center
 			color: inherit
@@ -338,6 +366,7 @@
 	&.on
 		+ .sitemap
 			visibility: visible
+			opacity: 1
 			transform: scale(1)
 
 
@@ -380,6 +409,15 @@
 
 
 
+
+
+
+
+
+
+
+
+
 /* ------------------------------------- 
 	header media styles
 	------------------------------------- */
@@ -396,6 +434,9 @@
 		&__links-title, &__link
 			line-height: 1.2
 
+	.main-menu
+		font-size: 16px
+
 	/**/
 
 @media only screen and (max-width : 991px)
@@ -403,11 +444,15 @@
 	.desktop-nav
 		display: flex
 		align-items: center
+	.desktop-nav.fixed
+		.logo
+			display: none
 
 	/**/
 
 
 @media only screen and (max-width : 767px)
+
 
 	.header
 		position: fixed
@@ -426,8 +471,9 @@
 			z-index: 1
 
 	.logo
-		&__img
-			max-width: 25px
+		&__svg
+			width: 25px
+			height: 42px
 		&__up-text
 			font-size: 22px
 		&__down-text
@@ -440,6 +486,7 @@
 			color: #fff
 
 	.top-line
+		padding: 15px 0 11px
 		background: none
 		&__contacts
 			display: none
@@ -451,10 +498,13 @@
 		right: 15px
 		top: 50%
 		transform: translateY(-50%)
-		width: 20px
-		height: 20px
-		background: url('../img/telephone.png') no-repeat 50% 50%
+		width: 50px
+		height: 50px
+		background: url('../../img/svg-icons/phone-white-fill.svg') no-repeat 100% 50%
+		background-size: 20px 20px
 		z-index: 1
+		&:focus
+			outline: none
 
 	.desktop-nav
 		display: none
@@ -480,6 +530,9 @@
 			border-top: 1px dashed #BEBEBE
 			&:last-child
 				border-top: 1px dashed #BEBEBE
+			&.no-border
+				border-top: none
+				padding-top: 0
 		&-btn
 			display: none
 		&__top
@@ -505,6 +558,10 @@
 				width: 30px
 				position: relative
 				margin-left: auto
+				&--absolute
+					width: 100%
+					position: absolute
+					right: 0
 				&::before
 					content: ''
 					display: inline-block

@@ -55,6 +55,29 @@
 
 
 
+	/* ----- page 404 -----*/
+	.non-exist
+		padding-top: 50px
+	.error
+		display: block
+		padding: 50px 0 0
+		text-align: center
+		font-size: 100px
+		line-height: 1
+		&-txt1
+			font-size: 160px
+			display: block
+			span
+				display: block
+				position: static
+		&-hint
+			margin-top: 50px
+			font-size: 25px
+			line-height: 1.2
+
+
+
+
 	/**/
 
 
@@ -118,6 +141,9 @@
 	/* ----- text ----- */
 	.page-text
 		line-height: 1.25
+
+	ul.page-list li::before
+		margin-right: 8px
 
 	/* ----- demo img ----- */
 	.demo-img
@@ -195,15 +221,37 @@
 		clients
 		------------------------------------- */
 	.clients
-		margin-bottom: $margin1-mob
+		padding-bottom: $margin1-mob
 		&-slider
-			padding: 10px
+			padding: 0 10px
 
 		.slick-prev, .slick-next
 			width: 20px
 			height: 20px
 
 
+	/* ----- page 404 -----*/
+	.non-exist
+		padding-top: 30px
+		.logo__svg
+			width: 50px
+			height: 82px
+		.logo__text
+			color: #201600
+		.logo__down-text
+			display: block
+
+	.error
+		padding: 30px 0 0
+		font-size: 78px
+		&-txt1
+			span
+				font-size: 23px
+		&-hint
+			margin-top: 30px
+			line-height: 1.2
+		&-back
+			margin-top: 30px
 
 
 	/**/

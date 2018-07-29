@@ -35,6 +35,12 @@
 <body>
 
 	<div class="page press-page">
+	
+
+		<!-- preloader -->
+		<div id="preloader"></div>
+
+
 
 
 		<!-- header -->
@@ -464,6 +470,7 @@
 
 
 		
+
 	
 
 

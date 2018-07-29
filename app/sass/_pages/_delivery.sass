@@ -1,5 +1,5 @@
 .delivery
-	padding: $margin1 0
+	padding: $margin1 0 0
 	&__companies
 		padding: $margin1 0 calc(#{$margin1} - #{$margin2})
 	&__company
@@ -7,11 +7,13 @@
 		display: flex
 		align-items: center
 		justify-content: center
-		height: 180px
-		padding: 15px
+		height: 140px
+		padding: 20px
 		border: 1px solid #BEBEBE
 		border-radius: 3px
 		transition: $trs-all
+		.img-responsive
+			max-height: 100%
 		img
 			opacity: .65
 			filter: grayscale(1)
@@ -29,7 +31,7 @@
 @media only screen and (max-width : 767px)
 
 	.delivery
-		padding: $margin1-mob 0
+		padding: $margin1-mob 0 0
 		&__companies
 				padding: $margin1-mob 0 calc(#{$margin1-mob} - #{$margin2-mob})
 		&__company

@@ -1,0 +1,163 @@
+.spravochnik
+	padding-top: $margin1
+
+	&__list
+		margin-bottom: $margin1
+		a
+			color: inherit
+
+	&__subtitle
+		margin: 0 0 calc(#{$margin2} - 5px)
+		font-size: 1.5625rem
+		font-weight: 600
+
+
+
+.spr
+	&-table
+		font-size: 16px
+		border-radius: 3px
+		overflow: hidden
+		&-wrap
+			max-width: 100%
+			overflow-x: auto
+		&--3col
+			// width: 60%
+			width: 720px
+		&--5col
+			width: 100%
+
+		&__head-row
+			background: linear-gradient(90deg, #2342D6, #22AAF1)
+		&__cell, &__head-cell
+			// width: 240px
+			padding: 15px 20px
+		&__head-cell
+			color: #fff
+			font-weight: 700
+		&__cell
+			height: 200px
+			border-right: 1px solid #E5E5E5
+			border-bottom: 1px solid #E5E5E5
+			overflow: hidden
+			&--bd--left
+				border-left: 1px solid #E5E5E5
+			ul
+				margin: 0
+				padding-left: 0
+				list-style: none
+
+	
+
+.transcript
+	width: 277px
+	padding-bottom: $margin2
+	color: #727272
+	&-block
+		padding-bottom: $margin1
+	&__sheme
+		overflow: hidden
+		display: flex
+		flex-direction: column
+	&__item
+		font-size: 30px
+		span
+			display: inline-block
+			margin-right: 6px
+			position: relative
+			&::before
+				content: ''
+				display: inline-block
+				width: 7px
+				height: 7px
+				position: absolute
+				bottom: 0
+				background: #3399FF
+				border-radius: 50%
+				z-index: 1
+			&:nth-child(1)::before
+				left: 15px
+			&:nth-child(2)::before
+				left: 26px
+			&:nth-child(3)::before
+				left: 15px
+			&:last-child
+				margin-right: 0
+	&__descr
+		margin-top: 4px
+		align-self: flex-end
+		font-size: 18px
+		font-weight: 600
+		div
+			width: 160px
+			position: relative
+			margin-bottom: 6px
+			&::before
+				content: ''
+				display: block
+				height: 1px
+				position: absolute
+				background: #BEBEBE
+				transform: rotate(45deg)
+				z-index: 0
+			&:nth-child(1)::before
+				width: 18px
+				left: -20px
+				top: 0
+			&:nth-child(2)::before
+				width: 65px
+				left: -65px
+				top: -16px
+			&:nth-child(3)::before
+				width: 115px
+				left: -117px
+				top: -34px
+
+			&:last-child
+				margin-bottom: 0
+			
+
+
+/* ----- custom-scroll ----- */
+// .ui-selectmenu-menu.custom-scroll_container
+// 	margin-top: 5px
+// 	position: absolute
+// 	.custom-scroll_inner
+// 		overflow-x: hidden
+
+.custom-scroll_inner
+	padding-top: 15px
+
+.custom-scroll_bar-y
+	background-color: rgba(#000, .1)
+	width: 6px
+	opacity: 1
+.custom-scroll_bar-x
+	width: 0 !important
+	background-color: rgba(#000, .1)
+	height: 6px
+	opacity: 1
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width : 767px)
+
+	.spravochnik
+		padding-top: $margin1-mob
+		&__subtitle
+			font-size: 22px
+			margin-bottom: $margin2-mob
+
+	.transcript
+		padding-bottom: $margin1-mob
+
+	/**/

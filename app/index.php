@@ -36,6 +36,9 @@
 
 	<div class="page main-page">
 
+	<!-- preloader -->
+	<div id="preloader"></div>
+
 
 		<!-- header -->
 		<?php include("blocks/header-main-page.php");?>
@@ -107,7 +110,7 @@
 							<div class="col-12 col-md-6 col-xl-3">
 								<a href="products/soedineniya.php" class="categories__item">
 									<div class="categories__name">Трубные соединения</div>
-									<div class="categories__img">
+									<div class="categories__img bottom-0">
 										<img src="img/categories/category-img4.png" class="img-responsive" alt="Логотип" 
 													srcset="img/categories/category-img4.png 1x, img/categories/category-img4@2x.png 2x">
 									</div>
@@ -129,7 +132,7 @@
 							<div class="col-12 col-md-6 col-xl-3">
 								<a href="products/nestandart.php" class="categories__item">
 									<div class="categories__name">Нестандартная продукция под<br> заказ</div>
-									<div class="categories__img">
+									<div class="categories__img" style="transform: translateY(10px);">
 										<img src="img/categories/nestandart.png" class="img-responsive" alt="Логотип" 
 													srcset="img/categories/nestandart.png 1x, img/categories/nestandart@2x.png 2x">
 									</div>
@@ -594,6 +597,14 @@
 	<script>window.jQuery || document.write('<script src="libs/jquery/dist/jquery.min.js"><\/script>')</script>
 
 	<script src="js/scripts.js"></script>
+
+
+
+
+
+
+
+
 
 </body>
 </html>

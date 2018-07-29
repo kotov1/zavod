@@ -36,6 +36,10 @@
 
 	<div class="page nonstandart-page">
 
+	
+		<!-- preloader -->
+		<div id="preloader"></div>
+
 
 		<!-- header -->
 		<?php include("../blocks/header.php");?>
@@ -50,7 +54,7 @@
 		<main class="content">
 
 			<!-- page-banner -->
-			<section class="page-banner text-center" style="background-image: url('img/test2.jpg')">
+			<section class="page-banner text-center" style="background-image: url('/img/test2.jpg')">
 				<div class="container">
 					<h1 class="page-title">Нестандартная продукция</h1>
 					<div itemscope="" itemtype="http://schema.org/BreadcrumbList" class="breadcrumbs">
@@ -280,8 +284,11 @@
 
 	<!-- svg sprite -->
 	<div class="svg-sprite">
-			<?php echo file_get_contents("../img/svg-icons/svg-sprite.svg"); ?>
-		</div>
+		<?php echo file_get_contents("../img/svg-icons/svg-sprite.svg"); ?>
+	</div>
+
+	
+
 
 
 	<!-- Jquery с облака и замена в случае отсутствия доступа к облаку  -->

@@ -28,11 +28,12 @@
 			text-decoration: none
 
 	&__name
+		flex: 0 0 100%
 		max-width: 100%
 		padding-right: 15%
 		font-size: 1.25rem
 		line-height: 1.15
-		color: #2A2A2B
+		color: #727272
 
 	&__img
 		max-width: 160px
@@ -102,6 +103,32 @@
 		display: none
 
 
+.category-page
+	.categories__item
+		height: 230px
+		padding: 30px
+	.categories__name
+		font-size: 1.5625rem
+	.categories__img
+		max-width: 250px
+		right: 15px
+
+
+
+@media only screen and (max-width : 1199px)
+
+	.category-page
+		.categories__name
+			font-size: 1.25rem
+		.categories__img
+			max-width: 200px
+
+	.categories__img.bottom-0
+		bottom: 10px
+
+	/**/
+
+
 @media only screen and (max-width : 991px)
 
 	.categories
@@ -115,9 +142,14 @@
 		&__list
 			font-size: 1rem
 
+	.categories__img.bottom-0
+		bottom: -5px
+
 	.page-categories__block
 		.categories__name
 			padding-right: 20%
+
+	
 
 	/**/
 
@@ -126,7 +158,7 @@
 	.categories
 		padding: $margin1-mob 0 calc(#{$margin1-mob} - #{$margin2-mob})
 		&__item
-			height: 180px
+			height: 160px
 			margin-bottom: 20px
 		&__name
 			width: 100%
@@ -152,5 +184,14 @@
 			display: block
 		.categories__list
 			display: none
+
+	.category-page
+		.categories__item
+			height: 160px
+		.categories__name
+			font-size: 1.125rem
+		.categories__img
+			max-width: 160px
+			right: -5px
 
 	/**/

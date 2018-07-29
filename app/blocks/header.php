@@ -6,15 +6,14 @@
 		<div class="container">
 			<div class="row align-items-center">
 
-				<div class="col-12 col-md-4 col-lg-3">
+				<div class="col-12 col-md-5 col-lg-4">
 					<div class="logo desktop-logo">
 						<a href="/">
 							<div class="row no-gutters align-items-center">
 								<div class="col-auto">
 									<div class="logo__img">
-											<div class="d-none d-md-block"><img src="/img/logo.png" class="img-responsive" alt="Логотип" 
-												srcset="/img/logo.png 1x, /img/logo@2x.png 2x"></div>
-											<div class="d-md-none"><img src="/img/logo--white.png" class="img-responsive" alt="Логотип"></div>
+										<img src="/img/logo.svg" class="d-none d-md-block logo__svg" alt="Логотип">
+										<img src="/img/logo--white.svg" class="d-block d-md-none logo__svg" alt="Логотип">
 									</div>
 								</div>
 								<div class="col-auto">
@@ -67,7 +66,7 @@
 							<div class="logo__img">
 								<div class="row align-items-center">
 									<div class="col-auto">
-										<img src="/img/logo--white.png" class="img-responsive" alt="Логотип">
+										<img src="/img/logo--white.svg" class="logo__svg" alt="Логотип">
 									</div>
 									<div class="col-auto">standart</div>
 								</div>
@@ -81,7 +80,7 @@
 
 							<li class="main-menu__item">
 								<a href="/about.php" class="main-menu__link">О предприятии</a>
-								<div class="hidden-menu hidden-menu--gray">
+								<div class="hidden-menu hidden-menu--gray hidden-menu--toggle">
 									<div class="container">
 										<ul class="menu sub-menu">
 											<li class="sub-menu__item"><a href="/about.php" class="sub-menu__link">О компании</a></li>
@@ -90,6 +89,8 @@
 											<li class="sub-menu__item"><a href="/contacts.php" class="sub-menu__link">Контакты</a></li>
 											<li class="sub-menu__item"><a href="/delivery.php" class="sub-menu__link">Доставка</a></li>
 											<li class="sub-menu__item"><a href="/certificates.php" class="sub-menu__link">Сертификаты</a></li>
+											<li class="sub-menu__item"><a href="/feedbacks.php" class="sub-menu__link">Отзывы и благодарности</a></li>
+											<li class="sub-menu__item"><a href="/vacancies.php" class="sub-menu__link">Вакансии</a></li>
 										</ul>
 									</div>
 								</div>
@@ -97,7 +98,7 @@
 
 							<li class="main-menu__item">
 								<a href="/products.php" class="main-menu__link">Продукция</a>
-								<div class="hidden-menu hidden-menu--gray">
+								<div class="hidden-menu hidden-menu--gray hidden-menu--toggle">
 									<div class="container">
 										<ul class="menu sub-menu">
 											<li class="sub-menu__item"><a href="/products/rykava.php" class="sub-menu__link">РВД в сборе</a></li>
@@ -111,12 +112,24 @@
 							</li>
 
 							<li class="main-menu__item">
+								<span class="main-menu__link">Услуги</span>
+								<div class="hidden-menu hidden-menu--gray hidden-menu--toggle">
+									<div class="container">
+										<ul class="menu sub-menu">
+											<li class="sub-menu__item"><a href="/services.php" class="sub-menu__link">Сервис РВД</a></li>
+											<li class="sub-menu__item"><a href="/products/nestandart.php" class="sub-menu__link">Нестандартная продукция</a></li>
+										</ul>
+									</div>
+								</div>
+							</li>
+
+							<li class="main-menu__item">
 								<a href="/news.php" class="main-menu__link">Пресс-центр</a>
-								<div class="hidden-menu hidden-menu--gray">
+								<div class="hidden-menu hidden-menu--gray hidden-menu--toggle">
 									<div class="container">
 										<ul class="menu sub-menu">
 											<li class="sub-menu__item"><a href="/news.php" class="sub-menu__link">Новости и статьи</a></li>
-											<li class="sub-menu__item"><a href="#" class="sub-menu__link">Справочник</a></li>
+											<li class="sub-menu__item"><a href="/spravochnik.php" class="sub-menu__link">Справочник</a></li>
 											<li class="sub-menu__item"><a href="/media.php" class="sub-menu__link">Медиа</a></li>
 										</ul>
 									</div>
@@ -125,10 +138,10 @@
 
 							<li class="main-menu__item">
 								<a href="/to-partners.php" class="main-menu__link">Партнерам</a>
-								<div class="hidden-menu hidden-menu--gray">
+								<div class="hidden-menu hidden-menu--gray hidden-menu--toggle">
 									<div class="container">
 										<ul class="menu sub-menu">
-											<li class="sub-menu__item"><a href="/to-partners.php" class="sub-menu__link">Сотрудничество</a></li>
+											<li class="sub-menu__item"><a href="/to-partners.php" class="sub-menu__link">Информация</a></li>
 										</ul>
 									</div>
 								</div>
@@ -136,7 +149,7 @@
 
 							<li class="main-menu__item">
 								<a href="/catalogs.php" class="main-menu__link">Каталоги</a>
-								<div class="hidden-menu hidden-menu--gray">
+								<div class="hidden-menu hidden-menu--gray hidden-menu--toggle">
 									<div class="container">
 										<ul class="menu sub-menu">
 											<li class="sub-menu__item"><a href="/catalogs.php#catalog1" class="sub-menu__link">Каталог 1</a></li>
@@ -157,7 +170,7 @@
 
 				<div class="toggle-btn sitemap-btn"><div></div></div>
 
-				<div class="hidden-menu sitemap">
+				<div class="hidden-menu hidden-menu--scale sitemap">
 					<div class="container">
 						<div class="sitemap__top">
 							<div class="row">
@@ -185,17 +198,17 @@
 											</div>
 											<ul class="menu sitemap__links">
 												<li><a href="/news.php" class="sitemap__link">Новости и статьи</a></li>
-												<li><a href="#" class="sitemap__link">Справочник</a></li>
+												<li><a href="/spravochnik.php" class="sitemap__link">Справочник</a></li>
 												<li><a href="/media.php" class="sitemap__link">Медиа</a></li>
 											</ul>
 										</div>
 										<div class="col-12 d-flex flex-column justify-content-end">
 											<div class="sitemap__links-title">
-												<a href="/about.php">Услуги</a>
+												<span>Услуги</span>
 											</div>
 											<ul class="menu sitemap__links">
 												<li><a href="/services.php" class="sitemap__link">Сервис</a></li>
-												<li><a href="/products/nestandart.php" class="sitemap__link">Нестандартные компоненты</a></li>
+												<li><a href="/products/nestandart.php" class="sitemap__link">Нестандартная продукция</a></li>
 											</ul>
 										</div>
 									</div>
@@ -305,8 +318,7 @@
 				<div class="row no-gutters align-items-center">
 					<div class="col-auto">
 						<div class="logo__img">
-							<img src="/img/logo.png" class="img-responsive" alt="Логотип" 
-									srcset="/img/logo.png 1x, /img/logo@2x.png 2x">
+							<img src="/img/logo.svg" class="logo__svg" alt="Логотип">
 						</div>
 					</div>
 					<div class="col-auto">
@@ -350,27 +362,30 @@
 				<li><a href="/delivery.php" class="sitemap__link">Доставка</a></li>
 				<li><a href="/certificates.php" class="sitemap__link">Сертификаты</a></li>
 				<li><a href="/feedbacks.php" class="sitemap__link">Отзывы и благодарности</a></li>
+				<li><a href="/vacancies.php" class="sitemap__link">Вакансии</a></li>
 			</ul>
 
 			<div class="sitemap__links-title">
-				<a href="products.php"><i class="icon icon-mob2"></i>Продукция </a>
+				<a href="/products.php"><i class="icon icon-mob2"></i>Продукция </a>
 				<i class="toggle-ic"></i>
 			</div>
 			<ul class="menu sitemap__links">
 				<li><a href="/products/rykava.php" class="sitemap__link">Рукава РВД в сборе</a></li>
-				<li><a href="/products/metallorykava.php" class="sitemap__link">Металлорукава (МРВД)</a></li>
 				<li><a href="/products/fitingi.php" class="sitemap__link">Фитинги и муфты</a></li>
+				<li><a href="/products/metallorykava.php" class="sitemap__link">Металлорукава</a></li>
 				<li><a href="/products/soedineniya.php" class="sitemap__link">Трубные соединения</a></li>
+				<li><a href="/products/kompensatoru.php" class="sitemap__link">Сильфонные компенсаторы</a></li>
+				<li><a href="/products/app-area.php" class="sitemap__link">Области применения</a></li>
 			</ul>
 
 
-			<div class="sitemap__links-title">
-				<a href="/services.php"><i class="icon icon-mob3"></i>Услуги </a>
-				<i class="toggle-ic"></i>
+			<div class="sitemap__links-title toggle-ic">
+				<span><i class="icon icon-mob3"></i>Услуги </span>
+				<i class="toggle-ic toggle-ic--absolute"></i>
 			</div>
 			<ul class="menu sitemap__links">
 				<li><a href="/services.php" class="sitemap__link">Сервис</a></li>
-				<li><a href="/products/nestandart.php" class="sitemap__link">Нестандартные компоненты</a></li>
+				<li><a href="/products/nestandart.php" class="sitemap__link">Нестандартная продукция</a></li>
 			</ul>
 
 			
@@ -389,7 +404,7 @@
 			<ul class="menu sitemap__links">
 				<li><a href="/news.php" class="sitemap__link">Новости и статьи</a></li>
 				<li><a href="/media.php" class="sitemap__link">Медиа</a></li>
-				<li><a href="#" class="sitemap__link">Справочник</a></li>
+				<li><a href="/spravochnik.php" class="sitemap__link">Справочник</a></li>
 			</ul>
 
 

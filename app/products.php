@@ -37,6 +37,11 @@
 	<div class="page category-page">
 
 
+	
+		<!-- preloader -->
+		<div id="preloader"></div>
+
+
 		<!-- header -->
 		<?php include("blocks/header.php");?>
 		<!-- header -->
@@ -109,8 +114,8 @@
 										<div class="categories__item align-items-lg-center">
 											<div class="categories__name">Металлорукава высокого давления (МРВД)</div>
 											<div class="categories__img">
-												<img src="img/categories/category-img2.png" class="img-responsive" alt="Логотип" 
-															srcset="img/categories/category-img1.png 1x, img/categories/category-img1@2x.png 2x">
+												<img src="img/categories/category-img3.png" class="img-responsive" alt="Логотип" 
+															srcset="img/categories/category-img3.png 1x, img/categories/category-img3@2x.png 2x">
 											</div>
 											<div class="categories__link">К разделу</div>
 										</div>
@@ -135,8 +140,8 @@
 										<div class="categories__item align-items-lg-center">
 											<div class="categories__name">Сильфонные компенсаторы</div>
 											<div class="categories__img">
-												<img src="img/categories/category-img3.png" class="img-responsive" alt="Логотип" 
-															srcset="img/categories/category-img3.png 1x, img/categories/category-img3@2x.png 2x">
+												<img src="img/categories/category-img5.png" class="img-responsive" alt="Логотип" 
+															srcset="img/categories/category-img5.png 1x, img/categories/category-img5@2x.png 2x">
 											</div>
 											<div class="categories__link">К разделу</div>
 										</div>
@@ -161,8 +166,8 @@
 										<div class="categories__item align-items-lg-center">
 											<div class="categories__name">Фитинги и муфты для рукавов высокого давления (РВД)</div>
 											<div class="categories__img">
-												<img src="img/categories/category-img4.png" class="img-responsive" alt="Логотип" 
-															srcset="img/categories/category-img4.png 1x, img/categories/category-img4@2x.png 2x">
+												<img src="img/categories/category-img2.png" class="img-responsive" alt="Логотип" 
+															srcset="img/categories/category-img2.png 1x, img/categories/category-img2@2x.png 2x">
 											</div>
 											<div class="categories__link">К разделу</div>
 										</div>
@@ -182,8 +187,8 @@
 										<div class="categories__item align-items-lg-center">
 											<div class="categories__name">Трубные соединения</div>
 											<div class="categories__img">
-												<img src="img/categories/category-img5.png" class="img-responsive" alt="Логотип" 
-															srcset="img/categories/category-img5.png 1x, img/categories/category-img5@2x.png 2x">
+												<img src="img/categories/category-img4.png" class="img-responsive" alt="Логотип" 
+															srcset="img/categories/category-img4.png 1x, img/categories/category-img4@2x.png 2x">
 											</div>
 											<div class="categories__link">К разделу</div>
 										</div>
@@ -199,16 +204,16 @@
 
 							<div class="col-12 col-md-6">
 								<div class="page-categories__block">
-									<div class="categories__item align-items-lg-center">
-										<div class="categories__name"><a href="#">Скачать каталоги продукции</a></div>
-										<div class="categories__img">
-											<img src="img/categories/category-img6.png" class="img-responsive" alt="Логотип" 
-														srcset="img/categories/category-img6.png 1x, img/categories/category-img6@2x.png 2x">
+									<a href="products/nestandart.php">
+										<div class="categories__item align-items-lg-center">
+											<div class="categories__name">Нестандартная продукция под заказ</div>
+											<div class="categories__img" style="transform: translateY(20px);">
+												<img src="img/categories/nestandart.png" class="img-responsive" alt="Логотип" 
+														srcset="img/categories/nestandart.png 1x, img/categories/nestandart@2x.png 2x">
+											</div>
+											<div class="categories__link">К разделу</div>
 										</div>
-										<div class="categories__link">
-											<a href="#">К разделу</a>
-										</div>
-									</div>
+									</a>
 									<ul class="page-list categories__list">
 										<li>Каталог 1</li>
 										<li>Каталог 2</li>
@@ -271,7 +276,6 @@
 
 
 		
-
 
 
 	

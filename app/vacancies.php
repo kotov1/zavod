@@ -36,6 +36,10 @@
 
 	<div class="page vacancies-page">
 
+	
+		<!-- preloader -->
+		<div id="preloader"></div>
+
 
 		<!-- header -->
 		<?php include("blocks/header.php");?>
@@ -189,7 +193,7 @@
 	<!-- popup thanks end -->
 
 
-		
+
 	
 
 

@@ -35,7 +35,9 @@
 <body>
 
 	<div class="page about-page">
-
+	
+	<!-- preloader -->
+	<div id="preloader"></div>
 
 		<!-- header -->
 		<?php include("blocks/header.php");?>
@@ -68,6 +70,7 @@
 							</a>
 							</span>
 					</div>
+					<p class="page-text page-banner__text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, consectetur mollitia accusantium provident sed rerum.</p>
 				</div>
 			</section>
 			<!-- page-banner end -->

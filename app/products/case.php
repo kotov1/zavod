@@ -36,6 +36,10 @@
 
 	<div class="page subcategory-page">
 
+	
+		<!-- preloader -->
+		<div id="preloader"></div>
+
 
 		<!-- header -->
 		<?php include("../blocks/header.php");?>
@@ -61,8 +65,8 @@
 
 						<div class="col-xl-6 d-none d-xl-block">
 							<div class="nonstandard__img nonstandard__img--big">
-								<img src="img/.png" class="img-responsive" alt="Логотип" 
-									srcset="img/categories/category-img2.png 1x, img/categories/category-img2@2x.png 2x">
+								<img src="/img/.png" class="img-responsive" alt="Логотип" 
+									srcset="/img/categories/category-img2.png 1x, /img/categories/category-img2@2x.png 2x">
 							</div>
 						</div>
 
@@ -93,20 +97,20 @@
 							<div class="row">
 								<div class="col-12 col-md-6 col-lg-4">
 									<div class="nonstandard__img nonstandard__img--small">
-										<img src="img/.png" class="img-responsive" alt="Логотип" 
-											srcset="img/categories/category-img2.png 1x, img/categories/category-img2@2x.png 2x">
+										<img src="/img/.png" class="img-responsive" alt="Логотип" 
+											srcset="/img/categories/category-img2.png 1x, /img/categories/category-img2@2x.png 2x">
 									</div>
 								</div>
 								<div class="col-12 col-md-6 col-lg-4">
 									<div class="nonstandard__img nonstandard__img--small">
-										<img src="img/.png" class="img-responsive" alt="Логотип" 
-											srcset="img/categories/category-img2.png 1x, img/categories/category-img2@2x.png 2x">
+										<img src="/img/.png" class="img-responsive" alt="Логотип" 
+											srcset="/img/categories/category-img2.png 1x, /img/categories/category-img2@2x.png 2x">
 									</div>
 								</div>
 								<div class="col-12 col-md-6 col-lg-4">
 									<div class="nonstandard__img nonstandard__img--small">
-										<img src="img/.png" class="img-responsive" alt="Логотип" 
-											srcset="img/categories/category-img2.png 1x, img/categories/category-img2@2x.png 2x">
+										<img src="/img/.png" class="img-responsive" alt="Логотип" 
+											srcset="/img/categories/category-img2.png 1x, /img/categories/category-img2@2x.png 2x">
 									</div>
 								</div>
 							</div>
@@ -155,6 +159,7 @@
 	<!-- popup thanks -->
 	<?php include("../blocks/modal-thanks.php");?>
 	<!-- popup thanks end -->
+
 
 
 

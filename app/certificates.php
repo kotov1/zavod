@@ -38,6 +38,12 @@
 	<div class="page certificates-page">
 
 
+		<!-- preloader -->
+		<div id="preloader"></div>
+
+
+
+		
 		<!-- header -->
 		<?php include("blocks/header.php");?>
 		<!-- header -->
@@ -202,6 +208,10 @@
 			<?php echo file_get_contents("img/svg-icons/svg-sprite.svg"); ?>
 		</div>
 
+
+
+
+	
 
 	<!-- Jquery с облака и замена в случае отсутствия доступа к облаку  -->
 	<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>

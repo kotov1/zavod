@@ -37,6 +37,11 @@
 	<div class="page partners-page">
 
 
+	
+		<!-- preloader -->
+		<div id="preloader"></div>
+
+
 		<!-- header -->
 		<?php include("blocks/header.php");?>
 		<!-- header -->
@@ -147,6 +152,7 @@
 
 
 		
+
 	
 
 

@@ -21,6 +21,7 @@
 									<li><a href="/delivery.php" class="sitemap__link">Доставка</a></li>
 									<li><a href="/certificates.php" class="sitemap__link">Сертификаты</a></li>
 									<li><a href="/feedbacks.php" class="sitemap__link">Отзывы и благодаронсти</a></li>
+									<li><a href="/vacancies.php" class="sitemap__link">Вакансии</a></li>
 								</ul>
 							</div>
 						</div>
@@ -32,14 +33,27 @@
 									<i class="toggle-ic"></i>
 								</div>
 								<ul class="menu sitemap__links">
-									<li><a href="#" class="sitemap__link">Комплектующие РВД</a></li>
 									<li><a href="/products/rykava.php" class="sitemap__link">Рукава РВД в сборе</a></li>
+									<li><a href="/products/fitingi.php" class="sitemap__link">Фитинги и муфты для РВД</a></li>
 									<li><a href="/products/metallorykava.php" class="sitemap__link">Металлорукава</a></li>
 									<li><a href="/products/kompensatoru.php" class="sitemap__link">Сильфонные компенсаторы</a></li>
 									<li><a href="/products/soedineniya.php" class="sitemap__link">Трубные соединения</a></li>
-									<li><a href="/catalogs.php" class="sitemap__link">Каталоги</a></li>
-									<li><a href="/app-area.php" class="sitemap__link">Применение продукции</a></li>
-									<li><a href="/services.php" class="sitemap__link">Сервис РВД</a></li>
+									<li><a href="/products/nestandart.php" class="sitemap__link">Нестандартная продукция</a></li>
+									<li><a href="/products/app-area.php" class="sitemap__link">Области применения</a></li>
+								</ul>
+							</div>
+						</div>
+						
+						<div class="col-12 col-md-6 col-lg-3">
+							<div class="sitemap__column">
+								<div class="sitemap__links-title">
+									<a href="/news.php">Пресс-центр</a>
+									<i class="toggle-ic"></i>
+								</div>
+								<ul class="menu sitemap__links">
+								<li><a href="/news.php" class="sitemap__link">Новости и статьи</a></li>
+									<li><a href="/spravochnik.php" class="sitemap__link">Справочник</a></li>
+									<li><a href="/media.php" class="sitemap__link">Медиа</a></li>
 								</ul>
 							</div>
 						</div>
@@ -49,17 +63,15 @@
 								<div class="col-12">
 									<div class="sitemap__column">
 										<div class="sitemap__links-title">
-											<a href="/news.php">Пресс-центр</a>
+											<a href="/to-partners.php">Партнерам</a>
 											<i class="toggle-ic"></i>
 										</div>
 										<ul class="menu sitemap__links">
-											<li><a href="/news.php" class="sitemap__link">Новости и статьи</a></li>
-											<li><a href="#" class="sitemap__link">Справочник</a></li>
-											<li><a href="/media.php" class="sitemap__link">Медиа</a></li>
+											<li><a href="/to-partners.php" class="sitemap__link">Информация</a></li>
 										</ul>
 									</div>
 								</div>
-								<div class="col-12 flex-column justify-content-end">
+								<div class="col-12 d-flex align-items-end">
 									<ul class="menu sitemap__links">
 										<li><a href="/privacy.php" class="sitemap__link">Обработка информации</a></li>
 										<li><a href="#" class="sitemap__link">Карта сайта</a></li>
@@ -67,52 +79,30 @@
 								</div>
 							</div>
 						</div>
-
-						<div class="col-12 col-md-6 col-lg-3">
-							<div class="sitemap__column">
-								<div class="sitemap__links-title">
-									<a href="/to-partners.php">Партнерам</a>
-									<i class="toggle-ic"></i>
-								</div>
-								<ul class="menu sitemap__links">
-									<li><a href="/to-partners.php" class="sitemap__link">Сотрудничество</a></li>
-								</ul>
-							</div>
-						</div>
+						
 
 						<div class="col-12 d-block d-md-none">
 
 							<div class="sitemap__column">
 								<div class="sitemap__links-title">
-									<a href="/services.php">Услуги</a>
-									<i class="toggle-ic"></i>
+									<span>Услуги</span>
+									<i class="toggle-ic toggle-ic--absolute"></i>
 								</div>
 								<ul class="menu sitemap__links">
 									<li><a href="/services.php" class="sitemap__link">Сервис</a></li>
-									<li><a href="/products/nestandart.php" class="sitemap__link">Нестандартные компоненты</a></li>
 								</ul>
 							</div>
 
 							<div class="sitemap__column">
 								<div class="sitemap__links-title">
 									<a href="/privacy.php">Обработка информации</a>
-									<i class="toggle-ic"></i>
 								</div>
-								<ul class="menu sitemap__links">
-									<li><a href="/services.php" class="sitemap__link">Сервис</a></li>
-									<li><a href="/products/nestandart.php" class="sitemap__link">Нестандартные компоненты</a></li>
-								</ul>
 							</div>
 
-							<div class="sitemap__column">
+							<div class="sitemap__column no-border">
 								<div class="sitemap__links-title">
 									<a href="#">Карта сайта</a>
-									<i class="toggle-ic"></i>
 								</div>
-								<ul class="menu sitemap__links">
-									<li><a href="/services.php" class="sitemap__link">Сервис</a></li>
-									<li><a href="/products/nestandart.php" class="sitemap__link">Нестандартные компоненты</a></li>
-								</ul>
 							</div>
 
 						</div>
@@ -176,12 +166,12 @@
 									srcset="/img/footer/footer-logo1.png 1x, /img/footer/footer-logo1@2x.png 2x">
 							</div>
 						</div>
-						<div class="col-auto">
+						<!-- <div class="col-auto">
 							<div class="footer__logo">
 								<img src="/img/footer/footer-logo2.png" class="img-responsive" alt="Логотип" 
 									srcset="/img/footer/footer-logo2.png 1x, /img/footer/footer-logo2@2x.png 2x">
 							</div>
-						</div>
+						</div> -->
 						<div class="col-auto">
 							<div class="footer__logo">
 								<img src="/img/footer/footer-logo3.png" class="img-responsive" alt="Логотип" 
@@ -203,8 +193,7 @@
 							<div class="row no-gutters align-items-center">
 								<div class="col-auto">
 									<div class="logo__img">
-											<img src="/img/logo.png" class="img-responsive" alt="Логотип" 
-												srcset="/img/logo.png 1x, /img/logo@2x.png 2x">
+										<img src="/img/logo.svg" class="logo__svg" alt="Логотип">
 									</div>
 								</div>
 								<div class="col-auto">

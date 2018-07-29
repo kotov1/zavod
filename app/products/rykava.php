@@ -36,6 +36,10 @@
 
 	<div class="page subcategory-page">
 
+	
+		<!-- preloader -->
+		<div id="preloader"></div>
+
 
 		<!-- header -->
 		<?php include("../blocks/header.php");?>
@@ -51,7 +55,7 @@
 
 
 			<!-- page-banner -->
-			<section class="page-banner text-center" style="background-image: url('../img/test2.jpg')">
+			<section class="page-banner text-center" style="background-image: url('/img/test2.jpg')">
 				<div class="container">
 					<h1 class="page-title page-title--white">Рукава высокого давления (РВД) в сборе</h1>
 					<div itemscope="" itemtype="http://schema.org/BreadcrumbList" class="breadcrumbs breadcrumbs--white">
@@ -488,6 +492,11 @@
 	<div class="svg-sprite">
 		<?php echo file_get_contents("../img/svg-icons/svg-sprite.svg"); ?>
 	</div>
+
+
+
+	
+
 
 
 

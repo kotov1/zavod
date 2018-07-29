@@ -36,6 +36,12 @@
 
 	<div class="page contacts-page">
 
+		<!-- preloader -->
+		<div id="preloader"></div>
+
+
+
+		
 
 		<!-- header -->
 		<?php include("blocks/header.php");?>
@@ -86,9 +92,9 @@
 
 					<div class="contacts">
 
-						<div class="row">
+						<div class="row no-gutters">
 
-							<div class="col-12 col-xl-4">
+							<div class="col-12 col-xl-4 box-shadow">
 
 								<div class="contacts__block">
 
@@ -294,6 +300,9 @@
 		<div class="svg-sprite">
 			<?php echo file_get_contents("img/svg-icons/svg-sprite.svg"); ?>
 		</div>
+
+
+
 
 
 	<!-- Jquery с облака и замена в случае отсутствия доступа к облаку  -->

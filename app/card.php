@@ -36,6 +36,9 @@
 
 	<div class="page card-page">
 
+		<!-- preloader -->
+		<div id="preloader"></div>
+
 		
 		<!-- header -->
 		<?php include("blocks/header.php");?>
@@ -55,8 +58,9 @@
 	
 							<div class="col-12 no-padding-sm">
 								<div class="productCart__ImgWrap">
-									<a class="image-popup-no-margins" href="img/prevChapterItem.png">
-										<img class="img-responsive" src="img/prevChapterItem.png">
+									<img class="img-responsive" src="img/categories/category-img1.png">
+									<a href="img/categories/category-img1@2x.png" data-fancybox="images">
+										<dev class="media__text"></dev>
 									</a>
 								</div>
 	
@@ -265,13 +269,13 @@
 		<!-- /.footer -->
 
 
-	<!-- popup quiz-->
+	<!-- popup quiz нужна только в разделах (Металлорукава, РВД в сборе, Сильфонные компенсаторы).  -->
 	<?php include("blocks/modal-quiz.php");?>
 	<!-- popup quiz -->
 	
 
 	<!-- popup callback -->
-	<?php include("blocks/modal-callback.php");?>
+	<?php include("blocks/modal-offer.php");?>
 	<!-- popup callback end -->
 
 	<!-- popup thanks -->
@@ -286,6 +290,8 @@
 	</div>
 	
 
+
+	
 
 	<!-- Jquery с облака и замена в случае отсутствия доступа к облаку  -->
 	<script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>

@@ -37,6 +37,11 @@
 	<div class="page media-page">
 
 
+
+		<!-- preloader -->
+		<div id="preloader"></div>
+
+
 		<!-- header -->
 		<?php include("blocks/header.php");?>
 		<!-- header -->
@@ -197,6 +202,8 @@
 	<!-- popup thanks -->
 	<?php include("blocks/modal-thanks.php");?>
 	<!-- popup thanks end -->
+
+
 
 
 

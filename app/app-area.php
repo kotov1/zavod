@@ -35,6 +35,9 @@
 <body>
 
 	<div class="page app-area-page">
+	
+		<!-- preloader -->
+		<div id="preloader"></div>
 
 
 		<!-- header -->
@@ -211,6 +214,7 @@
 	<div class="svg-sprite">
 		<?php echo file_get_contents("img/svg-icons/svg-sprite.svg"); ?>
 	</div>
+
 
 
 

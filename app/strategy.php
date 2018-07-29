@@ -36,6 +36,10 @@
 
 	<div class="page strategy-page">
 
+	
+		<!-- preloader -->
+		<div id="preloader"></div>
+
 
 		<!-- header -->
 		<?php include("blocks/header.php");?>
@@ -211,6 +215,9 @@
 		<div class="svg-sprite">
 			<?php echo file_get_contents("img/svg-icons/svg-sprite.svg"); ?>
 		</div>
+
+
+
 
 
 	<!-- Jquery с облака и замена в случае отсутствия доступа к облаку  -->

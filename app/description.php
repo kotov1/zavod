@@ -36,6 +36,13 @@
 
 	<div class="page description-page">
 
+
+
+		<!-- preloader -->
+		<div id="preloader"></div>
+
+
+		
 		
 		<!-- header -->
 		<?php include("blocks/header.php");?>
@@ -166,7 +173,7 @@
 
 
 
-	
+
 
 
 	<!-- Jquery с облака и замена в случае отсутствия доступа к облаку  -->

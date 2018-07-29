@@ -6,7 +6,7 @@
 			<div class="mfp-close"></div>
 			<div class="modalCallback__containerInnerLeft">
 				<div class="imgWrap">
-					<img src="img/imgEmpty.png" alt="" class="img-responsive">
+					<img src="/img/imgEmpty.png" alt="" class="img-responsive">
 				</div>
 			</div>
 

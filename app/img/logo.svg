@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 47.48 78.181">
+  <defs>
+    <style>.cls-logo1 {fill: url(#linear-gradient);}.cls-logo2 {fill: url(#linear-gradient-2);}</style>
+    <linearGradient id="linear-gradient" x1="0.949" y1="0.074" x2="0.248" y2="0.955" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3eb5f1"/>
+      <stop offset="1" stop-color="#4d5ea5"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.539" y1="0.43" x2="-3.575" y2="8.059" xlink:href="#linear-gradient"/>
+  </defs>
+  <g>
+    <path class="cls-logo1" d="M47.206,98.078h0l-2.972-6.605H38.985l.743,1.647,2.035,4.522L26.227,111.66l-.032-16.731L33.3,89.1,31.443,84.98l-5.265,4.312-.065-26.276,6.718,14.874h0L33.914,80.3h0l1.034,2.293h0L36.03,85h5.249l-2.988-6.605h0l-4.473-9.884h0L25.5,50a6.966,6.966,0,0,1-3.521,0L8.3,80.3h0L6.169,85h5.249l2.988-6.605h0l6.847-15.165.065,26.082L16.037,84.98,14.179,89.1l7.154,5.862.032,16.78L5.717,97.642l2.778-6.169H3.262L2.519,93.12h0L0,98.675,23.74,120.09,47.48,98.675Z" transform="translate(0 -41.909)"/>
+    <path class="cls-logo2" d="M129.391,6.683A3.391,3.391,0,1,0,126,3.291,3.391,3.391,0,0,0,129.391,6.683Zm0-5.346a1.97,1.97,0,1,1-1.97,1.97A1.978,1.978,0,0,1,129.391,1.337Z" transform="translate(-105.651 0.1)"/>
+  </g>
+</svg>

@@ -70,6 +70,11 @@
 	margin-bottom: 10px
 
 
+.box-shadow
+	box-shadow: 0 0 10px rgba(#000, .4)
+	z-index: 1
+
+
 /* ----- breadcrumbs ----- */
 .breadcrumbs
 	padding: 10px 0 0
@@ -339,11 +344,15 @@ ul
 
 .page-banner
 	min-height: 400px
-	padding: 6.25rem 0 7.5rem
+	padding: 9rem 0 7.5rem
 	background-color: #CCCBCB
 	background-repeat: no-repeat
 	background-position: 100% 100%
 	background-size: cover
+	&__text
+		color: #fff
+		text-align: center
+		padding-top: 20px
 
 .main-page__title
 	padding-right: 50%	
@@ -551,7 +560,7 @@ ul
 	&-slider
 		padding: 0 100px
 	&__slide
-		padding: 15px 0
+		// padding: 15px 0
 	&__item
 		margin: 0 23px
 		height: 140px
@@ -585,8 +594,76 @@ ul
 		right: 25px
 
 
-
 	/**/
+
+
+/* ----- preloader -----*/
+#preloader
+	display: block
+	position: fixed
+	z-index: 99999
+	top: 0
+	left: 0
+	width: 100%
+	height: 100%
+	background-repeat: no-repeat
+	background-position: center center
+	background-size: 80px, cover
+	background-image: url('../img/preloader.svg'), linear-gradient(0deg, rgba(#fff, .8), rgba(#fff, .95), rgba(#fff, .8))
+#preloader.hide
+	display: none
+#preloader:not(.hide)
+	~ *
+		filter: blur(10px)
+
+
+/* ----- page 404 -----*/
+.non-exist
+	padding-top: 90px
+	.logo 
+		display: flex
+		justify-content: center
+.error
+	padding: 10vh 50px 0
+	font-size: 200px
+	font-weight: 300
+	color: #3399FF
+	display: flex
+	justify-content: space-between
+	&-txt1
+		position: relative
+		span
+			position: absolute
+			top: 0
+			left: 0
+			width: 100%
+			text-transform: uppercase
+			font-size: 29px
+			font-weight: 600
+			text-align: center
+	&-hint
+		padding-top: 10px
+		font-size: 30px
+		line-height: 50px
+		text-align: center
+		color: #707070
+	&-back
+		display: block
+		width: 180px
+		margin: 70px auto 0
+		padding: 6px
+		background: #239EEB
+		color: #fff
+		font-size: 18px
+		border-radius: 20px
+		text-align: center
+		cursor: pointer
+		&:hover
+			color: #fff
+			text-decoration: none
+			background: darken(#239EEB, 5%)
+
+
 
 
 /* ------------------------------------- 
@@ -713,6 +790,10 @@ ul
 @import "_pages/_article"
 
 
+/* ------------------------------------- 
+	spravochnik
+	------------------------------------- */
+@import "_pages/_spravochnik"
 
 
 
